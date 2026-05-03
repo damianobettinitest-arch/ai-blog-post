@@ -1,5 +1,5 @@
 import os
-import time
+import json
 import base64
 import requests
 import markdown
@@ -8,10 +8,9 @@ from openai import OpenAI
 
 # Configurazione Secrets
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
-WP_URL = os.getenv("WP_URL", "").rstrip('/')
+WP_URL = os.getenv("WP_URL").rstrip('/')
 WP_USER = os.getenv("WP_USER")
 WP_APP_PASSWORD = os.getenv("WP_APP_PASSWORD")
-WP_AUTHOR_ID = os.getenv("WP_AUTHOR_ID")
 
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
@@ -23,73 +22,54 @@ def read_file_safe(filename):
         print(f"Errore: Il file {filename} non è stato trovato.")
         return None
 
-# --- NUOVA FUNZIONE: Chiamata API con Retry Automatico ---
-def call_deepseek_with_retry(messages, system_prompt, max_retries=3):
-    for attempt in range(max_retries):
-        try:
-            response = client.chat.completions.create(
-                model="deepseek-chat", 
-                messages=[
-                    {"role": "system", "content": system_prompt},
-                    {"role": "user", "content": messages}
-                ],
-                stream=False,
-                timeout=120 # Timeout aumentato per dare tempo a risposte lunghe
-            )
-            return response.choices[0].message.content
-        except Exception as e:
-            if attempt < max_retries - 1:
-                wait_time = (attempt + 1) * 5 # Aspetta 5s, poi 10s, poi 15s
-                print(f"      ⚠️ Errore di connessione: riprovo tra {wait_time} secondi... (Tentativo {attempt + 1}/{max_retries})")
-                time.sleep(wait_time)
-            else:
-                raise Exception(f"Fallito dopo {max_retries} tentativi. Errore originale: {e}")
-
 def first_pass(title, prompt_template):
-    print(f"   -> Avvio Passaggio 1 (Generazione testo per: {title})...")
+    # SOSTITUZIONE E VERIFICA
     prompt_completo = prompt_template.replace("{titolo}", title)
-    return call_deepseek_with_retry(prompt_completo, "Sei un esperto copywriter tecnico SEO.")
+    
+    response = client.chat.completions.create(
+        model="deepseek-chat", 
+        messages=[
+            {"role": "system", "content": "Sei un esperto copywriter tecnico SEO."},
+            {"role": "user", "content": prompt_completo}
+        ],
+        stream=False
+    )
+    return response.choices[0].message.content
 
 def second_pass(html_content, prompt2_template):
-    print(f"   -> Avvio Passaggio 2 (Revisione e Conversione XML)...")
+    # SOSTITUZIONE E VERIFICA
     prompt_completo = prompt2_template.replace("{html_input}", html_content)
-    return call_deepseek_with_retry(prompt_completo, "Sei un programmatore SEO esperto in XML.")
+    
+    response = client.chat.completions.create(
+        model="deepseek-chat", 
+        messages=[
+            {"role": "system", "content": "Sei un programmatore SEO esperto in XML."},
+            {"role": "user", "content": prompt_completo}
+        ],
+        stream=False
+    )
+    return response.choices[0].message.content
 
 def extract_from_xml(xml_string):
-    # Cerca direttamente il blocco <item>...</item> ignorando il resto
-    item_match = re.search(r'<item>.*?</item>', xml_string, re.DOTALL | re.IGNORECASE)
-    xml_clean = item_match.group(0) if item_match else xml_string
-
-    # 1. Estrazione TITOLO
-    titolo_match = re.search(r'<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>', xml_clean, re.DOTALL | re.IGNORECASE)
-    final_title = titolo_match.group(1).strip() if titolo_match else ""
-
-    # 2. Estrazione CONTENUTO
-    contenuto_match = re.search(r'<content:encoded[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</content:encoded>', xml_clean, re.DOTALL | re.IGNORECASE)
-    if not contenuto_match:
-        contenuto_match = re.search(r'<contenuto[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</contenuto>', xml_clean, re.DOTALL | re.IGNORECASE)
+    xml_clean = re.sub(r'^```xml\s*', '', xml_string, flags=re.IGNORECASE)
+    xml_clean = re.sub(r'```$', '', xml_clean).strip()
+    
+    titolo = re.search(r'<titolo>(.*?)</titolo>', xml_clean, re.DOTALL | re.IGNORECASE)
+    contenuto = re.search(r'<contenuto>(.*?)</contenuto>', xml_clean, re.DOTALL | re.IGNORECASE)
+    seotitle = re.search(r'<seotitle>(.*?)</seotitle>', xml_clean, re.DOTALL | re.IGNORECASE)
+    metadesc = re.search(r'<metadesc>(.*?)</metadesc>', xml_clean, re.DOTALL | re.IGNORECASE)
+    
+    if not titolo or not contenuto:
+        print("\n--- 🚨 ERRORE: TAG MANCANTI 🚨 ---")
+        print("XML Generato (primi 500 car.):", xml_string[:500])
+        raise ValueError("Tag <titolo> o <contenuto> non trovati.")
         
-    # 3. Estrazione DESCRIZIONE
-    metadesc_match = re.search(r'<description[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</description>', xml_clean, re.DOTALL | re.IGNORECASE)
-    if not metadesc_match:
-        metadesc_match = re.search(r'<excerpt:encoded[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</excerpt:encoded>', xml_clean, re.DOTALL | re.IGNORECASE)
-
-    if not final_title or not contenuto_match:
-        print("\n--- 🚨 ERRORE: TAG INTERNI NON TROVATI 🚨 ---")
-        print("Risposta grezza ricevuta da DeepSeek:")
-        print("==================================================")
-        print(xml_string[:1500])
-        print("==================================================")
-        raise ValueError("Non sono riuscito a estrarre il Titolo o il Contenuto.")
+    val_seotitle = seotitle.group(1).strip() if seotitle else ""
+    val_metadesc = metadesc.group(1).strip() if metadesc else ""
         
-    final_content = contenuto_match.group(1).strip()
-    final_metadesc = metadesc_match.group(1).strip() if metadesc_match else ""
-    final_seotitle = final_title 
-        
-    return final_title, final_content, final_seotitle, final_metadesc
+    return titolo.group(1).strip(), contenuto.group(1).strip(), val_seotitle, val_metadesc
 
 def post_to_wordpress(title, final_html, seo_title, meta_desc):
-    print(f"   -> Pubblicazione su WordPress in corso...")
     endpoint = f"{WP_URL}/wp-json/wp/v2/posts"
     credentials = f"{WP_USER}:{WP_APP_PASSWORD}"
     token = base64.b64encode(credentials.encode()).decode()
@@ -99,47 +79,45 @@ def post_to_wordpress(title, final_html, seo_title, meta_desc):
         "Content-Type": "application/json"
     }
     
-    author_id = 1 
-    if WP_AUTHOR_ID and str(WP_AUTHOR_ID).strip().isdigit():
-        author_id = int(str(WP_AUTHOR_ID).strip())
-    
     payload = {
         "title": title,
         "content": final_html,
         "status": "publish",
-        "author": author_id,
         "meta": {
-            "_aioseop_title": seo_title,
-            "_aioseop_description": meta_desc
+            "rank_math_title": seo_title,
+            "rank_math_description": meta_desc
         }
     }
     
     res = requests.post(endpoint, headers=headers, json=payload)
     if res.status_code == 201:
-        post_url = res.json().get('link')
-        print(f"   ✅ Articolo pubblicato: {post_url}")
-        return post_url
+        return res.json().get('link')
     else:
         print(f"   ❌ Errore WP: {res.text}")
         return None
 
 def main():
     if not os.path.exists("titoli.txt"):
-        print("File titoli.txt non trovato.")
+        print("Nessun file titoli.txt")
         return
 
+    # Legge i titoli evitando righe vuote
     with open("titoli.txt", "r", encoding="utf-8") as f:
         all_titles = [line.strip() for line in f if line.strip()]
-
-    if not all_titles:
-        print("Lista titoli vuota.")
-        return
 
     prompt1 = read_file_safe("prompt1.txt")
     prompt2 = read_file_safe("prompt2.txt")
     
     if not prompt1 or not prompt2:
-        print("Mancano i file dei prompt!")
+        return
+
+    # 🛑 CONTROLLI DI SICUREZZA ANTI-CLONE 🛑
+    if "{titolo}" not in prompt1:
+        print("❌ ERRORE CRITICO: Non hai scritto {titolo} dentro prompt1.txt! Lo script è stato bloccato per evitare cloni.")
+        return
+        
+    if "{html_input}" not in prompt2:
+        print("❌ ERRORE CRITICO: Non hai scritto {html_input} dentro prompt2.txt! Lo script è stato bloccato per evitare cloni.")
         return
 
     to_process = all_titles[:6]
@@ -147,17 +125,20 @@ def main():
 
     for title in to_process:
         print(f"\n=====================================")
-        print(f"Inizio elaborazione: {title}")
+        print(f"Elaborazione: {title}")
         try:
             markdown_text = first_pass(title, prompt1)
             html_intermedio = markdown.markdown(markdown_text)
             xml_text = second_pass(html_intermedio, prompt2)
             
             final_title, final_content, seo_title, meta_desc = extract_from_xml(xml_text)
-            post_to_wordpress(final_title, final_content, seo_title, meta_desc)
+            post_url = post_to_wordpress(final_title, final_content, seo_title, meta_desc)
+            
+            if post_url:
+                print(f"   ✅ Pubblicato: {post_url}")
                 
         except Exception as e:
-            print(f"Errore critico su '{title}': {e}")
+            print(f"Errore su '{title}': {e}")
 
     with open("titoli.txt", "w", encoding="utf-8") as f:
         for t in remaining:
