@@ -5,8 +5,9 @@ import requests
 import markdown
 import re
 from openai import OpenAI
-from google.oauth2 import service_account
-from google.auth.transport.requests import Request
+# Le librerie Google sono commentate per ora
+# from google.oauth2 import service_account
+# from google.auth.transport.requests import Request
 
 # Configurazione Secrets
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
@@ -26,7 +27,7 @@ def read_file_safe(filename):
         return None
 
 def first_pass(title, prompt_template):
-    print(f"   -> Avvio Passaggio 1 (Generazione Markdown per: {title})...")
+    print(f"   -> Avvio Passaggio 1 (Generazione testo per: {title})...")
     prompt_completo = prompt_template.replace("{titolo}", title)
     
     response = client.chat.completions.create(
@@ -54,20 +55,24 @@ def second_pass(html_content, prompt2_template):
     return response.choices[0].message.content
 
 def extract_from_xml(xml_string):
-    # Rimuove eventuali backtick ```xml che l'IA potrebbe aggiungere all'inizio/fine
+    # Rimuove eventuali backtick ```xml
     xml_string = re.sub(r'```(xml)?', '', xml_string).strip()
     
-    # Cerca i tag <titolo> e <contenuto> usando le espressioni regolari (Regex)
-    # NOTA: Se il tuo prompt2 usa tag diversi (es. <title> e <body>), modificali qui sotto!
-    titolo_match = re.search(r'<titolo>(.*?)</titolo>', xml_string, re.DOTALL | re.IGNORECASE)
-    contenuto_match = re.search(r'<contenuto>(.*?)</contenuto>', xml_string, re.DOTALL | re.IGNORECASE)
+    # Estrazione dei tag
+    titolo = re.search(r'<titolo>(.*?)</titolo>', xml_string, re.DOTALL | re.IGNORECASE)
+    contenuto = re.search(r'<contenuto>(.*?)</contenuto>', xml_string, re.DOTALL | re.IGNORECASE)
+    seotitle = re.search(r'<seotitle>(.*?)</seotitle>', xml_string, re.DOTALL | re.IGNORECASE)
+    metadesc = re.search(r'<metadesc>(.*?)</metadesc>', xml_string, re.DOTALL | re.IGNORECASE)
     
-    if not titolo_match or not contenuto_match:
-        raise ValueError("Non sono riuscito a trovare i tag <titolo> e <contenuto> nell'XML di DeepSeek.")
+    if not titolo or not contenuto:
+        raise ValueError("Non sono riuscito a trovare i tag <titolo> e <contenuto> nell'XML.")
         
-    return titolo_match.group(1).strip(), contenuto_match.group(1).strip()
+    val_seotitle = seotitle.group(1).strip() if seotitle else ""
+    val_metadesc = metadesc.group(1).strip() if metadesc else ""
+        
+    return titolo.group(1).strip(), contenuto.group(1).strip(), val_seotitle, val_metadesc
 
-def post_to_wordpress(title, final_html):
+def post_to_wordpress(title, final_html, seo_title, meta_desc):
     print(f"   -> Pubblicazione su WordPress in corso...")
     endpoint = f"{WP_URL}/wp-json/wp/v2/posts"
     credentials = f"{WP_USER}:{WP_APP_PASSWORD}"
@@ -78,10 +83,15 @@ def post_to_wordpress(title, final_html):
         "Content-Type": "application/json"
     }
     
+    # NOTA: Qui uso "rank_math_title". Se usi Yoast, cambialo in "_yoast_wpseo_title" ecc come spiegato prima
     payload = {
         "title": title,
         "content": final_html,
-        "status": "publish" 
+        "status": "publish",
+        "meta": {
+            "rank_math_title": seo_title,
+            "rank_math_description": meta_desc
+        }
     }
     
     res = requests.post(endpoint, headers=headers, json=payload)
@@ -93,29 +103,9 @@ def post_to_wordpress(title, final_html):
         print(f"   ❌ Errore WP: {res.text}")
         return None
 
-def notify_google_indexing(url):
-    # (Mantieni la funzione Google intatta dal codice precedente)
-    gcp_json_str = os.getenv("GCP_SERVICE_ACCOUNT_JSON")
-    if not gcp_json_str:
-        return
-
-    try:
-        gcp_info = json.loads(gcp_json_str)
-        credentials = service_account.Credentials.from_service_account_info(
-            gcp_info, scopes=["https://www.googleapis.com/auth/indexing"]
-        )
-        credentials.refresh(Request())
-        token = credentials.token
-
-        endpoint = "https://indexing.googleapis.com/v3/urlNotifications:publish"
-        headers = {"Authorization": f"Bearer {token}", "Content-Type": "application/json"}
-        payload = {"url": url, "type": "URL_UPDATED"}
-        
-        res = requests.post(endpoint, headers=headers, json=payload)
-        if res.status_code == 200:
-            print(f"   🚀 Inviato a Google Search Console!")
-    except Exception as e:
-        print(f"   ❌ Errore Google API: {e}")
+# FUNZIONE GOOGLE COMMENTATA
+# def notify_google_indexing(url):
+#     ... (codice Google disattivato)
 
 def main():
     if not os.path.exists("titoli.txt"):
@@ -133,9 +123,8 @@ def main():
     prompt2 = read_file_safe("prompt2.txt")
     
     if not prompt1 or not prompt2:
-        return # Si ferma se mancano i file dei prompt
+        return
 
-    # Prende i primi 6 titoli per oggi
     to_process = all_titles[:6]
     remaining = all_titles[6:]
 
@@ -143,30 +132,29 @@ def main():
         print(f"\n=====================================")
         print(f"Inizio elaborazione: {title}")
         try:
-            # PASSAGGIO 1: Genera Markdown
+            # 1. Genera Markdown iniziale
             markdown_text = first_pass(title, prompt1)
             
-            # Conversione Markdown -> HTML
+            # 2. Converti in HTML
             html_intermedio = markdown.markdown(markdown_text)
             
-            # PASSAGGIO 2: Ottimizzazione e conversione in XML
+            # 3. Passa HTML al secondo prompt per generare XML
             xml_text = second_pass(html_intermedio, prompt2)
             
-            # ESTRAZIONE dall'XML generato
-            # (Lo script cerca i tag <titolo> e <contenuto> per capire cosa inviare a WP)
-            final_title, final_content = extract_from_xml(xml_text)
+            # 4. Estrai i dati dall'XML
+            final_title, final_content, seo_title, meta_desc = extract_from_xml(xml_text)
             
-            # PUBBLICAZIONE
-            post_url = post_to_wordpress(final_title, final_content)
+            # 5. Pubblica su WP
+            post_url = post_to_wordpress(final_title, final_content, seo_title, meta_desc)
             
-            # INDICIZZAZIONE GOOGLE
-            if post_url:
-                notify_google_indexing(post_url)
+            # INDICIZZAZIONE GOOGLE DISATTIVATA
+            # if post_url:
+            #     notify_google_indexing(post_url)
                 
         except Exception as e:
             print(f"Errore critico su '{title}': {e}")
 
-    # Aggiorna il file titoli.txt
+    # Aggiorna la lista dei titoli
     with open("titoli.txt", "w", encoding="utf-8") as f:
         for t in remaining:
             f.write(t + "\n")
