@@ -94,6 +94,8 @@ Applica queste due sostituzioni e rilancia il workflow. Vedrai che ora Python sa
 def post_to_wordpress(title, final_html, seo_title, meta_desc):
     print(f"   -> Pubblicazione su WordPress in corso...")
     endpoint = f"{WP_URL}/wp-json/wp/v2/posts"
+    
+    # Preparazione dell'autenticazione
     credentials = f"{WP_USER}:{WP_APP_PASSWORD}"
     token = base64.b64encode(credentials.encode()).decode()
     
@@ -102,11 +104,18 @@ def post_to_wordpress(title, final_html, seo_title, meta_desc):
         "Content-Type": "application/json"
     }
     
+    # --- MODIFICA 1: Gestione Autore (Integer) ---
+    # Se il Secret WP_AUTHOR_ID non è impostato o non è un numero, usa l'ID 1 (Admin)
+    author_id = 1 
+    if WP_AUTHOR_ID and str(WP_AUTHOR_ID).strip().isdigit():
+        author_id = int(str(WP_AUTHOR_ID).strip())
+    
+    # --- MODIFICA 2: Campi per AIOSEO ---
     payload = {
         "title": title,
         "content": final_html,
         "status": "publish",
-        "author": WP_AUTHOR_ID,  # <--- AGGIUNTO QUESTO
+        "author": author_id,
         "meta": {
             "_aioseop_title": seo_title,
             "_aioseop_description": meta_desc
@@ -114,13 +123,15 @@ def post_to_wordpress(title, final_html, seo_title, meta_desc):
     }
     
     res = requests.post(endpoint, headers=headers, json=payload)
+    
     if res.status_code == 201:
         post_url = res.json().get('link')
-        print(f"   ✅ Articolo pubblicato a nome di 'La Casetta Craft Beer Crew': {post_url}")
+        print(f"   ✅ Articolo pubblicato con successo: {post_url}")
         return post_url
     else:
-        print(f"   ❌ Errore WP: {res.text}")
+        print(f"   ❌ Errore WordPress: {res.status_code} - {res.text}")
         return None
+
 
 
 # FUNZIONE GOOGLE COMMENTATA
