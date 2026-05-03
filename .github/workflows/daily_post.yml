@@ -1,40 +1,35 @@
-name: Autopost DeepSeek to WordPress
+name: Genera File XML Giornaliero
 
 on:
   schedule:
-    # Esegue lo script ogni giorno alle 08:00 (orario UTC). Puoi cambiarlo se vuoi.
     - cron: '0 8 * * *'
-  workflow_dispatch: # Questo pulsante "magico" ti permette di avviarlo anche a mano per fare i test
+  workflow_dispatch:
 
 jobs:
-  run-script:
+  build:
     runs-on: ubuntu-latest
-    
-    # Questo permesso è FONDAMENTALE: permette allo script di cancellare i titoli usati e salvare il file titoli.txt
     permissions:
-      contents: write 
+      contents: write # Obbligatorio per salvare file nel repo
 
     steps:
-      - name: Scarica i file del repository
+      - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Configura Python
+      - name: Set up Python
         uses: actions/setup-python@v5
         with:
           python-version: '3.10'
 
-      - name: Installa le librerie necessarie
-        run: pip install -r requirements.txt
+      - name: Install dependencies
+        run: pip install openai markdown
 
-      - name: Esegui lo script principale (main.py)
+      - name: Run script
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-          WP_URL: ${{ secrets.WP_URL }}
-          WP_USER: ${{ secrets.WP_USER }}
-          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
         run: python main.py
 
-      - name: Salva la nuova lista in titoli.txt su GitHub
+      - name: Commit e Push del file XML e titoli aggiornati
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "🤖 Automazione: Rimossi i 6 titoli appena pubblicati"
+          commit_message: "Salvataggio articoli XML del giorno e aggiornamento titoli"
+          file_pattern: "*.xml titoli.txt"
