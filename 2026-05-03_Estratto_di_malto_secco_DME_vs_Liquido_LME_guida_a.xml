@@ -1,0 +1,262 @@
+Certamente. Ecco il file XML WXR completo, conforme a tutte le specifiche richieste, con il contenuto revisionato e ottimizzato per l'importazione su WordPress con il plugin AIOSEO. Il testo è stato preservato integralmente, applicando solo le modifiche richieste.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+    <title>La Casetta Craft Beer Crew</title>
+    <link>https://www.lacasettacraftbeercrew.it</link>
+    <description>Esplora il mondo della birra artigianale</description>
+    <pubDate>Tue, 06 May 2025 00:00:00 +0200</pubDate>
+    <language>it</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+    <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login>admin</wp:author_login>
+        <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+        <wp:author_display_name>Admin</wp:author_display_name>
+        <wp:author_first_name></wp:author_first_name>
+        <wp:author_last_name></wp:author_last_name>
+    </wp:author>
+
+    <item>
+        <title><![CDATA[Estratto di Malto Secco (DME) vs Liquido (LME): Guida alla Scelta per Principianti]]></title>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <pubDate>Tue, 06 May 2025 08:00:00 +0200</pubDate>
+        <guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/estratto-di-malto-secco-dme-vs-liquido-lme-guida-alla-scelta-per-principianti/</guid>
+        <description><![CDATA[Confronto tra estratto di malto secco (DME) e liquido (LME) per l'homebrewing. Scopri vantaggi, svantaggi e consigli pratici per scegliere il giusto ingrediente per la tua birra.]]></description>
+        <content:encoded><![CDATA[
+<h2 id="cos-è-l-estratto-di-malto">Estratto di malto: cosa sono DME e LME?</h2>
+<p>L’arte della birrificazione casalinga, l’homebrewing, rappresenta un viaggio affascinante fatto di scienza, pazienza e creatività. Per chi muove i primi passi in questo mondo, la scelta degli ingredienti è il primo vero banco di prova. Tra le decisioni più cruciali e, a volte, più dibattute, c’è quella riguardante la base zuccherina: utilizzare il classico grano maltato per un ammostamento tradizionale oppure optare per una scorciatoia pratica come l’estratto di malto?</p>
+<p>Se il primo metodo, noto come “all grain”, offre un controllo totale sul profilo aromatico, la via degli estratti rappresenta un punto di partenza accessibile e formativo. Ma non tutti gli estratti sono uguali. La scelta tra <strong>estratto di malto secco (DME)</strong> e <strong>estratto di malto liquido (LME)</strong> non è solo una questione di praticità, ma influenza profondamente la qualità finale della tua birra artigianale.</p>
+<p>In questo articolo, ci immergeremo in un confronto dettagliato e tecnico, analizzando ogni aspetto che un principiante (e non solo) dovrebbe conoscere. L'obiettivo non è stabilire una supremazia assoluta, ma fornire una bussola per orientarsi tra i pro e i contro di entrambi i formati, aiutandoti a scegliere il compagno di viaggio più adatto alla tua prima cotta. Preparati a scoprire le differenze nascoste in un sacchetto di polvere bianca e in un barattolo di sciroppo denso.</p>
+<div class="index-section">
+<p>In questo post:</p>
+<ul>
+<li><a href="#cos-è-l-estratto-di-malto">Estratto di malto: cosa sono DME e LME?</a></li>
+<li><a href="#vantaggi-e-svantaggi-del-dme">I vantaggi e gli svantaggi del DME (estratto secco)</a></li>
+<li><a href="#vantaggi-e-svantaggi-dell-lme">I vantaggi e gli svantaggi dell'LME (estratto liquido)</a></li>
+<li><a href="#confronto-pratico-resa-conservazione-e-gusto">Confronto pratico: resa, conservazione e gusto</a></li>
+<li><a href="#quando-scegliere-dme-o-lme">Quando scegliere il DME e quando l'LME: consigli pratici</a></li>
+<li><a href="#domande-frequenti">Domande frequenti dei principianti sull'estratto di malto</a></li>
+</ul>
+</div>
+<p>Prima di affrontare la scelta, è fondamentale capire esattamente cosa stiamo maneggiando. Sia l’estratto di malto secco (DME) che l’estratto di malto liquido (LME) sono il prodotto della disidratazione del mosto di birra. In pratica, si parte da un mosto liquido, ottenuto dall'ammostamento di malto d'orzo e altri cereali, e si rimuove l'acqua. La differenza sta nel metodo e nel grado di rimozione.</p>
+<p>L'LME è un concentrato viscoso, un po' come una melassa, che contiene circa il 20% di acqua. La sua consistenza e dolcezza lo rendono simile a uno sciroppo denso. Per produrlo, il mosto viene concentrato per evaporazione sottovuoto, un processo che preserva parte dell'umidità.</p>
+<p>Il DME, al contrario, è una polvere fine e asciutta, ottenuta disidratando il mosto fino a eliminare quasi tutta l'acqua (circa il 98% di sostanza secca). Questo avviene tramite un processo di <span title="Processo di produzione di una polvere solida a partire da una soluzione liquida, tramite nebulizzazione e rapida evaporazione del solvente in una camera calda." class="tooltip-term">atomizzazione</span> o liofilizzazione, che garantisce una lunga conservabilità e una grande praticità d'uso.</p>
+<p>Entrambi rappresentano il cuore della birra, fornendo gli zuccheri fermentabili che il lievito trasformerà in alcol e anidride carbonica. La loro qualità è determinata dal malto base utilizzato e dal processo produttivo. Un buon estratto, secco o liquido che sia, può dare vita a birre eccellenti, mentre un estratto di bassa qualità o conservato male può compromettere l'intera partita.</p>
+
+<h2 id="vantaggi-e-svantaggi-del-dme">I vantaggi e gli svantaggi del DME (estratto secco)</h2>
+<p>L'estratto di malto secco, spesso chiamato “spray malt” nel mondo anglosassone, è un prodotto che molti birrai artigianali evoluti utilizzano anche in combinazione con l'ammostamento tradizionale, per aggiungere corpo o aumentare la densità del mosto senza diluirlo. Per un principiante, rappresenta una scelta di altissima affidabilità.</p>
+<h3>Vantaggi: praticità e purezza</h3>
+<p>Il vantaggio principale del DME è la sua conservabilità eccezionale. Se tenuto in un contenitore ermetico, al riparo da umidità e luce, può durare anni senza perdere le sue caratteristiche. Non teme l'ossidazione nella stessa misura del liquido, perché la superficie esposta all'aria è minima.</p>
+<p>Un altro punto a favore è la sua precisione. Il DME è standardizzato: un chilogrammo di estratto secco fornisce una quantità prevedibile di zuccheri, tipicamente intorno a 1.045 di densità (punti di <span title="Misura della densità del mosto rispetto all'acqua, utilizzata per calcolare il potenziale alcolico e il corpo della birra." class="tooltip-term">gravità specifica</span>) per litro d'acqua. Questo permette di calcolare con estrema esattezza la densità originale (OG) della birra, evitando sorprese.</p>
+<p>Dal punto di vista operativo, il DME è molto maneggevole. Non richiede travaso da lattine o secchielli, non cola e non crea il caos in cucina. Si pesa comodamente e si scioglie in acqua calda con una facilità sorprendente, anche se bisogna prestare attenzione a non creare grumi (spesso lo si setaccia come si fa con la farina per la pastella). Il rischio di caramellizzazione è molto ridotto, perché si scioglie rapidamente senza bisogno di lunghi riscaldamenti.</p>
+<h3>Svantaggi: costo e struttura</h3>
+<p>Il DME ha però due controindicazioni. La prima è il costo: generalmente, il DME è più caro dell'LME a parità di potere fermentabile. Questo perché il processo di atomizzazione consuma più energia. Per un principiante alle prime armi, questa differenza può pesare sul budget della prima cotta.</p>
+<p>La seconda, e forse più importante, è la tendenza a produrre birre con un corpo leggermente più leggero rispetto a quelle fatte con LME di pari qualità. Questo non è un difetto, ma una caratteristica dovuta al processo produttivo. Alcuni birrai sostengono che il DME dia un sapore "più pulito", quasi metallico se di scarsa qualità, mentre altri lo preferiscono per stili che richiedono una maggiore bevibilità, come le American Pale Ale o le <span title="Stile di birra a bassa gradazione alcolica (Session) con un profilo aromatico e di amaro derivato dai luppoli americani (IPA)." class="tooltip-term">Session IPA</span>.</p>
+
+<h2 id="vantaggi-e-svantaggi-dell-lme">I vantaggi e gli svantaggi dell'LME (estratto liquido)</h2>
+<p>L'estratto di malto liquido, disponibile in pratiche lattine o secchielli di plastica, rappresenta la via più tradizionale e semplice per iniziare a fare birra in casa. Molti kit per principianti lo includono proprio per la sua immediatezza.</p>
+<h3>Vantaggi: sapore e tradizione</h3>
+<p>Il punto di forza più citato dell'LME è la sua ricchezza aromatica. Molti homebrewer esperti e produttori professionisti concordano sul fatto che l'LME di buona qualità, prodotto con malti pregiati, conferisca alla birra una rotondità e una profondità di sapore superiore rispetto al DME. Questa percezione è legata alla presenza di una piccola quota di acqua e di composti volatili che vengono in parte persi durante la disidratazione totale.</p>
+<p>L'LME è anche la scelta più economica in termini assoluti. Il rapporto costo/potere zuccherino è spesso più favorevole, specialmente quando lo si acquista in formati da 3 kg o più. Per chi inizia e non vuole investire troppo, è una soluzione interessante.</p>
+<p>Dal punto di vista operativo, l'LME è più semplice da dosare in fase di bollitura: si versa direttamente dalla confezione. Tuttavia, la sua viscosità lo rende ostico da maneggiare, e spesso si perde una quantità non indifferente di prodotto attaccata alle pareti del contenitore.</p>
+<h3>Svantaggi: conservazione e rischi</h3>
+<p>La vera debolezza dell'LME è la sua conservazione. Una volta aperta la lattina, la sua vita si riduce drasticamente. L'LME è estremamente <span title="Sostanza che assorbe l'umidità dall'aria circostante, causando potenziali alterazioni chimiche e fisiche." class="tooltip-term">igroscopico</span> e sensibile agli sbalzi termici e all'ossidazione. Se esposto all'aria troppo a lungo, tende a scurirsi (un segno di invecchiamento) e a sviluppare note di "estratto" o "cotto", che rovinano la freschezza della birra.</p>
+<p>Un secondo rischio concreto è la caramellizzazione. Durante la bollitura, l'LME può depositarsi sul fondo della pentola bruciando, alterando il colore e conferendo un gusto di caramello o biscotto troppo intenso, anche se la ricetta prevedeva un profilo più neutro. Per evitarlo, si consiglia di scioglierlo in un po' d'acqua prima di aggiungerlo alla pentola o di bollirlo in una pentola a bagnomaria.</p>
+<p>Infine, la gestione della densità (OG) è meno precisa. L'umidità variabile dell'LME può causare piccole differenze nel potere zuccherino tra un lotto e l'altro.</p>
+
+<h2 id="confronto-pratico-resa-conservazione-e-gusto">Confronto pratico: resa, conservazione e gusto</h2>
+<p>Mettiamo a confronto diretto i due formati su tre fronti fondamentali per aiutare la scelta tra estratto di malto secco (DME) e liquido (LME).</p>
+<table>
+<thead>
+<tr>
+<th>Caratteristica</th>
+<th>Estratto di Malto Secco (DME)</th>
+<th>Estratto di Malto Liquido (LME)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Potere zuccherino</td>
+<td>Circa 1.045 per kg in 1 litro di acqua</td>
+<td>Circa 1.036 per kg in 1 litro di acqua (dipende dall'umidità)</td>
+</tr>
+<tr>
+<td>Conservazione</td>
+<td>Eccellente (fino a 2-3 anni se ermetico e asciutto)</td>
+<td>Scarsa (alcuni mesi dopo apertura, richiede frigo)</td>
+</tr>
+<tr>
+<td>Rischio di danni</td>
+<td>Basso (polvere, facile da sciogliere)</td>
+<td>Alto (difficile da maneggiare, rischio caramellizzazione)</td>
+</tr>
+<tr>
+<td>Costo per punto densità</td>
+<td>Più alto</td>
+<td>Più basso generalmente</td>
+</tr>
+<tr>
+<td>Profilo aromatico</td>
+<td>Più pulito, neutro, leggero</td>
+<td>Più rotondo, ricco, complesso</td>
+</tr>
+<tr>
+<td>Praticità in bollitura</td>
+<td>Richiede setacciatura e mescolamento</td>
+<td>Si versa direttamente, ma attenzione alle quantità</td>
+</tr>
+</tbody>
+</table>
+<h3>Gusto e colore: la questione della freschezza</h3>
+<p>Il dibattito sul gusto è il più acceso. Da una parte, il DME offre una tela bianca, ideale per stili dove il luppolo o il lievito devono essere i protagonisti. Non sovrasterà mai il sapore. Dall'altra, l'LME può aggiungere una nota "maltata" che molti associano alla birra artigianale fatta in casa.</p>
+<p>La verità, supportata da esperti come John Palmer nel suo "How to Brew", è che la differenza principale non sta nella forma, ma nella qualità del malto base e nella freschezza del prodotto. Un LME prodotto con malti freschi e conservato correttamente (al fresco e al buio) può dare risultati eccellenti. Un DME di marca sconosciuta, invece, potrebbe risultare più insipido.</p>
+<p>Il consiglio è di considerare lo stile che si vuole produrre. Per una Blonde Ale delicata, un DME di alta qualità è perfetto. Per una Brown Ale o una Porter, dove un lieve sentore di caramello non è un difetto, un LME di buona marca può aggiungere la complessità desiderata.</p>
+<h3>Il fattore "caramellizzazione"</h3>
+<p>Chi ha esperienza con l'LME sa bene che il momento più critico è l'aggiunta in pentola. La densità del prodotto lo porta a depositarsi sul fondo caldo. Se la fiamma è troppo alta, gli zuccheri si caramellizzano, scurindo la birra e creando un gusto di "biscotto" o "caramello bruciato" che può diventare sgradevole se fuori controllo.</p>
+<p>Il DME, in polvere, si scioglie molto più velocemente e riduce al minimo questo rischio. Un consiglio pratico per chi usa l'LME: spegnete il fuoco, togliete la pentola dal fornello, aggiungete l'estratto, mescolate vigorosamente per scioglierlo completamente e poi riaccendete la fiamma. Questo semplice gesto può salvare la vostra cotta.</p>
+
+<h2 id="quando-scegliere-dme-o-lme">Quando scegliere il DME e quando l'LME: consigli pratici</h2>
+<p>La scelta non è binaria. Un homebrewer esperto sa che entrambi gli strumenti hanno il loro posto. Ecco una guida pratica per orientarsi.</p>
+<h3>Scegli il DME se:</h3>
+<ul>
+<li>Sei alle prime armi e vuoi ridurre al minimo i rischi di errori (caramellizzazione, ossidazione).</li>
+<li>Non hai un piano preciso per usare l'estratto entro pochi mesi; il DME non ha fretta.</li>
+<li>Vuoi una birra molto pulita, per stili come American Wheat, Kölsch o una Pale Ale a basso amaro.</li>
+<li>Devi aumentare la densità di una cotta all grain o di una birra con estratto. Il DME è perfetto per "spike" la gravità.</li>
+<li>Hai una bilancia di precisione e ami la ripetibilità.</li>
+</ul>
+<h3>Scegli l'LME se:</h3>
+<ul>
+<li>Il tuo budget è limitato e vuoi ottenere la massima resa con il minimo esborso.</li>
+<li>Stai seguendo un kit di marca per un ricetta specifica (es. un kit Irish Stout).</li>
+<li>Vuoi un sapore di malto più ricco, per stili scuri come le Stout o le Porter, dove la nota di caramello è gradevole.</li>
+<li>Hai spazio in frigo e puoi consumare la lattina entro 2-3 mesi dall'acquisto.</li>
+</ul>
+<h3>Un consiglio da professionista: il blend</h3>
+<p>Non bisogna per forza schierarsi. Una strategia molto utilizzata dai birrifici artigianali che producono birra con estratto è quella di combinare i due formati. Ad esempio, utilizzare 2 kg di LME come base per il suo sapore più ricco, e aggiungere 1 kg di DME per aumentare la densità senza diluire troppo con acqua o rischiare di alterare il profilo. Questo approccio permette di bilanciare i difetti di entrambi e di ottenere un prodotto finale più bilanciato.</p>
+
+<h2 id="domande-frequenti">Domande frequenti dei principianti sull'estratto di malto</h2>
+<p><strong>Posso usare solo DME o solo LME?</strong><br>
+Certo, si può fare tranquillamente. La scelta dipende dal tuo stile. Molte ricette oggi sono scritte specificamente per uno o per l'altro.</p>
+<p><strong>Come conservo l'LME dopo l'apertura?</strong><br>
+È la domanda cruciale. Una volta aperto, trasferisci l'LME in un contenitore di vetro o plastica alimentare ermetico. Conservalo in frigorifero. Se lo usi in più cotture, è meglio travasarlo in contenitori più piccoli per minimizzare l'esposizione all'aria ogni volta che lo apri. Se vedi che inizia a scurirsi, usalo il prima possibile.</p>
+<p><strong>Il DME fa i grumi?</strong><br>
+Sì, se lo aggiungi troppo velocemente. Il trucco è setacciarlo sopra l'acqua calda (non bollente), mescolando contemporaneamente con una frusta o un cucchiaio di legno. In alternativa, puoi scioglierlo in un po' di acqua fredda prima di aggiungerlo.</p>
+<p><strong>Qual è il rapporto di equivalenza tra DME e LME?</strong><br>
+Non sono equivalenti uno a uno perché l'LME contiene acqua. Di solito, per sostituire 1 kg di LME, servono circa 0,8 kg di DME (perché il DME è più concentrato). Al contrario, per sostituire 1 kg di DME, servono circa 1,25 kg di LME. Fai sempre riferimento a una tabella di conversione o a una calcolatrice online per la temperatura di riferimento (es. Brewfather).</p>
+
+<h2 id="sintesi-tl-dr">tl;dr</h2>
+<p>Il DME (estratto secco) è più stabile, preciso e facile da usare, ma costa di più e può dare un corpo più leggero. L'LME (estratto liquido) è più economico e ricco di sapore, ma si conserva male e rischia di caramellizzare. La scelta ideale per un principiante è spesso un mix di entrambi.</p>
+
+<h2>Conclusioni: la scelta dipende dal tuo percorso</h2>
+<p>Alla fine di questa analisi, emerge un quadro chiaro: non esiste un vincitore assoluto nella sfida tra estratto di malto secco (DME) e liquido (LME). Entrambi sono strumenti validi per produrre birra artigianale di qualità.</p>
+<p>La scelta è una questione di contesto e di obiettivi. Se cerchi la massima semplicità, riproducibilità e sicurezza, il DME è il tuo miglior alleato. Ti permette di concentrarti sulla tecnica di base, senza il pensiero della conservazione o della caramellizzazione.</p>
+<p>Se invece ami l'approccio più tradizionale, hai un budget limitato e non hai paura di una piccola sfida in più in cucina, l'LME può regalarti birre dal sorso più caldo e ricco. La chiave è la freschezza.</p>
+<p>Per chi inizia, il consiglio più saggio è di partire con un paio di cotte usando kit di LME di buona marca o un sacco di DME di qualità (come quello della Briess o Muntons). Sperimenta, prendi nota delle sensazioni e dei risultati. Il tuo palato e la tua esperienza ti guideranno nella scelta futura.</p>
+<p>Ricorda, il mondo dell'homebrewing è un continuo apprendimento. Per approfondire le tecniche di base, ti suggerisco di leggere la nostra guida su <a href="https://www.lacasettacraftbeercrew.it/come-fare-la-birra-fatta-in-casa-guida-completa-all-homebrewing-artigianale/" title="Guida completa all'homebrewing artigianale">come fare la birra fatta in casa</a>, dove troverai spunti pratici per la tua prossima cotta. E se vuoi esplorare l'impatto degli ingredienti, scopri quali sono i <a href="https://www.lacasettacraftbeercrew.it/malti-speciali-come-usarli-per-differenziare-la-propria-produzione/" title="Come usare i malti speciali per differenziare la produzione">malti speciali</a> per differenziare la tua produzione.</p>
+<p>Infine, non dimenticare che il cuore della birra artigianale è la sperimentazione. Non aver paura di sbagliare. Ogni cotta, riuscita o meno, ti porterà un passo avanti nel tuo viaggio. Brinda alla tua prossima creazione, e che sia fatta con consapevolezza.</p>
+<p>Per una lettura tecnica approfondita su questo tema, ti consiglio di consultare l'articolo della Brewers Association sulle <a href="https://www.brewersassociation.org/educational-publications/how-to-brew-with-malt-extract/" target="_blank" title="Best practices for using malt extract">best practice per l'uso degli estratti di malto</a> (in inglese).</p>
+]]></content:encoded>
+        <excerpt:encoded><![CDATA[Confronto tra estratto di malto secco (DME) e liquido (LME) per l'homebrewing. Scopri vantaggi, svantaggi e consigli pratici per scegliere il giusto ingrediente per la tua birra.]]></excerpt:encoded>
+        <wp:post_date>2025-05-06 08:00:00</wp:post_date>
+        <wp:post_date_gmt>2025-05-06 06:00:00</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>estratto-di-malto-secco-dme-vs-liquido-lme-guida-alla-scelta-per-principianti</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_type>post</wp:post_type>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_title</wp:meta_key>
+            <wp:meta_value><![CDATA[Estratto di Malto Secco (DME) vs Liquido (LME): Guida alla Scelta per Principianti]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_description</wp:meta_key>
+            <wp:meta_value><![CDATA[Confronto tra estratto di malto secco (DME) e liquido (LME) per l'homebrewing. Scopri vantaggi, svantaggi e consigli pratici per scegliere il giusto ingrediente per la tua birra.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:comment>
+            <wp:comment_id>1</wp:comment_id>
+            <wp:comment_author><![CDATA[Marco B.]]></wp:comment_author>
+            <wp:comment_author_email>marco.b@email.it</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.10</wp:comment_author_IP>
+            <wp:comment_date>2025-05-07 14:32:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-07 12:32:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Ottima guida! Sono un principiante e questo confronto mi ha chiarito le idee. Credo che proverò con un DME per iniziare, sembra più gestibile. Grazie!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>2</wp:comment_id>
+            <wp:comment_author><![CDATA[BeerLover_99]]></wp:comment_author>
+            <wp:comment_author_email>beerlover@example.com</wp:comment_author_email>
+            <wp:comment_author_url>https://www.homebrewingforum.it</wp:comment_author_url>
+            <wp:comment_author_IP>10.0.0.25</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 09:15:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 07:15:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Articolo ben scritto, ma ho un dubbio: per una IPA molto luppolata, consigliereste davvero il DME? Ho sentito dire che a volte può dare un retrogusto leggermente "metallico" che copre i luppoli. Qualcuno ha esperienze in merito?]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>3</wp:comment_id>
+            <wp:comment_author><![CDATA[Admin]]></wp:comment_author>
+            <wp:comment_author_email>admin@lacasettacraftbeercrew.it</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.1</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 10:45:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 08:45:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Ciao BeerLover_99, ottima domanda! In genere sì, per le IPA molto luppolate il DME di buona qualità è preferito perché non aggiunge note maltate fuori posto. L'eventuale retrogusto metallico è più un problema di DME di bassa qualità o di ossidazione. Per le tue prime IPA, un buon DME light (come quello della Briess) è una scelta solida. Buona birra!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>2</wp:comment_parent>
+            <wp:comment_user_id>1</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>4</wp:comment_id>
+            <wp:comment_author><![CDATA[Elena R.]]></wp:comment_author>
+            <wp:comment_author_email>elena.rossi@example.org</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>172.16.0.5</wp:comment_author_IP>
+            <wp:comment_date>2025-05-09 18:00:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-09 16:00:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Grazie per l'articolo, molto utile! Non avevo mai considerato l'idea del "blend" tra DME e LME. Proverò sicuramente questa tecnica per la mia prossima Irish Stout.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>5</wp:comment_id>
+            <wp:comment_author><![CDATA[marco.v]]></wp:comment_author>
+            <wp:comment_author_email>mv@libero.it</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>82.55.10.20</wp:comment_author_IP>
+            <wp:comment_date>2025-05-11 11:22:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-11 09:22:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Personalmente, dopo vari tentativi, sono tornato all'LME per le birre scure. Il sapore mi sembra più rotondo e "caldo". Forse è un effetto placebo, ma a me piace di più. Bella discussione!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+    </item>
+
+</channel>
+</rss>
