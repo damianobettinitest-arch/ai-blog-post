@@ -1,17 +1,10 @@
 import os
-import json
-import base64
-import requests
 import markdown
-import re
+from datetime import datetime
 from openai import OpenAI
 
-# Configurazione Secrets
+# Configurazione API DeepSeek
 DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
-WP_URL = os.getenv("WP_URL").rstrip('/')
-WP_USER = os.getenv("WP_USER")
-WP_APP_PASSWORD = os.getenv("WP_APP_PASSWORD")
-
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 def read_file_safe(filename):
@@ -19,130 +12,90 @@ def read_file_safe(filename):
         with open(filename, "r", encoding="utf-8") as f:
             return f.read()
     except FileNotFoundError:
-        print(f"Errore: Il file {filename} non è stato trovato.")
+        print(f"Errore: File {filename} non trovato.")
         return None
 
-def first_pass(title, prompt_template):
-    # SOSTITUZIONE E VERIFICA
-    prompt_completo = prompt_template.replace("{titolo}", title)
-    
-    response = client.chat.completions.create(
-        model="deepseek-chat", 
-        messages=[
-            {"role": "system", "content": "Sei un esperto copywriter tecnico SEO."},
-            {"role": "user", "content": prompt_completo}
-        ],
-        stream=False
-    )
-    return response.choices[0].message.content
+def process_batch(titles, prompt1_template, prompt2_template, batch_number):
+    print(f"\n--- Inizio Elaborazione Blocco {batch_number} ({len(titles)} titoli) ---")
+    data_oggi = datetime.now().strftime("%Y-%m-%d")
+    accumulatore_xml = ""
 
-def second_pass(html_content, prompt2_template):
-    # SOSTITUZIONE E VERIFICA
-    prompt_completo = prompt2_template.replace("{html_input}", html_content)
-    
-    response = client.chat.completions.create(
-        model="deepseek-chat", 
-        messages=[
-            {"role": "system", "content": "Sei un programmatore SEO esperto in XML."},
-            {"role": "user", "content": prompt_completo}
-        ],
-        stream=False
-    )
-    return response.choices[0].message.content
+    for title in titles:
+        print(f"   -> Elaborazione: {title}")
+        try:
+            # PASSAGGIO 1: Generazione Markdown
+            p1_completo = prompt1_template.replace("{titolo}", title)
+            res1 = client.chat.completions.create(
+                model="deepseek-chat",
+                messages=[{"role": "user", "content": p1_completo}]
+            )
+            markdown_text = res1.choices[0].message.content
 
-def extract_from_xml(xml_string):
-    xml_clean = re.sub(r'^```xml\s*', '', xml_string, flags=re.IGNORECASE)
-    xml_clean = re.sub(r'```$', '', xml_clean).strip()
-    
-    titolo = re.search(r'<titolo>(.*?)</titolo>', xml_clean, re.DOTALL | re.IGNORECASE)
-    contenuto = re.search(r'<contenuto>(.*?)</contenuto>', xml_clean, re.DOTALL | re.IGNORECASE)
-    seotitle = re.search(r'<seotitle>(.*?)</seotitle>', xml_clean, re.DOTALL | re.IGNORECASE)
-    metadesc = re.search(r'<metadesc>(.*?)</metadesc>', xml_clean, re.DOTALL | re.IGNORECASE)
-    
-    if not titolo or not contenuto:
-        print("\n--- 🚨 ERRORE: TAG MANCANTI 🚨 ---")
-        print("XML Generato (primi 500 car.):", xml_string[:500])
-        raise ValueError("Tag <titolo> o <contenuto> non trovati.")
-        
-    val_seotitle = seotitle.group(1).strip() if seotitle else ""
-    val_metadesc = metadesc.group(1).strip() if metadesc else ""
-        
-    return titolo.group(1).strip(), contenuto.group(1).strip(), val_seotitle, val_metadesc
+            # CONVERSIONE: Markdown -> HTML
+            html_intermedio = markdown.markdown(markdown_text)
 
-def post_to_wordpress(title, final_html, seo_title, meta_desc):
-    endpoint = f"{WP_URL}/wp-json/wp/v2/posts"
-    credentials = f"{WP_USER}:{WP_APP_PASSWORD}"
-    token = base64.b64encode(credentials.encode()).decode()
+            # PASSAGGIO 2: HTML -> XML Speciale (Prompt 2)
+            p2_completo = prompt2_template.replace("{html_input}", html_intermedio)
+            res2 = client.chat.completions.create(
+                model="deepseek-chat",
+                messages=[{"role": "user", "content": p2_completo}]
+            )
+            xml_articolo = res2.choices[0].message.content
+            
+            # Pulizia opzionale: rimuove i tag di formattazione markdown che l'IA mette a volte intorno all'XML
+            xml_articolo = xml_articolo.replace("```xml", "").replace("```", "").strip()
+            
+            accumulatore_xml += xml_articolo + "\n\n"
+
+        except Exception as e:
+            print(f"      ❌ Errore su '{title}': {e}")
+
+    # Salva il file del blocco
+    nome_file = f"articoli_{data_oggi}_blocco_{batch_number}.xml"
+    with open(nome_file, "w", encoding="utf-8") as f:
+        f.write(accumulatore_xml)
     
-    headers = {
-        "Authorization": f"Basic {token}",
-        "Content-Type": "application/json"
-    }
-    
-    payload = {
-        "title": title,
-        "content": final_html,
-        "status": "publish",
-        "meta": {
-            "rank_math_title": seo_title,
-            "rank_math_description": meta_desc
-        }
-    }
-    
-    res = requests.post(endpoint, headers=headers, json=payload)
-    if res.status_code == 201:
-        return res.json().get('link')
-    else:
-        print(f"   ❌ Errore WP: {res.text}")
-        return None
+    print(f"✅ Blocco {batch_number} salvato in: {nome_file}")
+    return True
 
 def main():
     if not os.path.exists("titoli.txt"):
-        print("Nessun file titoli.txt")
+        print("File titoli.txt non trovato.")
         return
 
-    # Legge i titoli evitando righe vuote
+    # Legge i titoli
     with open("titoli.txt", "r", encoding="utf-8") as f:
         all_titles = [line.strip() for line in f if line.strip()]
 
+    if len(all_titles) < 1:
+        print("Nessun titolo da elaborare.")
+        return
+
     prompt1 = read_file_safe("prompt1.txt")
     prompt2 = read_file_safe("prompt2.txt")
+    if not prompt1 or not prompt2: return
+
+    # DIVISIONE IN 3 + 3
+    blocco1 = all_titles[0:3]
+    blocco2 = all_titles[3:6]
     
-    if not prompt1 or not prompt2:
-        return
+    titoli_rimossi = 0
 
-    # 🛑 CONTROLLI DI SICUREZZA ANTI-CLONE 🛑
-    if "{titolo}" not in prompt1:
-        print("❌ ERRORE CRITICO: Non hai scritto {titolo} dentro prompt1.txt! Lo script è stato bloccato per evitare cloni.")
-        return
-        
-    if "{html_input}" not in prompt2:
-        print("❌ ERRORE CRITICO: Non hai scritto {html_input} dentro prompt2.txt! Lo script è stato bloccato per evitare cloni.")
-        return
+    # Elabora primo blocco
+    if blocco1:
+        if process_batch(blocco1, prompt1, prompt2, 1):
+            titoli_rimossi += len(blocco1)
 
-    to_process = all_titles[:6]
-    remaining = all_titles[6:]
+    # Elabora secondo blocco
+    if blocco2:
+        if process_batch(blocco2, prompt1, prompt2, 2):
+            titoli_rimossi += len(blocco2)
 
-    for title in to_process:
-        print(f"\n=====================================")
-        print(f"Elaborazione: {title}")
-        try:
-            markdown_text = first_pass(title, prompt1)
-            html_intermedio = markdown.markdown(markdown_text)
-            xml_text = second_pass(html_intermedio, prompt2)
-            
-            final_title, final_content, seo_title, meta_desc = extract_from_xml(xml_text)
-            post_url = post_to_wordpress(final_title, final_content, seo_title, meta_desc)
-            
-            if post_url:
-                print(f"   ✅ Pubblicato: {post_url}")
-                
-        except Exception as e:
-            print(f"Errore su '{title}': {e}")
-
+    # Aggiorna titoli.txt rimuovendo solo quelli effettivamente processati (massimo 6)
     with open("titoli.txt", "w", encoding="utf-8") as f:
-        for t in remaining:
+        for t in all_titles[titoli_rimossi:]:
             f.write(t + "\n")
 
 if __name__ == "__main__":
     main()
+    
