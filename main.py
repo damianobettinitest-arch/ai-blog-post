@@ -56,9 +56,12 @@ def second_pass(html_content, prompt2_template):
     return response.choices[0].message.content
 
 def extract_from_xml(xml_string):
-    # Rimuove eventuali backtick e la parola xml 
-    xml_clean = re.sub(r'^```(xml)?\s*', '', xml_string, flags=re.IGNORECASE)
-    xml_clean = re.sub(r'```$', '', xml_clean).strip()
+    # FILTRO ANTI-CHIACCHIERE: Cerca solo quello che sta dentro i backtick del codice
+    xml_match = re.search(r'
+http://googleusercontent.com/immersive_entry_chip/0
+
+Applica queste due sostituzioni e rilancia il workflow. Vedrai che ora Python saprà scartare i "convenevoli" di DeepSeek e invierà correttamente l'ID numerico a WordPress!
+
     
     # 1. Isola il blocco <item> (l'articolo vero e proprio) per ignorare l'intestazione del sito
     item_match = re.search(r'<item>(.*?)</item>', xml_clean, re.DOTALL | re.IGNORECASE)
