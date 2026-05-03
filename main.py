@@ -1,4 +1,5 @@
 import os
+import time
 import base64
 import requests
 import markdown
@@ -12,7 +13,7 @@ WP_USER = os.getenv("WP_USER")
 WP_APP_PASSWORD = os.getenv("WP_APP_PASSWORD")
 WP_AUTHOR_ID = os.getenv("WP_AUTHOR_ID")
 
-client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="[https://api.deepseek.com](https://api.deepseek.com)")
+client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
 
 def read_file_safe(filename):
     try:
@@ -22,45 +23,42 @@ def read_file_safe(filename):
         print(f"Errore: Il file {filename} non è stato trovato.")
         return None
 
+# --- NUOVA FUNZIONE: Chiamata API con Retry Automatico ---
+def call_deepseek_with_retry(messages, system_prompt, max_retries=3):
+    for attempt in range(max_retries):
+        try:
+            response = client.chat.completions.create(
+                model="deepseek-chat", 
+                messages=[
+                    {"role": "system", "content": system_prompt},
+                    {"role": "user", "content": messages}
+                ],
+                stream=False,
+                timeout=120 # Timeout aumentato per dare tempo a risposte lunghe
+            )
+            return response.choices[0].message.content
+        except Exception as e:
+            if attempt < max_retries - 1:
+                wait_time = (attempt + 1) * 5 # Aspetta 5s, poi 10s, poi 15s
+                print(f"      ⚠️ Errore di connessione: riprovo tra {wait_time} secondi... (Tentativo {attempt + 1}/{max_retries})")
+                time.sleep(wait_time)
+            else:
+                raise Exception(f"Fallito dopo {max_retries} tentativi. Errore originale: {e}")
+
 def first_pass(title, prompt_template):
     print(f"   -> Avvio Passaggio 1 (Generazione testo per: {title})...")
     prompt_completo = prompt_template.replace("{titolo}", title)
-    
-    response = client.chat.completions.create(
-        model="deepseek-chat", 
-        messages=[
-            {"role": "system", "content": "Sei un esperto copywriter tecnico SEO."},
-            {"role": "user", "content": prompt_completo}
-        ],
-        stream=False
-    )
-    return response.choices[0].message.content
+    return call_deepseek_with_retry(prompt_completo, "Sei un esperto copywriter tecnico SEO.")
 
 def second_pass(html_content, prompt2_template):
     print(f"   -> Avvio Passaggio 2 (Revisione e Conversione XML)...")
     prompt_completo = prompt2_template.replace("{html_input}", html_content)
-    
-    response = client.chat.completions.create(
-        model="deepseek-chat", 
-        messages=[
-            {"role": "system", "content": "Sei un programmatore SEO esperto in XML."},
-            {"role": "user", "content": prompt_completo}
-        ],
-        stream=False
-    )
-    return response.choices[0].message.content
+    return call_deepseek_with_retry(prompt_completo, "Sei un programmatore SEO esperto in XML.")
 
 def extract_from_xml(xml_string):
-    # NUOVO FILTRO ANTI-CHIACCHIERE: 
-    # Cerca direttamente il blocco <item>...</item> ignorando tutto il testo attorno
+    # Cerca direttamente il blocco <item>...</item> ignorando il resto
     item_match = re.search(r'<item>.*?</item>', xml_string, re.DOTALL | re.IGNORECASE)
-    
-    if item_match:
-        # Se trova il blocco <item>, lavoriamo solo su quello (pulizia totale)
-        xml_clean = item_match.group(0)
-    else:
-        # Se DeepSeek non ha generato il tag <item>, analizziamo tutta la stringa
-        xml_clean = xml_string
+    xml_clean = item_match.group(0) if item_match else xml_string
 
     # 1. Estrazione TITOLO
     titolo_match = re.search(r'<title[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>', xml_clean, re.DOTALL | re.IGNORECASE)
@@ -68,15 +66,14 @@ def extract_from_xml(xml_string):
 
     # 2. Estrazione CONTENUTO
     contenuto_match = re.search(r'<content:encoded[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</content:encoded>', xml_clean, re.DOTALL | re.IGNORECASE)
-    if not contenuto_match: # Fallback di sicurezza se ha usato un altro tag
+    if not contenuto_match:
         contenuto_match = re.search(r'<contenuto[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</contenuto>', xml_clean, re.DOTALL | re.IGNORECASE)
         
     # 3. Estrazione DESCRIZIONE
     metadesc_match = re.search(r'<description[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</description>', xml_clean, re.DOTALL | re.IGNORECASE)
-    if not metadesc_match: # Fallback al tag excerpt
+    if not metadesc_match:
         metadesc_match = re.search(r'<excerpt:encoded[^>]*>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</excerpt:encoded>', xml_clean, re.DOTALL | re.IGNORECASE)
 
-    # RADAR DEGLI ERRORI
     if not final_title or not contenuto_match:
         print("\n--- 🚨 ERRORE: TAG INTERNI NON TROVATI 🚨 ---")
         print("Risposta grezza ricevuta da DeepSeek:")
@@ -102,7 +99,6 @@ def post_to_wordpress(title, final_html, seo_title, meta_desc):
         "Content-Type": "application/json"
     }
     
-    # Gestione sicura dell'ID autore (ID 1 di default se manca o è errato)
     author_id = 1 
     if WP_AUTHOR_ID and str(WP_AUTHOR_ID).strip().isdigit():
         author_id = int(str(WP_AUTHOR_ID).strip())
