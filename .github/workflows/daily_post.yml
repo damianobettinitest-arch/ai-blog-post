@@ -1,0 +1,37 @@
+name: Autopost DeepSeek to WordPress
+
+on:
+  schedule:
+    - cron: '0 8 * * *' # Ogni giorno alle 08:00 UTC
+  workflow_dispatch: # Permette l'avvio manuale dal tab 'Actions'
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Necessario per aggiornare titoli.txt
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.10'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run automation
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+          WP_URL: ${{ secrets.WP_URL }}
+          WP_USER: ${{ secrets.WP_USER }}
+          WP_APP_PASSWORD: ${{ secrets.WP_APP_PASSWORD }}
+        run: python main.py
+
+      - name: Commit changes to titoli.txt
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Rimosso titoli pubblicati in data odierna"
