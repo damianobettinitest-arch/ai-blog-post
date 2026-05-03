@@ -14,6 +14,7 @@ DEEPSEEK_API_KEY = os.getenv("DEEPSEEK_API_KEY")
 WP_URL = os.getenv("WP_URL").rstrip('/')
 WP_USER = os.getenv("WP_USER")
 WP_APP_PASSWORD = os.getenv("WP_APP_PASSWORD")
+WP_AUTHOR_ID = os.getenv("WP_AUTHOR_ID")
 
 # Inizializza client DeepSeek
 client = OpenAI(api_key=DEEPSEEK_API_KEY, base_url="https://api.deepseek.com")
@@ -55,22 +56,37 @@ def second_pass(html_content, prompt2_template):
     return response.choices[0].message.content
 
 def extract_from_xml(xml_string):
-    # Rimuove eventuali backtick ```xml
-    xml_string = re.sub(r'```(xml)?', '', xml_string).strip()
+    # Rimuove eventuali backtick e la parola xml 
+    xml_clean = re.sub(r'^```(xml)?\s*', '', xml_string, flags=re.IGNORECASE)
+    xml_clean = re.sub(r'```$', '', xml_clean).strip()
     
-    # Estrazione dei tag
-    titolo = re.search(r'<titolo>(.*?)</titolo>', xml_string, re.DOTALL | re.IGNORECASE)
-    contenuto = re.search(r'<contenuto>(.*?)</contenuto>', xml_string, re.DOTALL | re.IGNORECASE)
-    seotitle = re.search(r'<seotitle>(.*?)</seotitle>', xml_string, re.DOTALL | re.IGNORECASE)
-    metadesc = re.search(r'<metadesc>(.*?)</metadesc>', xml_string, re.DOTALL | re.IGNORECASE)
+    # 1. Isola il blocco <item> (l'articolo vero e proprio) per ignorare l'intestazione del sito
+    item_match = re.search(r'<item>(.*?)</item>', xml_clean, re.DOTALL | re.IGNORECASE)
+    if not item_match:
+        print("\n--- 🚨 ERRORE: TAG <item> NON TROVATO 🚨 ---")
+        print(xml_clean[:1000])
+        raise ValueError("Non ho trovato il blocco dell'articolo nell'XML WXR.")
+    
+    item_block = item_match.group(1)
+
+    # 2. Estrai Titolo, Contenuto e Descrizione (gestendo anche i CDATA del tuo prompt)
+    titolo = re.search(r'<title>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</title>', item_block, re.DOTALL | re.IGNORECASE)
+    contenuto = re.search(r'<content:encoded>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</content:encoded>', item_block, re.DOTALL | re.IGNORECASE)
+    metadesc = re.search(r'<description>(?:<!\[CDATA\[)?(.*?)(?:\]\]>)?</description>', item_block, re.DOTALL | re.IGNORECASE)
     
     if not titolo or not contenuto:
-        raise ValueError("Non sono riuscito a trovare i tag <titolo> e <contenuto> nell'XML.")
+        print("\n--- 🚨 ERRORE: TAG INTERNI NON TROVATI 🚨 ---")
+        print(item_block[:1000])
+        raise ValueError("Non sono riuscito a trovare i tag <title> o <content:encoded>.")
         
-    val_seotitle = seotitle.group(1).strip() if seotitle else ""
-    val_metadesc = metadesc.group(1).strip() if metadesc else ""
+    final_title = titolo.group(1).strip()
+    final_content = contenuto.group(1).strip()
+    final_metadesc = metadesc.group(1).strip() if metadesc else ""
+    
+    # In base al tuo prompt, l'AIOSEO Title è esattamente uguale al titolo riformulato dell'articolo
+    final_seotitle = final_title 
         
-    return titolo.group(1).strip(), contenuto.group(1).strip(), val_seotitle, val_metadesc
+    return final_title, final_content, final_seotitle, final_metadesc
 
 def post_to_wordpress(title, final_html, seo_title, meta_desc):
     print(f"   -> Pubblicazione su WordPress in corso...")
@@ -83,25 +99,26 @@ def post_to_wordpress(title, final_html, seo_title, meta_desc):
         "Content-Type": "application/json"
     }
     
-    # NOTA: Qui uso "rank_math_title". Se usi Yoast, cambialo in "_yoast_wpseo_title" ecc come spiegato prima
     payload = {
         "title": title,
         "content": final_html,
         "status": "publish",
+        "author": WP_AUTHOR_ID,  # <--- AGGIUNTO QUESTO
         "meta": {
-            "rank_math_title": seo_title,
-            "rank_math_description": meta_desc
+            "_aioseop_title": seo_title,
+            "_aioseop_description": meta_desc
         }
     }
     
     res = requests.post(endpoint, headers=headers, json=payload)
     if res.status_code == 201:
         post_url = res.json().get('link')
-        print(f"   ✅ Articolo pubblicato: {post_url}")
+        print(f"   ✅ Articolo pubblicato a nome di 'La Casetta Craft Beer Crew': {post_url}")
         return post_url
     else:
         print(f"   ❌ Errore WP: {res.text}")
         return None
+
 
 # FUNZIONE GOOGLE COMMENTATA
 # def notify_google_indexing(url):
