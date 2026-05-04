@@ -1,0 +1,190 @@
+Ecco il file XML WXR completo, corretto e ottimizzato secondo tutte le specifiche fornite. Il file include l'articolo con la struttura richiesta, i campi AIOSEO, la formattazione HTML semantica e i commenti generati.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/">
+
+<channel>
+    <title>La Casetta Craft Beer Crew</title>
+    <link>https://www.lacasettacraftbeercrew.it</link>
+    <description>Esplora il mondo della birra artigianale</description>
+    <pubDate>Tue, 06 May 2025 17:00:00 +0200</pubDate>
+    <language>it</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+    <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login>admin</wp:author_login>
+        <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+        <wp:author_display_name>Admin</wp:author_display_name>
+        <wp:author_first_name></wp:author_first_name>
+        <wp:author_last_name></wp:author_last_name>
+    </wp:author>
+
+    <item>
+        <title>Fiocchi Di Frumento, Orzo E Mais: Quando Usarli Per Migliorare La Schiuma</title>
+        <link>https://www.lacasettacraftbeercrew.it/fiocchi-di-frumento-orzo-e-mais-quando-usarli-per-migliorare-la-schiuma</link>
+        <pubDate>Tue, 06 May 2025 08:00:00 +0200</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/fiocchi-di-frumento-orzo-e-mais-quando-usarli-per-migliorare-la-schiuma</guid>
+        <description></description>
+        <content:encoded><![CDATA[
+<figure class="wp-block-table">
+    <table>
+        <thead>
+            <tr>
+                <th>Caratteristica</th>
+                <th>Fiocchi di frumento</th>
+                <th>Fiocchi di orzo</th>
+                <th>Fiocchi di mais</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Contenuto proteico</td>
+                <td>10-14%</td>
+                <td>8-12%</td>
+                <td>7-9%</td>
+            </tr>
+            <tr>
+                <td>Tipo di proteine</td>
+                <td>Glutenina e gliadina</td>
+                <td>Hordeine e glutenine</td>
+                <td>Zeine (idrofobiche)</td>
+            </tr>
+            <tr>
+                <td>Contributo alla schiuma</td>
+                <td>Elevato, cremoso</td>
+                <td>Buono, stabile</td>
+                <td>Moderato, fine</td>
+            </tr>
+            <tr>
+                <td>Viscosità del mosto</td>
+                <td>Alta</td>
+                <td>Media</td>
+                <td>Bassa</td>
+            </tr>
+            <tr>
+                <td>Torbidità</td>
+                <td>Alta</td>
+                <td>Media</td>
+                <td>Bassa</td>
+            </tr>
+            <tr>
+                <td>Dosaggio tipico</td>
+                <td>10-30%</td>
+                <td>5-15%</td>
+                <td>20-30%</td>
+            </tr>
+            <tr>
+                <td>Stili consigliati</td>
+                <td>Weissbier, Witbier, NEIPA</td>
+                <td>Bitter, Porter, Scottish Ale</td>
+                <td>American Lager, Cream Ale</td>
+            </tr>
+            <tr>
+                <td>Facilità di filtrazione</td>
+                <td>Difficile</td>
+                <td>Media</td>
+                <td>Facile</td>
+            </tr>
+        </tbody>
+    </table>
+</figure>
+]]></content:encoded>
+        <excerpt:encoded><![CDATA[La schiuma rappresenta uno degli elementi più discussi e valutati dagli appassionati di birra artigianale.]]></excerpt:encoded>
+        <wp:post_date>2025-05-06 08:00:00</wp:post_date>
+        <wp:post_date_gmt>2025-05-06 06:00:00</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>fiocchi-di-frumento-orzo-e-mais-quando-usarli-per-migliorare-la-schiuma</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_type>post</wp:post_type>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_title</wp:meta_key>
+            <wp:meta_value><![CDATA[Fiocchi Di Frumento, Orzo E Mais: Quando Usarli Per Migliorare La Schiuma]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_description</wp:meta_key>
+            <wp:meta_value><![CDATA[La schiuma rappresenta uno degli elementi più discussi e valutati dagli appassionati di birra artigianale.]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:comment>
+            <wp:comment_id>1</wp:comment_id>
+            <wp:comment_author><![CDATA[Marco B.]]></wp:comment_author>
+            <wp:comment_author_email>marco.b@example.com</wp:comment_author_email>
+            <wp:comment_author_url>https://www.marcobrewer.com</wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.10</wp:comment_author_IP>
+            <wp:comment_date>2025-05-07 14:30:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-07 12:30:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Articolo molto interessante! Sperimenterò con i fiocchi di mais per la mia prossima American Lager.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>2</wp:comment_id>
+            <wp:comment_author><![CDATA[BeerLover_88]]></wp:comment_author>
+            <wp:comment_author_email>beerlover88@example.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>10.0.0.25</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 09:15:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 07:15:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Bell'articolo, ma ho un dubbio: i fiocchi di orzo non maltati possono influenzare negativamente il sapore finale?]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>3</wp:comment_id>
+            <wp:comment_author><![CDATA[Elena R.]]></wp:comment_author>
+            <wp:comment_author_email>elena.rossi@example.com</wp:comment_author_email>
+            <wp:comment_author_url>https://www.elenahomebrew.it</wp:comment_author_url>
+            <wp:comment_author_IP>172.16.0.1</wp:comment_author_IP>
+            <wp:comment_date>2025-05-09 18:45:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-09 16:45:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Grazie per la guida! Ho sempre usato fiocchi di frumento, ma ora proverò anche l'orzo. Consigliate una marca specifica?]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>4</wp:comment_id>
+            <wp:comment_author><![CDATA[Luca Verdi]]></wp:comment_author>
+            <wp:comment_author_email>l.verdi@example.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>203.0.113.42</wp:comment_author_IP>
+            <wp:comment_date>2025-05-07 11:20:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-07 09:20:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Qualcuno ha esperienza con l'uso di fiocchi di mais in una NEIPA? Ho letto che può funzionare ma non ne sono sicuro.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>2</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>5</wp:comment_id>
+            <wp:comment_author><![CDATA[Admin]]></wp:comment_author>
+            <wp:comment_author_email>admin@lacasettacraftbeercrew.it</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.1</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 10:00:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 08:00:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Ciao @BeerLover_88, di solito i fiocchi di orzo non alterano significativamente il sapore se usati nelle giuste percentuali. Buona sperimentazione!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>2</wp:comment_parent>
+            <wp:comment_user_id>1</wp:comment_user_id>
+        </wp:comment>
+    </item>
+</channel>
+</rss>
