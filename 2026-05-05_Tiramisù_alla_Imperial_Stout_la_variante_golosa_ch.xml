@@ -1,0 +1,200 @@
+Certamente. Ecco il file XML WXR completo, basato sull'articolo fornito, seguendo scrupolosamente tutte le istruzioni.
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/">
+<channel>
+    <title>La Casetta Craft Beer Crew</title>
+    <link>https://www.lacasettacraftbeercrew.it</link>
+    <description>Esplora il mondo della birra artigianale</description>
+    <pubDate>Thu, 12 Jun 2025 00:00:00 +0200</pubDate>
+    <language>it</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+    <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login>admin</wp:author_login>
+        <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+        <wp:author_display_name>Admin</wp:author_display_name>
+        <wp:author_first_name></wp:author_first_name>
+        <wp:author_last_name></wp:author_last_name>
+    </wp:author>
+
+    <item>
+        <title>Tiramisù Alla Imperial Stout: La Variante Golosa Che Sostituisce Il Caffè</title>
+        <link>https://www.lacasettacraftbeercrew.it/tiramisu-alla-imperial-stout-la-variante-golosa-che-sostituisce-il-caffe</link>
+        <pubDate>Thu, 12 Jun 2025 00:00:00 +0200</pubDate>
+        <dc:creator>admin</dc:creator>
+        <guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/tiramisu-alla-imperial-stout-la-variante-golosa-che-sostituisce-il-caffe</guid>
+        <description></description>
+        <content:encoded><![CDATA[
+<article>
+    <p>Quando si parla di tiramisù, il pensiero corre immediatamente al caffè, al mascarpone, al cacao amaro e ai savoiardi intrisi di caffeina. È un classico della pasticceria italiana che resiste immutato da decenni, un dolce che rappresenta un punto fermo nelle cucine di tutto il mondo. Eppure, esiste una variante che sta conquistando sempre più estimatori, unendo due mondi apparentemente lontani ma sorprendentemente affini: la pasticceria tradizionale e la cultura brassicola artigianale. Stiamo parlando del tiramisù alla Imperial Stout, una rivisitazione audace e raffinata che sostituisce il caffè con una birra scura, corposa e avvolgente, capace di regalare al palato un'esperienza sensoriale del tutto inedita.</p>
+    <p>L'idea di utilizzare la birra al posto del caffè in un dolce così iconico può sembrare bizzarra a un primo approccio, ma chi mastica il mondo della birra artigianale sa bene quanto le stout, e in particolare le Imperial Stout, condividano con il caffè molteplici caratteristiche aromatiche. Entrambi provengono da processi di tostatura, entrambi sviluppano note di cioccolato fondente, caramello, liquirizia e frutta scura. La birra scura, se scelta con cura e abbinata con criterio agli altri ingredienti, non solo emula il sapore del caffè, ma lo arricchisce con sfumature aggiuntive, come sentori di vaniglia, legno, cuoio e bacche scure, che nel caffè tradizionale non troveremmo mai. È un vero e proprio viaggio sensoriale che merita di essere raccontato, esplorato e, naturalmente, assaporato.</p>
+
+    <h2 id="indice">In questo post</h2>
+    <ul>
+        <li><a href="#perche-la-imperial-stout-e-l-ingrediente-perfetto-per-un-tiramisu">Perché la Imperial Stout è l'ingrediente perfetto per un tiramisù</a></li>
+        <li><a href="#la-scelta-della-birra-non-tutte-le-stout-sono-uguali">La scelta della birra: non tutte le stout sono uguali</a></li>
+        <li><a href="#ricetta-passo-dopo-passo-del-tiramisu-alla-imperial-stout">Ricetta passo dopo passo del tiramisù alla Imperial Stout</a></li>
+        <li><a href="#gli-abbinamenti-e-le-varianti-per-personalizzare-il-dessert">Gli abbinamenti e le varianti per personalizzare il dessert</a></li>
+        <li><a href="#limportanza-della-temperatura-e-della-carbonatazione">L’importanza della temperatura e della carbonatazione</a></li>
+        <li><a href="#un-dolce-da-fine-pasto-che-sorprende-e-conquista">Un dolce da fine pasto che sorprende e conquista</a></li>
+    </ul>
+
+    <h2 id="perche-la-imperial-stout-e-l-ingrediente-perfetto-per-un-tiramisu">Perché la Imperial Stout è l’ingrediente perfetto per un tiramisù</h2>
+    <p>La domanda che molti si pongono è: perché proprio una birra invece del caffè? La risposta risiede nella straordinaria complessità aromatica delle Imperial Stout. Queste birre, che appartengono alla famiglia delle stout, nascono da malti estremamente tostati, spesso con l’aggiunta di orzo torrefatto, che conferisce loro un colore nerissimo e un profilo gustativo che spazia dal caffè amaro al cioccolato fondente, passando per note di caramello scuro, melassa, prugne secche e uvetta. La gradazione alcolica, solitamente compresa tra l’8% e il 12% o più, non è un elemento secondario: l’alcol agisce come un vettore di aromi, esaltando e veicolando le percezioni gustative meglio di quanto farebbe un semplice infuso di caffè.</p>
+    <p>Un altro aspetto cruciale riguarda la <strong>shelf life birra differenza tra valore reale e teorico e come si calcola in laboratorio</strong>. Quando si utilizza una Imperial Stout in cucina, la freschezza e la stabilità della birra giocano un ruolo fondamentale. Una birra ben conservata, con una corretta gestione della shelf life, mantiene intatti i suoi profili aromatici e non sviluppa difetti come l'ossidazione o l'irrancidimento, che potrebbero compromettere il risultato finale del dolce. Per questo motivo, è importante selezionare birre di birrifici che curano con attenzione i processi di imbottigliamento e conservazione. Se desideri approfondire l'argomento, puoi leggere il nostro articolo dedicato a <a href="https://www.lacasettacraftbeercrew.it/shelf-life-birra-differenza-tra-valore-reale-e-teorico-e-come-si-calcola-in-laboratorio/">shelf life birra differenza tra valore reale e teorico e come si calcola in laboratorio</a>.</p>
+    <p>La sostituzione del caffè con la birra non è solo un vezzo per appassionati. Dal punto di vista chimico, la birra contiene composti fenolici e melanoidine che derivano dalla tostatura dei malti, gli stessi che si trovano nel caffè tostato. La differenza sta nel fatto che nella birra questi composti sono accompagnati da una base di malto fermentato, che aggiunge dolcezza, corpo e una leggera acidità, capace di bilanciare la dolcezza del mascarpone e dello zucchero in modo diverso rispetto al caffè. Il risultato è un tiramisù più rotondo, morbido, con una persistenza aromatica molto più lunga e stratificata.</p>
+    <p>Inoltre, la birra artigianale offre una varietà di profili che il caffè non può eguagliare. Una Imperial Stout invecchiata in botte di bourbon, per esempio, regala sentori di vaniglia, legno tostato e note spiritose che si sposano alla perfezione con la crema al mascarpone. Una stout con aggiunta di caffè e cacao, invece, amplifica ulteriormente la componente cioccolatosa del dolce. È un gioco di rimandi e sovrapposizioni che trasforma il tiramisù in un dessert complesso, da meditazione, capace di stupire anche i palati più esigenti.</p>
+
+    <h2 id="la-scelta-della-birra-non-tutte-le-stout-sono-uguali">La scelta della birra: non tutte le stout sono uguali</h2>
+    <p>Scegliere la birra giusta per il tiramisù alla Imperial Stout è forse il passaggio più delicato e importante. Non tutte le stout si prestano a questa reinterpretazione. Una dry stout tradizionale, come una Guinness, ha una gradazione alcolica troppo bassa e un corpo troppo leggero per reggere il confronto con la crema di mascarpone. Il risultato sarebbe un tiramisù acquoso, con una birra che si perde nella dolcezza del dolce senza lasciare traccia. Allo stesso modo, una milk stout, nonostante la sua cremosità, rischia di risultare troppo dolce e stucchevole, spezzando l'equilibrio tra amaro e dolce che rende grande il tiramisù classico.</p>
+    <p>La scelta ideale ricade quindi sulle Imperial Stout, meglio se prodotte con malti pregiati e con un profilo aromatico che richiami il caffè e il cioccolato fondente. Alcuni birrifici artigianali italiani e internazionali si sono specializzati nella produzione di stout di altissimo livello, con luppolature contenute e una predominanza di malti tostati. È importante leggere l'etichetta e informarsi sugli ingredienti: birre che utilizzano caffè in aggiunta ai malti tostati possono essere una scelta eccellente, perché creano un ponte diretto con la tradizione del tiramisù. Allo stesso modo, birre invecchiate in barrique di rovere americano o di whisky aggiungono complessità e note legnose che arricchiscono ulteriormente il dessert.</p>
+    <p>Un consiglio pratico: prima di utilizzare la birra nella ricetta, è opportuno degustarla da sola. Questo permette di comprendere se il profilo aromatico si adatta al dolce che si intende preparare. Se la birra presenta note eccessivamente amare o troppo resinose, potrebbe non essere la scelta migliore. L'obiettivo è trovare una birra che abbia un equilibrio tra amaro, dolcezza e complessità, capace di dialogare con il mascarpone senza sopraffarlo. Per chi desidera sperimentare, esistono anche stout con aggiunta di spezie come cannella, vaniglia o peperoncino, che possono regalare varianti originali e sorprendenti.</p>
+    <p>Se vuoi approfondire come bilanciare gli ingredienti aromatici complessi nella birra, ti consigliamo di leggere il nostro articolo su <a href="https://www.lacasettacraftbeercrew.it/caffe-cacao-e-spezie-bilanciare-ingredienti-aromatici-complessi-nella-birra-artigianale/">caffè cacao e spezie bilanciare ingredienti aromatici complessi nella birra artigianale</a>. Questo ti aiuterà a comprendere meglio come le diverse componenti aromatiche interagiscono tra loro e come scegliere la birra più adatta alle tue esigenze culinarie.</p>
+
+    <h2 id="ricetta-passo-dopo-passo-del-tiramisu-alla-imperial-stout">Ricetta passo dopo passo del tiramisù alla Imperial Stout</h2>
+    <p>Preparare un tiramisù alla Imperial Stout richiede gli stessi ingredienti di base del tiramisù tradizionale, con l’aggiunta della birra al posto del caffè. Ecco la ricetta dettagliata, pensata per 6-8 persone, con tutti i consigli per ottenere un risultato perfetto.</p>
+    <h3>Ingredienti</h3>
+    <ul>
+        <li>500 g di mascarpone fresco di alta qualità</li>
+        <li>4 uova fresche (tuorli e albumi separati)</li>
+        <li>100 g di zucchero semolato</li>
+        <li>300 ml di Imperial Stout (una bottiglia da 33 cl può bastare, ma meglio averne una di scorta)</li>
+        <li>200 g di savoiardi</li>
+        <li>Cacao amaro in polvere per la decorazione</li>
+        <li>Un pizzico di sale</li>
+    </ul>
+    <h3>Preparazione</h3>
+    <ol>
+        <li><strong>Preparare la crema al mascarpone.</strong> In una ciotola capiente, lavorare i tuorli con lo zucchero fino a ottenere un composto spumoso e chiaro. Aggiungere il mascarpone e mescolare delicatamente con una spatola, dal basso verso l’alto, per non smontare la crema. Montare gli albumi a neve ferma con un pizzico di sale e incorporarli al composto con movimenti avvolgenti. Il risultato deve essere una crema densa, vellutata e molto ariosa.</li>
+        <li><strong>Preparare la birra.</strong> Versare la Imperial Stout in una ciotola larga e lasciarla sgasare per qualche minuto. La carbonatazione della birra potrebbe creare troppa schiuma e rendere difficile l’imbibizione dei savoiardi. Se la birra è molto giovane e frizzante, si può anche agitare leggermente con una frusta per accelerare la perdita di gas. Non è necessario scaldarla: la temperatura ambiente è perfetta.</li>
+        <li><strong>Comporre il tiramisù.</strong> Immergere rapidamente i savoiardi nella birra, uno per volta, facendo attenzione a non inzupparli troppo. I savoiardi devono assorbire il liquido ma rimanere leggermente croccanti all’interno. Disporre un primo strato di savoiardi sul fondo di una pirofila rettangolare. Coprire con uno strato di crema al mascarpone, livellando con una spatola. Ripetere l’operazione con un secondo strato di savoiardi e un secondo strato di crema.</li>
+        <li><strong>Riposo e decorazione.</strong> Coprire la pirofila con pellicola trasparente e riporre in frigorifero per almeno 6 ore, meglio se per tutta la notte. Il riposo permette ai sapori di amalgamarsi e alla crema di rassodarsi. Prima di servire, spolverizzare abbondantemente con cacao amaro in polvere. Per un tocco in più, si può grattugiare un po’ di cioccolato fondente sopra la superficie.</li>
+    </ol>
+    <h3>Consiglio dello chef</h3>
+    <p>Se si desidera un sapore più deciso di birra, si possono aggiungere 2-3 cucchiai di birra direttamente nella crema al mascarpone, mescolando delicatamente. Questo intensifica la presenza della stout senza alterare la consistenza della crema. Inoltre, per chi ama le note speziate, una spolverata di cannella o noce moscata sulla crema può aggiungere un ulteriore strato aromatico.</p>
+
+    <h2 id="gli-abbinamenti-e-le-varianti-per-personalizzare-il-dessert">Gli abbinamenti e le varianti per personalizzare il dessert</h2>
+    <p>Il tiramisù alla Imperial Stout si presta a infinite personalizzazioni, permettendo a ciascuno di creare la propria versione ideale. Una delle varianti più apprezzate prevede l’aggiunta di scaglie di cioccolato fondente tra gli strati. In questo caso, il cioccolato si scioglie leggermente a contatto con la crema, creando una sorta di ganache nascosta che esalta le note di cacao della birra. Un’altra idea è quella di utilizzare savoiardi artigianali al cacao, che raddoppiano la componente cioccolatosa del dolce.</p>
+    <p>Per chi cerca un contrasto più marcato, si può preparare una crema al mascarpone con l’aggiunta di una riduzione di birra. Basta far bollire 100 ml di Imperial Stout a fuoco basso fino a ridurli a un terzo del volume originale, ottenendo uno sciroppo scuro e denso dal sapore intenso. Questo sciroppo si può mescolare alla crema o versare a filo tra gli strati, creando un effetto marmorizzato molto scenografico. La riduzione concentra gli aromi della birra e ne aumenta la dolcezza naturale, bilanciando l’eventuale amaro dei malti tostati.</p>
+    <p>Un’altra variante interessante è quella che utilizza una stout con aggiunta di miele. Il miele, se inserito in quantità moderate nella birra, dona una dolcezza floreale che si sposa bene con il mascarpone. Se vuoi approfondire come viene utilizzato il miele nel mondo brassicolo, ti suggeriamo di leggere il nostro articolo dedicato all’<a href="https://www.lacasettacraftbeercrew.it/uso-del-miele-nella-birra-artigianale/">uso del miele nella birra artigianale</a>. Questo ti darà spunti per scegliere birre al miele che possano arricchire ulteriormente il tuo tiramisù.</p>
+    <p>Dal punto di vista degli abbinamenti, questo dessert si presta a essere servito con una piccola porzione della stessa birra utilizzata nella preparazione, magari a temperatura leggermente più alta rispetto a quella di servizio standard, per esaltare gli aromi. In alternativa, un bicchierino di whisky o di bourbon può accompagnare il dolce, creando un contrasto tra la dolcezza della crema e la forza del distillato. Per un abbinamento più leggero, un tè nero o un infuso di rooibos possono essere scelte valide, anche se meno spettacolari.</p>
+
+    <h2 id="limportanza-della-temperatura-e-della-carbonatazione">L’importanza della temperatura e della carbonatazione</h2>
+    <p>Uno degli errori più comuni nella preparazione del tiramisù alla Imperial Stout riguarda la gestione della temperatura e della carbonatazione della birra. La birra va utilizzata a temperatura ambiente, non fredda di frigorifero. Il freddo, infatti, attenua la percezione degli aromi e rende la birra meno “parlante” all’interno del dolce. Una birra troppo fredda risulterà piatta e poco espressiva, compromettendo il risultato finale. Al contrario, una birra a temperatura ambiente sprigiona tutte le sue note aromatiche, regalando un sapore più intenso e complesso.</p>
+    <p>La carbonatazione, invece, può rappresentare un ostacolo. Le Imperial Stout, essendo birre ad alta fermentazione, spesso presentano una carbonatazione medio-bassa, ma alcune versioni possono essere più frizzanti. In ogni caso, è consigliabile lasciare la birra aperta per 10-15 minuti prima di utilizzarla, in modo che il gas in eccesso possa fuoriuscire. Se la birra viene utilizzata ancora molto gassata, rischia di formare bolle all’interno della crema, creando un effetto sgradevole e alterando la consistenza del dolce.</p>
+    <p>Per chi vuole un controllo ancora maggiore, si può optare per una birra parzialmente decarbonatata. Basta versare la birra in una caraffa e mescolare energicamente con un cucchiaio per qualche minuto. Questo processo elimina gran parte dell’anidride carbonica senza alterare il profilo aromatico. In alternativa, si può utilizzare una birra che ha già subito un processo di invecchiamento in botte, che di solito ha una carbonatazione molto bassa e una maggiore densità aromatica.</p>
+
+    <h2 id="un-dolce-da-fine-pasto-che-sorprende-e-conquista">Un dolce da fine pasto che sorprende e conquista</h2>
+    <p>Il tiramisù alla Imperial Stout non è solo un dessert: è un’esperienza. Unisce la tradizione della pasticceria italiana alla creatività e alla sperimentazione del mondo della birra artigianale. Ogni cucchiaiata racconta una storia diversa, con i savoiardi che si sciolgono in bocca rilasciando note di malto tostato, cioccolato e caffè, mentre la crema al mascarpone avvolge il palato con la sua morbidezza vellutata. È un dolce che sorprende chi lo assaggia per la prima volta e che conquista anche i più scettici.</p>
+    <p>La versatilità di questa ricetta permette di adattarla a ogni stagione e a ogni occasione. In inverno, una stout invecchiata in botte regala calore e profondità. In estate, una stout più leggera, magari con l’aggiunta di frutti di bosco o ciliegie, dona freschezza e vivacità. Il tiramisù alla Imperial Stout si presta anche a essere servito in porzioni individuali, magari in bicchieri trasparenti, per valorizzare l’effetto degli strati e la bellezza del colore scuro della birra.</p>
+    <p>Per chi desidera cimentarsi nella preparazione di questo dolce, il consiglio è di non aver paura di sperimentare. Provare birre diverse, variare le quantità, aggiungere ingredienti insoliti come liquirizia, cardamomo o pepe nero. Il mondo della birra artigianale offre una gamma infinita di possibilità, e il tiramisù è solo una delle tante porte di ingresso per esplorarlo. L’importante è mantenere un equilibrio tra gli ingredienti, rispettando la struttura del dolce classico ma aprendosi a nuove combinazioni.</p>
+    <p>Se vuoi approfondire ulteriormente il rapporto tra birra e dolci, o se cerchi ispirazione per altre ricette, ti invitiamo a esplorare il nostro sito. Troverai articoli dedicati all’uso dei malti speciali, alle tecniche di pasticceria con la birra e a molto altro. Il viaggio nel mondo del tiramisù alla Imperial Stout è appena iniziato: buona degustazione e buona sperimentazione a tutti gli appassionati di craft beer.</p>
+    <p>Per ulteriori informazioni sulla scienza dietro la produzione della birra e sui processi che influenzano il sapore, ti consigliamo di consultare una fonte autorevole come il <a href="https://www.brewersassociation.org/" target="_blank">Brewers Association</a>, che offre risorse tecniche e approfondimenti per birrai professionisti e appassionati.</p>
+
+    <h2 id="tldr-sintesi">Tl;dr: sintesi</h2>
+    <p>Il tiramisù alla Imperial Stout sostituisce il caffè con una birra scura e corposa, sfruttando le note tostate, di cioccolato e caramello della birra per creare un dessert complesso e sorprendente. La ricetta segue i passaggi classici del tiramisù, con l'attenzione a scegliere una birra con profilo aromatico equilibrato e a gestire correttamente temperatura e carbonatazione per un risultato ottimale.</p>
+</article>
+        ]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_date>2025-06-12 00:00:00</wp:post_date>
+        <wp:post_date_gmt>2025-06-11 22:00:00</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>tiramisu-alla-imperial-stout-la-variante-golosa-che-sostituisce-il-caffe</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_title</wp:meta_key>
+            <wp:meta_value><![CDATA[Tiramisù Alla Imperial Stout: La Variante Golosa Che Sostituisce Il Caffè]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_description</wp:meta_key>
+            <wp:meta_value><![CDATA[]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:comment>
+            <wp:comment_id>1</wp:comment_id>
+            <wp:comment_author>Michele R.</wp:comment_author>
+            <wp:comment_author_email>michele.r@email.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.10</wp:comment_author_IP>
+            <wp:comment_date>2025-06-13 14:22:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-06-13 12:22:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Che idea fantastica! Ho sempre pensato che le stout avessero un profilo simile al caffè, ma non mi sarei mai sognato di usarle in un tiramisù. Proverò sicuramente questa ricetta questo weekend. Grazie per lo spunto!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>2</wp:comment_id>
+            <wp:comment_author>BeerLover_Sara</wp:comment_author>
+            <wp:comment_author_email>sarabeer@example.org</wp:comment_author_email>
+            <wp:comment_author_url>https://www.birrificiartigianali.it</wp:comment_author_url>
+            <wp:comment_author_IP>10.0.0.5</wp:comment_author_IP>
+            <wp:comment_date>2025-06-14 09:05:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-06-14 07:05:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Ho provato una versione simile con una stout al caffè e cioccolato. Era pazzesca! Però devo dire che il consiglio di lasciar sgasare la birra è stato fondamentale, la prima volta ho saltato questo passaggio e i savoiardi erano troppo molli. Ottimo articolo.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>3</wp:comment_id>
+            <wp:comment_author>Luca</wp:comment_author>
+            <wp:comment_author_email>luca.bianchi@mail.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>172.16.0.1</wp:comment_author_IP>
+            <wp:comment_date>2025-06-15 18:30:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-06-15 16:30:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Non so, mi sembra un po' un azzardo. Il caffè nel tiramisù è un classico per un motivo. Forse proverò con una mezza porzione per vedere se mi piace. Qualcuno ha già testato se il sapore della birra copre troppo quello del mascarpone?]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>4</wp:comment_id>
+            <wp:comment_author>Michele R.</wp:comment_author>
+            <wp:comment_author_email>michele.r@email.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.10</wp:comment_author_IP>
+            <wp:comment_date>2025-06-16 10:45:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-06-16 08:45:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[@Luca Ho appena fatto la prova! Ho usato una<br />
+Imperial Stout abbastanza corposa e devo dire che il sapore della birra si sente, ma non è predominante. Si sposa benissimo con il mascarpone, specialmente dopo una notte di riposo. Te lo consiglio, non te ne pentirai!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>3</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>5</wp:comment_id>
+            <wp:comment_author>Ale_Brew</wp:comment_author>
+            <wp:comment_author_email>ales@homebrew.it</wp:comment_author_email>
+            <wp:comment_author_url>https://www.homebrewingitalia.com</wp:comment_author_url>
+            <wp:comment_author_IP>203.0.113.5</wp:comment_author_IP>
+            <wp:comment_date>2025-06-17 21:00:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-06-17 19:00:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Grande articolo! Sono un homebrewer e ultimamente sto sperimentando molto con le stout. L’idea di usarle in cucina mi affascina. Avete mai provato a fare una riduzione di birra come suggerito? Ho qualche dubbio sul risultato finale, ma proverò. Ottime anche le dritte sulla temperatura.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+    </item>
+</channel>
+</rss>
