@@ -1,0 +1,220 @@
+Ecco il file XML WXR completo, conforme alle tue specifiche, con la revisione del contenuto HTML, l'aggiunta di dati strutturati, commenti e una sintesi tl;dr. Ho conservato integralmente il testo originale, applicando solo le modifiche richieste.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/">
+
+<channel>
+    <title>La Casetta Craft Beer Crew</title>
+    <link>https://www.lacasettacraftbeercrew.it</link>
+    <description>Esplora il mondo della birra artigianale</description>
+    <pubDate>Tue, 06 May 2025 08:00:00 +0200</pubDate>
+    <language>it</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+    <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login>admin</wp:author_login>
+        <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+        <wp:author_display_name>Admin</wp:author_display_name>
+        <wp:author_first_name></wp:author_first_name>
+        <wp:author_last_name></wp:author_last_name>
+    </wp:author>
+
+    <item>
+        <title>Vinaigrette alla birra acida (Sour Ale): come condire insalate in modo unico</title>
+        <link>https://www.lacasettacraftbeercrew.it/vinaigrette-alla-birra-acida-sour-ale-come-condire-insalate-in-modo-unico</link>
+        <pubDate>Tue, 06 May 2025 08:00:00 +0200</pubDate>
+        <dc:creator>admin</dc:creator>
+        <guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/vinaigrette-alla-birra-acida-sour-ale-come-condire-insalate-in-modo-unico</guid>
+        <description></description>
+        <content:encoded><![CDATA[
+<p>La cucina incontra la birra artigianale in un abbraccio che va oltre il semplice abbinamento nel bicchiere. Quando si parla di utilizzare la <strong title="Bevanda alcolica ottenuta dalla fermentazione di cereali, come malto d'orzo, luppolo, acqua e lievito, prodotta artigianalmente con metodi tradizionali e ricette originali." class="tooltip-term">birra artigianale</strong> come ingrediente, la mente corre subito a stufati, salse per carne o pastelle per fritture. Ma esiste un territorio meno esplorato, più sottile e sorprendentemente elegante: le vinaigrette. E se a fare da protagonista fosse una Sour Ale, con la sua acidità vibrante e i suoi profili fruttati? Il risultato è un condimento che ridefinisce il concetto di freschezza per ogni insalata, capace di trasformare un piatto semplice in un'esperienza degustativa complessa.</p>
+<p>In questo post:<br />
+- Perché scegliere una Sour Ale per una vinaigrette<br />
+- La chimica dell'acidità: come le <strong title="Birre dal carattere acido, ottenute grazie a processi di fermentazione che coinvolgono lieviti selvaggi (come Brettanomyces) e batteri lattici (Lactobacillus, Pediococcus), che producono acido lattico e acetico." class="tooltip-term">birre acide</strong> interagiscono con gli ingredienti<br />
+- Selezione dello stile di Sour Ale ideale per ogni tipo di insalata<br />
+- Ricetta base per una vinaigrette alla Sour Ale<br />
+- Variazioni creative: Gose, Lambic, Flanders Red Ale e American Sour<br />
+- Abbinamenti specifici con ortaggi, frutta, formaggi e proteine<br />
+- Consigli per la conservazione e l'emulsione<br />
+- Errori comuni da evitare nella preparazione</p>
+    <ul>
+        <li><a href="#perche-scegliere-una-sour-ale-per-una-vinaigrette">Perché scegliere una Sour Ale per una vinaigrette</a></li>
+        <li><a href="#la-chimica-dellacidita-come-le-birre-acide-interagiscono-con-gli-ingredienti">La chimica dell'acidità: come le birre acide interagiscono con gli ingredienti</a></li>
+        <li><a href="#selezione-dello-stile-di-sour-ale-ideale-per-ogni-tipo-di-insalata">Selezione dello stile di Sour Ale ideale per ogni tipo di insalata</a></li>
+        <li><a href="#ricetta-base-per-una-vinaigrette-alla-sour-ale">Ricetta base per una vinaigrette alla Sour Ale</a></li>
+        <li><a href="#variazioni-creative-gose-lambic-flanders-red-ale-e-american-sour">Variazioni creative: Gose, Lambic, Flanders Red Ale e American Sour</a></li>
+        <li><a href="#abbinamenti-specifici-con-ortaggi-frutta-formaggi-e-proteine">Abbinamenti specifici con ortaggi, frutta, formaggi e proteine</a></li>
+        <li><a href="#consigli-per-la-conservazione-e-lemulsione">Consigli per la conservazione e l'emulsione</a></li>
+        <li><a href="#errori-comuni-da-evitare-nella-preparazione">Errori comuni da evitare nella preparazione</a></li>
+    </ul>
+
+<h2 id="perche-scegliere-una-sour-ale-per-una-vinaigrette">Perché scegliere una Sour Ale per una vinaigrette</h2>
+<p>L'acidità rappresenta il cuore pulsante di ogni vinaigrette che si rispetti. Tradizionalmente si utilizza aceto di vino bianco o rosso, succo di limone o, in alcune varianti moderne, aceto balsamico o di sidro. La Sour Ale introduce una complessità che nessun aceto può replicare. Durante la fermentazione, i lieviti selvaggi e i <strong title="Microrganismi unicellulari (batteri) che convertono gli zuccheri in acido lattico, contribuendo all'acidità e alla complessità aromatica delle birre acide. I principali sono Lactobacillus e Pediococcus." class="tooltip-term">batteri lattici</strong> producono non solo acido lattico e acetico, ma anche una gamma di esteri e composti aromatici che regalano note di frutta tropicale, agrumi, frutti rossi, talvolta sentori floreali o leggere sfumature terrose.</p>
+<p>La birra acida artigianale possiede una struttura tannica e una carbonazione che, una volta integrata nell'emulsione, dona una sensazione di freschezza e vivacità sulla lingua. La birra artigianale non filtrata conserva parte dei lieviti e delle proteine, elementi che favoriscono la creazione di un'emulsione naturale più stabile rispetto a quella ottenuta con un semplice aceto. Questo aspetto rende la vinaigrette alla birra acida particolarmente adatta a insalate con ingredienti ricchi di grassi, come avocado, formaggi stagionati o semi oleosi.</p>
+<p>Un altro punto a favore riguarda la versatilità. Mentre un aceto di vino bianco tende a imporre una nota aspra unidirezionale, una Sour Ale offre un profilo aromatico stratificato che si adatta a molteplici contesti. Una Gose al coriandolo e sale marino si sposa con insalate a base di cetriolo e menta. una Kettle Sour alla frutta si lega perfettamente a misticanza e formaggio di capra. Un Lambic con note di ciliegia o lampone crea contrasti memorabili con radicchio e noci.</p>
+<p>L'obiettivo non è sostituire l'aceto, ma ampliare il vocabolario gustativo del condimento. La vinaigrette alla Sour Ale non è una moda passeggera, ma una tecnica che valorizza la materia prima e offre un punto d'incontro tra la cultura brassicola e la cucina quotidiana.</p>
+
+<h2 id="la-chimica-dellacidita-come-le-birre-acide-interagiscono-con-gli-ingredienti">La chimica dell'acidità: come le birre acide interagiscono con gli ingredienti</h2>
+<p>Per comprendere appieno il potenziale di una vinaigrette alla Sour Ale, occorre analizzare il profilo acidico di queste birre. A differenza degli aceti, che contengono principalmente acido acetico (con concentrazioni tipiche tra il 5% e il 7%), le birre acide presentano un mix di acido lattico e acetico, con il primo spesso predominante.</p>
+<p>L'acido lattico, prodotto dai batteri Lactobacillus e Pediococcus durante la fermentazione, possiede un sapore più morbido e rotondo rispetto all'acido acetico. Questa caratteristica rende la vinaigrette meno aggressiva, permettendo di utilizzare quantità maggiori di condimento senza coprire il gusto degli ingredienti. L'acido lattico inoltre esalta la percezione di dolcezza naturale nelle verdure, riducendo la necessità di aggiungere zuccheri o miele alla ricetta.</p>
+<p>L'eventuale presenza di acido acetico, tipica delle birre rifermentate in botte come le Flanders Red Ale o i Lambic, aggiunge una nota più pungente che ricorda l'aceto, ma con una complessità aromatica superiore grazie agli esteri prodotti durante l'invecchiamento. In questi casi, la vinaigrette acquisisce un carattere più deciso, adatto a insalate robuste con ingredienti amari o grassi.</p>
+<p>La carbonazione residua della Sour Ale gioca un ruolo fondamentale nel trasferire gli aromi. Quando si monta l'emulsione, le bollicine intrappolano i composti volatili e li rilasciano progressivamente in bocca, creando una sensazione di freschezza che un condimento tradizionale non possiede. Questo fenomeno spiega perché una vinaigrette alla birra acida appare più profumata e meno stancante rispetto a una preparata con aceto.</p>
+<p>I tannini presenti nel luppolo, anche se in quantità ridotta nelle Sour Ale, contribuiscono a bilanciare la dolcezza di alcuni ingredienti e a pulire il palato dopo ogni forchettata. L'interazione tra acidi, tannini e grassi dell'olio extravergine d'oliva produce un'emulsione che avvolge ogni foglia senza appesantirla.</p>
+
+<h2 id="selezione-dello-stile-di-sour-ale-ideale-per-ogni-tipo-di-insalata">Selezione dello stile di Sour Ale ideale per ogni tipo di insalata</h2>
+<p>Non tutte le Sour Ale si comportano allo stesso modo in una vinaigrette. La scelta dello stile influenza il risultato finale in termini di acidità, aroma e capacità di legarsi agli altri ingredienti.</p>
+<p><strong>Gose</strong>: stile tedesco caratterizzato da un'acidità delicata, note di coriandolo e una leggera sapidità dovuta al sale marino. Perfetta per insalate a base di cetriolo, finocchio, menta e yogurt. La Gose si abbina a ortaggi croccanti e freschi, dove la sua acidità leggera non sovrasta i sapori delicati.</p>
+<p><strong>Berliner Weisse</strong>: birra chiara dal basso contenuto alcolico e dall'acidità lattica vivace ma non aggressiva. Ideale per insalate estive con fragole, rucola e scaglie di parmigiano. Le versioni fruttate con sciroppo di frutta aggiungono un ulteriore strato di dolcezza che si sposa con la frutta fresca.</p>
+<p><strong>Kettle Sour</strong>: stile moderno prodotto dai birrifici artigianali con acidificazione rapida in caldaia. Offre un profilo pulito e spesso fruttato, con note di mango, passion fruit o agrumi grazie ai luppoli aromatici aggiunti in fase finale. Perfetta per insalate con avocado, pompelmo e gamberi. Le Kettle Sour rappresentano la scelta più versatile per chi si avvicina per la prima volta alle vinaigrette alla birra.</p>
+<p><strong>Lambic</strong>: birra belga a fermentazione spontanea, con acidità complessa e note terrose, funky, talvolta animali. I Lambic alla frutta (Kriek, Framboise, Cassis) offrono un profilo dolce-acidulo che si sposa con radicchio, noci e formaggi erborinati. Il Lambic non fruttato, invece, regala una vinaigrette più austera e sofisticata.</p>
+<p><strong>Flanders Red Ale</strong>: birra rossa fiamminga invecchiata in botte, con acidità acetico-lattica bilanciata da note di frutta scura, caramello e vaniglia. Ideale per insalate invernali con barbabietola arrosto, caprino e noci pecan. La sua complessità regge il confronto con ingredienti decisi e grassi.</p>
+<p><strong>American Sour</strong>: categoria ampia e variegata, spesso prodotta con l'aggiunta di frutta tropicale, spezie o luppoli particolari. La scelta dipende dal gusto personale e dagli abbinamenti desiderati. Le American Sour con bacche e agrumi funzionano bene con insalate leggere e croccanti.</p>
+<p>Per orientarsi nella scelta, consigliamo di iniziare con una Kettle Sour fruttata o una Gose, per poi sperimentare con gli stili più complessi. La sperimentazione è parte del divertimento.</p>
+
+<h2 id="ricetta-base-per-una-vinaigrette-alla-sour-ale">Ricetta base per una vinaigrette alla Sour Ale</h2>
+<p>Ecco una ricetta base che funge da punto di partenza per qualsiasi variazione. Le quantità si riferiscono a circa 200 ml di condimento, sufficienti per 4-6 porzioni di insalata.</p>
+<p><strong>Ingredienti</strong>:<br />
+- 100 ml di Sour Ale a scelta<br />
+- 80 ml di olio extravergine d'oliva di qualità (preferibilmente fruttato medio)<br />
+- 1 cucchiaino di senape di Digione<br />
+- 1 cucchiaino di miele o sciroppo d'agave (opzionale, regola in base all'acidità della birra)<br />
+- Sale marino fino q.b.<br />
+- Pepe nero macinato fresco q.b.<br />
+- 1 spicchio d'aglio schiacciato (opzionale)</p>
+<p><strong>Procedimento</strong>:<br />
+1. Versare la Sour Ale in una ciotola capiente e lasciare riposare per 10-15 minuti per far sì che la maggior parte della carbonazione si disperda. Una birra troppo gassata crea schiuma e rende difficile l'emulsione.<br />
+2. Aggiungere la senape e il miele (se utilizzato), mescolando con una frusta a mano fino a ottenere un composto omogeneo.<br />
+3. Iniziare a versare l'olio extravergine d'oliva a filo, continuando a mescolare energicamente con la frusta. L'emulsione si forma progressivamente: si nota quando il composto diventa cremoso e opaco.<br />
+4. Aggiustare di sale e pepe, assaggiare e bilanciare eventualmente con altro miele se l'acidità risulta troppo predominante.<br />
+5. Aggiungere lo spicchio d'aglio schiacciato per insaporire, lasciare riposare 10 minuti e rimuoverlo prima di servire.</p>
+<p>Questa vinaigrette si conserva in frigorifero per 2-3 giorni in un contenitore ermetico. Prima dell'uso, agitare vigorosamente per ripristinare l'emulsione.</p>
+
+<h2 id="variazioni-creative-gose-lambic-flanders-red-ale-e-american-sour">Variazioni creative: Gose, Lambic, Flanders Red Ale e American Sour</h2>
+<p>La ricetta base si presta a infinite personalizzazioni in base allo stile di Sour Ale scelto. Ogni birra dona un carattere unico che può essere ulteriormente enfatizzato con l'aggiunta di ingredienti complementari.</p>
+<p><strong>Variazione con Gose alle erbe aromatiche</strong>: utilizzare una Gose classica, aggiungere 1 cucchiaio di foglie di coriandolo fresco tritato e 1 cucchiaino di scorza di limone grattugiata. Questa vinaigrette si sposa con insalate di cetriolo, finocchio e menta, oppure con verdure grigliate come zucchine e peperoni.</p>
+<p><strong>Variazione con Kriek o Framboise Lambic</strong>: per una vinaigrette dolce-acidula, utilizzare un Lambic alla ciliegia o al lampone. Ridurre il miele a 1/2 cucchiaino e aggiungere 1 cucchiaio di scalogno tritato finemente. Perfetta con insalate invernali a base di radicchio, noci e gorgonzola.</p>
+<p><strong>Variazione con Flanders Red Ale e aceto balsamico</strong>: unire 50 ml di Flanders Red Ale e 50 ml di aceto balsamico invecchiato per ottenere una vinaigrette complessa e corposa. Aggiungere 1 cucchiaio di sciroppo d'acero per bilanciare l'acidità acetico-lattica. Ideale con barbabietola arrosto, caprino e noci pecan, oppure con insalate di farro e verdure autunnali.</p>
+<p><strong>Variazione con American Sour alla frutta tropicale</strong>: utilizzare una Sour Ale con mango, passion fruit o ananas. Sostituire il miele con 1 cucchiaio di succo di lime e aggiungere un pizzico di peperoncino in polvere. Questa vinaigrette esotica si sposa con insalate di avocado, gamberi e coriandolo fresco.</p>
+<p><strong>Variazione vegana con Gose al sale marino</strong>: per una versione vegana, omettere il miele e utilizzare sciroppo d'agave o sciroppo d'acero. La Gose con il suo sale marino naturale esalta il sapore delle verdure senza bisogno di aggiunte.</p>
+
+<h2 id="abbinamenti-specifici-con-ortaggi-frutta-formaggi-e-proteine">Abbinamenti specifici con ortaggi, frutta, formaggi e proteine</h2>
+<p>La vinaigrette alla Sour Ale non è un condimento universale. Funziona meglio con determinati ingredienti, mentre con altri rischia di creare contrasti sgradevoli.</p>
+<p><strong>Ortaggi a foglia verde</strong>: rucola, spinaci novelli, misticanza, lattuga romana. L'acidità della birra si sposa con la leggera amarezza della rucola e degli spinaci. Per la lattuga, preferire una Sour Ale delicata come la Gose.</p>
+<p><strong>Ortaggi croccanti</strong>: cetriolo, finocchio, sedano, ravanello. La freschezza della vinaigrette esalta la consistenza acquosa e croccante. Aggiungere erbe aromatiche come aneto, menta o basilico.</p>
+<p><strong>Ortaggi amari</strong>: radicchio, cicoria, indivia, catalogna. La vinaigrette con Lambic o Flanders Red Ale bilancia l'amarezza con acidità e dolcezza. Aggiungere noci, pinoli o mandorle tostate per contrasto di consistenza.</p>
+<p><strong>Frutta fresca</strong>: fragole, lamponi, mirtilli, fichi, pesche, melone. Le note fruttate della birra si amplificano a contatto con frutti simili. La vinaigrette con Kriek o Framboise è la scelta naturale.</p>
+<p><strong>Formaggi</strong>: caprino fresco, feta, gorgonzola, pecorino stagionato, parmigiano. L'acidità della vinaigrette taglia la cremosità del formaggio e ne esalta il sapore. Il gorgonzola si sposa con la vinaigrette alla Flanders Red Ale. Il caprino fresco con la vinaigrette alla Gose.</p>
+<p><strong>Proteine</strong>: pollo grigliato, gamberi, salmone affumicato, tonno, uova sode. La vinaigrette alla Sour Ale sostituisce il classico condimento a base di limone e olio. Per il salmone affumicato, una vinaigrette con Gose e aneto funziona egregiamente.</p>
+<p><strong>Semi e frutta secca</strong>: semi di zucca, semi di girasole, noci, mandorle, pistacchi. Tostare leggermente la frutta secca prima di aggiungerla all'insalata per esaltare il sapore in contrasto con la vinaigrette acida.</p>
+
+<h2 id="consigli-per-la-conservazione-e-lemulsione">Consigli per la conservazione e l'emulsione</h2>
+<p>Ottenere un'emulsione stabile con la birra richiede alcuni accorgimenti. La presenza di proteine e lieviti residui nella birra non filtrata facilita il processo, ma la carbonazione può rappresentare un ostacolo.</p>
+<p>Il consiglio principale riguarda la temperatura degli ingredienti: tutti devono essere a temperatura ambiente. L'olio freddo e la birra fredda impediscono la formazione di un'emulsione stabile. Lasciare riposare la birra aperta per 20-30 minuti prima di utilizzarla.</p>
+<p>Se la vinaigrette si separa dopo qualche ora, non è un problema. Basta agitare vigorosamente con una frusta o chiudere il contenitore e scuotere prima dell'uso. La separazione è normale per le vinaigrette artigianali senza emulsionanti chimici.</p>
+<p>Per una consistenza più cremosa, aggiungere 1/2 cucchiaino di lecitina di soia in polvere o 1 cucchiaino di yogurt greco. La lecitina è un emulsionante naturale che non altera il gusto. Lo yogurt greco aggiunge corposità e si sposa con l'acidità della Sour Ale.</p>
+<p>La conservazione in frigorifero per 2-3 giorni è consigliata. Dopo questo periodo, la vinaigrette tende a perdere freschezza e gli aromi della birra si degradano. Preparare piccole quantità fresche per ogni occasione.</p>
+
+<h2 id="errori-comuni-da-evitare-nella-preparazione">Errori comuni da evitare nella preparazione</h2>
+<p>Alcuni errori possono compromettere il risultato finale. Il primo riguarda la scelta della birra troppo luppolata. Le Sour Ale con dry hopping intenso possono rilasciare amarezza e astringenza nella vinaigrette, coprendo gli altri sapori. Preferire birre con luppolo in quantità moderata o con luppoli aromatici ma non amari.</p>
+<p>Un altro errore comune consiste nell'utilizzare birra troppo fredda. La temperatura bassa impedisce la fusione degli aromi con l'olio e rallenta l'emulsione. La birra deve essere a temperatura ambiente, come l'olio.</p>
+<p>Non bilanciare l'acidità rappresenta un errore frequente, soprattutto con birre molto acide come le Flanders Red Ale o i Lambic vecchi. Assaggiare sempre la vinaigrette prima di condire l'insalata e aggiungere un pizzico di zucchero, miele o sciroppo d'acero se necessario.</p>
+<p>Un errore tecnico riguarda l'aggiunta di aglio o scalogno crudo in quantità eccessiva. Questi ingredienti possono prevalere sugli aromi della birra e coprire le sfumature più sottili. Utilizzarli con parsimonia o, meglio ancora, lasciarli in infusione per pochi minuti e rimuoverli.</p>
+<p>Infine, non considerare il tipo di insalata. Una vinaigrette decisa con Lambic o Flanders Red Ale può sovrastare ingredienti delicati come la lattuga iceberg o il sedano bianco. In questi casi, preferire una Gose o una Kettle Sour leggera.</p>
+<p>La vinaigrette alla birra acida rappresenta un'opportunità per esplorare nuovi orizzonti in cucina. Ogni birrificio artigianale produce Sour Ale con caratteristiche uniche, e ogni bottiglia può diventare la base per un condimento diverso. La chiave sta nella sperimentazione e nella comprensione dei principi di bilanciamento tra acidità, dolcezza e grassi. Chi ama la birra artigianale troverà in questa tecnica un modo per portare la propria passione dalla tavola alla forchetta, trasformando ogni insalata in un'esperienza degustativa che celebra la complessità e la versatilità della birra.</p>
+
+<h2 id="tldr">tl;dr</h2>
+<p>Una vinaigrette a base di Sour Ale sfrutta l'acidità complessa e gli aromi fruttati della birra per creare un condimento unico, più profumato e stabile di uno tradizionale. La scelta dello stile (Gose, Kettle Sour, Lambic, ecc.) va adattata agli ingredienti dell'insalata. La ricetta base prevede birra, olio, senape e un dolcificante, con infinite varianti creative.</p>
+]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>0</wp:post_id>
+        <wp:post_date>2025-05-06 08:00:00</wp:post_date>
+        <wp:post_date_gmt>2025-05-06 07:00:00</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>vinaigrette-alla-birra-acida-sour-ale-come-condire-insalate-in-modo-unico</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_title</wp:meta_key>
+            <wp:meta_value><![CDATA[Vinaigrette alla birra acida (Sour Ale): come condire insalate in modo unico]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_description</wp:meta_key>
+            <wp:meta_value><![CDATA[]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:comment>
+            <wp:comment_id>1</wp:comment_id>
+            <wp:comment_author>M. Rossi</wp:comment_author>
+            <wp:comment_author_email>m.rossi@email.it</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.1</wp:comment_author_IP>
+            <wp:comment_date>2025-05-07 14:30:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-07 12:30:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Articolo illuminante! Non avrei mai pensato di usare una Sour Ale per un condimento. Ho provato la versione con Gose e aneto su un'insalata di salmone ed era squisita. Grazie per i consigli.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>2</wp:comment_id>
+            <wp:comment_author>LunaBlu</wp:comment_author>
+            <wp:comment_author_email>lunablu@libero.it</wp:comment_author_email>
+            <wp:comment_author_url>https://www.taccuinodeigusti.it</wp:comment_author_url>
+            <wp:comment_author_IP>10.0.0.2</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 19:45:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 17:45:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Interessante, ma secondo me l'acidità della birra rischia di coprire sapori più delicati. Preferisco ancora la vinaigrette classica al limone per le mie insalate. Forse proverò con una Kriek più dolce.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>3</wp:comment_id>
+            <wp:comment_author>Admin</wp:comment_author>
+            <wp:comment_author_email>admin@lacasettacraftbeercrew.it</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.10</wp:comment_author_IP>
+            <wp:comment_date>2025-05-09 10:00:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-09 08:00:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[@LunaBlu, grazie per il tuo commento! Hai ragione, è importante bilanciare. Prova la versione con Lambic alla frutta, è più dolce e meno aggressiva. Oppure riduci la quantità di birra e aggiungi un po' di succo di lime per mantenere la freschezza senza coprire tutto.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>2</wp:comment_parent>
+            <wp:comment_user_id>1</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>4</wp:comment_id>
+            <wp:comment_author>HopLover99</wp:comment_author>
+            <wp:comment_author_email>hoplover@birra.it</wp:comment_author_email>
+            <wp:comment_author_url>https://www.birraartigianalemagazine.it</wp:comment_author_url>
+            <wp:comment_author_IP>172.16.0.1</wp:comment_author_IP>
+            <wp:comment_date>2025-05-10 12:15:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-10 10:15:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Ottimo articolo! Ho provato la variante con Flanders Red Ale e aceto balsamico su un'insalata di farro: pazzesca. Unico piccolo dubbio: per chi ha problemi di acidità di stomaco, queste vinaigrette non sono un po' pesanti?]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>5</wp:comment_id>
+            <wp:comment_author>Dott. B. Verdi</wp:comment_author>
+            <wp:comment_author_email>dott.bverdi@nutrizione.it</wp:comment_author_email>
+            <wp:comment_author_url>https://www.nutrizioneconsapevole.com</wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.20</wp:comment_author_IP>
+            <wp:comment_date>2025-05-11 08:30:00</wp:comment_date>

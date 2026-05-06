@@ -1,0 +1,202 @@
+Certamente. Ecco il file XML WXR completo, pronto per l'importazione su WordPress, basato sulle istruzioni dettagliate fornite.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+	<title>La Casetta Craft Beer Crew</title>
+	<link>https://www.lacasettacraftbeercrew.it</link>
+	<description>Esplora il mondo della birra artigianale</description>
+	<pubDate>Wed, 07 May 2025 08:00:00 +0200</pubDate>
+	<language>it</language>
+	<wp:wxr_version>1.2</wp:wxr_version>
+	<wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+	<wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+
+	<wp:author>
+		<wp:author_id>1</wp:author_id>
+		<wp:author_login>admin</wp:author_login>
+		<wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+		<wp:author_display_name>Admin</wp:author_display_name>
+		<wp:author_first_name></wp:author_first_name>
+		<wp:author_last_name></wp:author_last_name>
+	</wp:author>
+
+	<item>
+		<title>Gelato Artigianale Alla Birra Kriek: Come Bilanciare Zuccheri e Alcol in Gelateria</title>
+		<link>https://www.lacasettacraftbeercrew.it/gelato-artigianale-alla-birra-kriek-come-bilanciare-zuccheri-e-alcol-in-gelateria</wp:link>
+		<pubDate>Wed, 07 May 2025 08:00:00 +0200</pubDate>
+		<dc:creator><![CDATA[admin]]></dc:creator>
+		<guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/?p=1</guid>
+		<description></description>
+		<content:encoded><![CDATA[
+<p>L'universo della gelateria artigianale vive da anni una trasformazione silenziosa ma profonda. Ingredienti un tempo considerati eccentrici trovano oggi spazio nei banchi dei migliori laboratori, e la birra artigianale occupa un ruolo di primo piano in questa evoluzione. Tra gli stili brassicoli che meglio si prestano alla trasformazione in gelato, la <strong title="Birra belga di fermentazione spontanea, tipicamente a base di lambic, a cui vengono aggiunte ciliegie acide (varietà Schaerbeek) per conferirle un caratteristico colore rosso rubino e un sapore acidulo e fruttato." class="tooltip-term">Kriek</strong> belga rappresenta un caso di studio affascinante. Birra di fermentazione spontanea, arricchita con ciliegie acide, la Kriek offre un profilo complesso che unisce acidità, dolcezza residua e una gradazione alcolica non trascurabile. Trasformare questo blend in un gelato cremoso, stabile e gustoso richiede però competenze specifiche. La sfida principale riguarda la gestione del punto di congelamento, l'equilibrio tra zuccheri e alcol, e la capacità di preservare le note aromatiche senza alterarle durante la lavorazione.</p>
+<p>In questo articolo esploriamo ogni aspetto tecnico e pratico della produzione di un gelato artigianale alla birra Kriek, offrendo spunti utili sia ai gelatieri professionisti sia agli appassionati che desiderano sperimentare in laboratorio. L'obiettivo non è stabilire regole universali, ma fornire strumenti per comprendere la materia e sviluppare ricette personali, consapevoli che ogni ingrediente e ogni tecnica lasciano spazio a infinite variazioni.</p>
+<h2 id="indice">In questo post</h2>
+<ul>
+<li><a href="#la-kriek-caratteristiche-della-birra-e-profilo-aromatico">La Kriek: caratteristiche della birra e profilo aromatico</a></li>
+<li><a href="#il-ruolo-dello-zucchero-nel-gelato-artigianale">Il ruolo dello zucchero nel gelato artigianale</a></li>
+<li><a href="#lalcol-gestione-del-punto-di-congelamento-e-della-struttura">L'alcol: gestione del punto di congelamento e della struttura</a></li>
+<li><a href="#come-bilanciare-zuccheri-e-alcol-nella-ricetta">Come bilanciare zuccheri e alcol nella ricetta</a></li>
+<li><a href="#tecniche-di-lavorazione-e-stabilizzazione">Tecniche di lavorazione e stabilizzazione</a></li>
+<li><a href="#consigli-pratici-per-gelatieri-e-appassionati">Consigli pratici per gelatieri e appassionati</a></li>
+</ul>
+<h2 id="la-kriek-caratteristiche-della-birra-e-profilo-aromatico">La Kriek: caratteristiche della birra e profilo aromatico</h2>
+<p>La Kriek appartiene alla famiglia delle birre belghe a fermentazione spontanea, prodotte principalmente nella regione del Pajottenland e a Bruxelles. La base è un lambic, birra ottenuta dall'esposizione del mosto ai lieviti e batteri presenti nell'ambiente, che dà vita a un prodotto acidulo e complesso. Su questa base vengono aggiunte ciliegie acide della varietà Schaerbeek, che conferiscono colore rubino, profumi fruttati e una piacevole nota aspra.</p>
+<p>Il profilo aromatico della Kriek si distingue per la presenza di sentori di ciliegia matura, mandorla amara, note floreali e una leggera componente terrosa. L'acidità, determinata dalla presenza di acido lattico e acetico, gioca un ruolo cruciale nell'equilibrio gustativo. La gradazione alcolica si attesta generalmente tra il 4% e il 7% Vol., con una percentuale di zuccheri residui che varia a seconda dello stile e del produttore.</p>
+<p>Quando si utilizza la Kriek per la produzione di gelato artigianale, occorre considerare che ogni birra possiede un proprio equilibrio interno. L'acidità reagisce con i grassi del latte, modificando la percezione dei sapori e influenzando la struttura della miscela. Le note fruttate e floreali, se ben preservate, donano al gelato una personalità unica. La sfida sta nel mantenere integro questo patrimonio aromatico durante le fasi di pastorizzazione, maturazione e mantecazione.</p>
+<p>Per approfondire come gestire ingredienti aromatici complessi nella produzione brassicola, può essere utile consultare l'articolo su <a href="https://www.lacasettacraftbeercrew.it/caffe-cacao-e-spezie-bilanciare-ingredienti-aromatici-complessi-nella-birra-artigianale/">caffè, cacao e spezie: bilanciare ingredienti aromatici complessi nella birra artigianale</a>, che offre spunti applicabili anche in gelateria.</p>
+<h2 id="il-ruolo-dello-zucchero-nel-gelato-artigianale">Il ruolo dello zucchero nel gelato artigianale</h2>
+<p>Lo zucchero nel gelato non svolge solo la funzione di dolcificante. Ogni tipo di zucchero possiede un potere dolcificante specifico, un peso molecolare e una capacità di abbassare il punto di congelamento dell'acqua. Quest'ultimo aspetto è fondamentale per ottenere una consistenza cremosa e morbida, evitando la formazione di cristalli di ghiaccio.</p>
+<p>Nel caso del gelato alla birra Kriek, la scelta degli zuccheri diventa ancora più delicata. La birra contiene già una certa quantità di zuccheri residui, principalmente fruttosio e glucosio derivanti dalla frutta e dalla fermentazione. Questi zuccheri contribuiscono al bilanciamento complessivo, ma devono essere calcolati con precisione per evitare che il gelato risulti troppo dolce o, al contrario, eccessivamente duro.</p>
+<p>Il saccarosio, zucchero da cucina comune, resta la base di partenza per molte ricette. Il suo potere dolcificante è elevato, ma il suo impatto sul punto di congelamento è inferiore rispetto al destrosio. Utilizzare una miscela di saccarosio e destrosio consente di modulare la dolcezza senza compromettere la struttura. Il destrosio, in particolare, abbassa il punto di congelamento in modo più marcato, favorendo una consistenza più morbida a parità di quantità.</p>
+<p>Lo <strong title="Zucchero ottenuto dall'idrolisi del saccarosio, che separa il glucosio dal fruttosio. Ha un potere dolcificante maggiore del saccarosio e, in gelateria, è apprezzato per la sua capacità di trattenere l'umidità, prevenire la cristallizzazione e abbassare il punto di congelamento." class="tooltip-term">zucchero invertito</strong>, ottenuto dall'idrolisi del saccarosio, rappresenta un'altra opzione interessante. La sua capacità di trattenere acqua e di prevenire la cristallizzazione lo rende prezioso per gelati che devono mantenere una texture vellutata per lungo tempo. Nel caso della Kriek, l'uso di zucchero invertito può aiutare a integrare l'acidità della birra senza creare sgradevoli contrasti.</p>
+<p>Il miele, ingrediente che ritroviamo in alcune produzioni brassicole, può essere utilizzato come dolcificante secondario. Come spiegato nell'articolo sull'<a href="https://www.lacasettacraftbeercrew.it/uso-del-miele-nella-birra-artigianale/">uso del miele nella birra artigianale</a>, le sue proprietà aromatiche si sposano bene con le note fruttate della Kriek, sebbene sia necessario dosarlo con attenzione per non coprire i sentori più delicati.</p>
+<p>La tabella seguente riassume le caratteristiche principali degli zuccheri più comuni utilizzati in gelateria:</p>
+<table>
+<thead>
+<tr>
+<th>Tipo di zucchero</th>
+<th>Potere dolcificante (saccarosio=100)</th>
+<th>Punto di congelamento (abbassamento relativo)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Saccarosio</td>
+<td>100</td>
+<td>1,0</td>
+</tr>
+<tr>
+<td>Destrosio</td>
+<td>70</td>
+<td>1,9</td>
+</tr>
+<tr>
+<td>Zucchero invertito</td>
+<td>130</td>
+<td>1,8</td>
+</tr>
+<tr>
+<td>Fruttosio</td>
+<td>170</td>
+<td>2,1</td>
+</tr>
+<tr>
+<td>Miele</td>
+<td>120-140</td>
+<td>1,5-1,8</td>
+</tr>
+</tbody>
+</table>
+<p>Questi valori forniscono un riferimento, ma ogni ricetta richiede aggiustamenti basati sulla composizione specifica della birra utilizzata. Misurare la densità della Kriek prima di inserirla nella miscela aiuta a determinare il contenuto zuccherino iniziale e a calcolare le quantità necessarie.</p>
+<h2 id="lalcol-gestione-del-punto-di-congelamento-e-della-struttura">L'alcol: gestione del punto di congelamento e della struttura</h2>
+<p>L'alcol etilico possiede un punto di congelamento di -114°C, molto più basso rispetto all'acqua. Quando si aggiunge birra al composto per gelato, l'alcol in essa contenuto abbassa in modo significativo il punto di congelamento della miscela. Questo effetto può essere vantaggioso, perché permette di ottenere una consistenza morbida a temperature più basse, ma comporta anche rischi.</p>
+<p>Se la percentuale di alcol supera determinati limiti, il gelato potrebbe non congelare correttamente, rimanendo troppo liquido anche dopo la mantecazione. Inoltre, l'alcol altera la struttura della miscela, influenzando la capacità di inglobare aria e di formare una rete stabile di grassi e proteine.</p>
+<p>Il calcolo dell'alcol nella ricetta parte dalla gradazione della birra. Una Kriek con il 6% Vol. contiene circa 48 grammi di alcol per litro. Considerando che in una ricetta tipo si utilizza tra il 30% e il 50% di birra rispetto al totale del composto, la concentrazione alcolica finale può variare da 15 a 30 grammi per chilo di miscela. Questa quantità, se non bilanciata, impedisce al gelato di raggiungere la consistenza desiderata.</p>
+<p>Per contrastare l'effetto dell'alcol senza rinunciare al suo apporto aromatico, si possono adottare diverse strategie. Una prima opzione prevede di ridurre la quantità di birra e di compensare con estratti o riduzioni. Ad esempio, scaldare la birra a fuoco lento per far evaporare parte dell'alcol, concentrando al contempo gli aromi. Questo metodo richiede attenzione per non perdere i composti volatili più delicati.</p>
+<p>Un'altra tecnica consiste nell'aumentare il contenuto di solidi della miscela, aggiungendo più grassi o proteine. Il latte intero, la panna e il latte in polvere contribuiscono a creare una struttura più robusta, in grado di sopportare la presenza dell'alcol. I grassi, in particolare, svolgono un ruolo stabilizzante, mentre le proteine del latte aiutano a inglobare l'aria durante la mantecazione.</p>
+<p>L'uso di stabilizzanti naturali, come la farina di semi di carrube o la gomma di guar, può ulteriormente migliorare la texture. Questi ingredienti aumentano la viscosità della miscela, riducendo la mobilità delle molecole d'acqua e prevenendo la formazione di cristalli di ghiaccio. Anche in questo caso, il dosaggio deve essere calibrato in base alla quantità di alcol presente.</p>
+<p>Per chi desidera approfondire le tecniche di controllo della struttura e della stabilità nei prodotti fermentati, l'analisi della gestione del trub e del whirlpool offre parallelismi interessanti: <a href="https://www.lacasettacraftbeercrew.it/gestione-del-trub-e-whirlpool-tecniche-per-birre-limpide-e-rese-ottimali/">gestione del trub e whirlpool: tecniche per birre limpide e rese ottimali</a> spiega come separare e concentrare i componenti desiderati.</p>
+<h2 id="come-bilanciare-zuccheri-e-alcol-nella-ricetta">Come bilanciare zuccheri e alcol nella ricetta</h2>
+<p>Il bilanciamento di una ricetta per gelato alla birra Kriek richiede un approccio matematico oltre che sensoriale. Il punto di partenza è il calcolo del <strong title="Punto di Osservazione della Dolcezza (POD). È un parametro usato in gelateria per determinare la quantità di zuccheri necessaria per ottenere la consistenza desiderata a una data temperatura, tenendo conto del contributo di tutti i dolcificanti e dell'alcol." class="tooltip-term">POD (Punto di Osservazione della Dolcezza)</strong>, che indica la quantità di zucchero necessaria per ottenere una determinata consistenza a una data temperatura. Si può esprimere in percentuale di zuccheri equivalenti, considerando il contributo di ogni dolcificante e dell'alcol.</p>
+<p>Per una corretta formulazione, occorre conoscere la composizione della birra. Misurare la densità specifica prima e dopo la fermentazione fornisce una stima degli zuccheri residui e del contenuto alcolico. Strumenti come il rifrattometro e l'alcolometro sono utili per ottenere dati precisi. Una Kriek artigianale può presentare variazioni significative da un lotto all'altro, quindi è consigliabile eseguire queste misurazioni ogni volta.</p>
+<p>La quantità di zuccheri da aggiungere dipende dall'effetto desiderato. Un gelato meno dolce mette in risalto l'acidità e l'amaro della birra, ma rischia di risultare duro se non si compensa con altri ingredienti. Un gelato più dolce può bilanciare meglio l'acidità, ma rischia di coprire le note più sottili. La soluzione ideale si trova in un equilibrio dinamico, dove ogni componente esalta le altre senza prevalere.</p>
+<p>Ecco un esempio di ricetta base per un chilogrammo di miscela:</p>
+<table>
+<thead>
+<tr>
+<th>Ingrediente</th>
+<th>Quantità (grammi)</th>
+<th>Funzione</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Latte intero</td>
+<td>500</td>
+<td>Base liquida</td>
+</tr>
+<tr>
+<td>Panna fresca</td>
+<td>200</td>
+<td>Grasso e cremosità</td>
+</tr>
+<tr>
+<td>Birra Kriek</td>
+<td>150</td>
+<td>Aroma e acidità</td>
+</tr>
+<tr>
+<td>Saccarosio</td>
+<td>90</td>
+<td>Dolcificante principale</td>
+</tr>
+<tr>
+<td>Destrosio</td>
+<td>40</td>
+<td>Morbidezza</td>
+</tr>
+<tr>
+<td>Latte in polvere</td>
+<td>20</td>
+<td>Corpo e struttura</td>
+</tr>
+<tr>
+<td>Stabilizzante</td>
+<td>2</td>
+<td>Texture</td>
+</tr>
+</tbody>
+</table>
+<p>Questa formulazione tiene conto di una birra con gradazione del 6% Vol. e una densità residua media. Se la birra utilizzata è più alcolica o più zuccherina, le quantità vanno aggiustate. Il consiglio è di preparare una miscela di prova, mantecarla e valutarne la consistenza dopo il congelamento. Se risulta troppo dura, si aumenta la componente di zuccheri a basso peso molecolare; se troppo morbida, si riduce la quantità di birra o si aumentano i grassi.</p>
+<p>La fermentazione della birra gioca un ruolo nella definizione del profilo aromatico. Per comprendere come i lieviti e i batteri influenzano il gusto finale, si può leggere l'articolo sui <a href="https://www.lacasettacraftbeercrew.it/lieviti-birra-innovativi-la-nuova-frontiera-della-birrificazione/">lieviti birra innovativi: la nuova frontiera della birrificazione</a>, che illustra le possibilità offerte dalle nuove tecnologie di fermentazione.</p>
+<h2 id="tecniche-di-lavorazione-e-stabilizzazione">Tecniche di lavorazione e stabilizzazione</h2>
+<p>La preparazione del gelato alla birra Kriek segue le fasi classiche della gelateria, ma con alcune accortezze specifiche. La miscelazione degli ingredienti deve avvenire a temperatura ambiente o leggermente riscaldata, per favorire lo scioglimento degli zuccheri e la reidratazione dello stabilizzante. La pastorizzazione, se prevista, va condotta a 65-70°C per 20-30 minuti, senza superare gli 80°C per non degradare i composti aromatici della birra.</p>
+<p>Dopo la pastorizzazione, la miscela viene raffreddata rapidamente e lasciata maturare in frigorifero per almeno 4-6 ore, meglio se per una notte intera. Questa fase di maturazione permette alle proteine e ai grassi di idratarsi completamente, migliorando la capacità di inglobare aria durante la mantecazione. Nel caso della Kriek, la maturazione prolungata aiuta anche a integrare meglio i sapori, attenuando l'acidità più aggressiva e favorendo l'armonia generale.</p>
+<p>La mantecazione avviene in una gelatiera, dove la miscela viene raffreddata e contemporaneamente aerata. La temperatura di uscita del gelato dalla macchina varia in base alla composizione, ma per un gelato alla birra si aggira solitamente tra -8°C e -12°C. L'alcol abbassa il punto di congelamento, quindi il gelato può risultare più morbido appena prodotto. Per ottenere la consistenza ottimale, è necessario un successivo indurimento in abbattitore o in congelatore a -20°C per almeno 2-3 ore.</p>
+<p>Uno dei problemi più comuni nella produzione di gelato alla birra è la separazione di fase. L'acidità della Kriek può causare la coagulazione delle proteine del latte, portando alla formazione di grumi o alla perdita di cremosità. Per evitare questo inconveniente, si può aggiungere la birra alla miscela solo dopo averla raffreddata, oppure utilizzare un agente tampone come il <strong title="Sale di sodio dell'acido citrico. In gelateria e in cucina, viene usato come regolatore di acidità e agente tampone, aiutando a prevenire la coagulazione delle proteine del latte quando si utilizzano ingredienti acidi come la birra Kriek." class="tooltip-term">citrato di sodio</strong>. Anche l'uso di latte ad alta pastorizzazione o di panna UHT può ridurre il rischio di instabilità.</p>
+<p>La conservazione del gelato alla birra Kriek richiede temperature costanti e una protezione dall'ossigeno. L'alcol e gli acidi organici della birra possono accelerare l'ossidazione dei grassi, generando sapori sgradevoli nel tempo. Un contenitore ermetico e una superficie liscia a contatto con il gelato aiutano a preservare la qualità. Per un consumo ottimale, si consiglia di consumare il gelato entro una settimana dalla produzione.</p>
+<p>Il controllo microbiologico è un aspetto da non sottovalutare, soprattutto quando si utilizzano ingredienti fermentati come la birra. L'articolo sulle <a href="https://www.lacasettacraftbeercrew.it/analisi-microbiologiche-nella-birra-artigianale-controlli-essenziali-e-frequenza-ottimale/">analisi microbiologiche nella birra artigianale: controlli essenziali e frequenza ottimale</a> fornisce indicazioni preziose anche per chi produce gelato con basi fermentate.</p>
+<h2 id="consigli-pratici-per-gelatieri-e-appassionati">Consigli pratici per gelatieri e appassionati</h2>
+<p>Sperimentare con la birra Kriek in gelateria offre margini di creatività molto ampi. Ogni birra possiede una personalità unica, e imparare a conoscerla prima di trasformarla in gelato è il primo passo per un risultato riuscito. Degustare la Kriek a temperatura ambiente, valutandone acidità, dolcezza, corpo e persistenza aromatica, aiuta a immaginare come si comporterà nella miscela.</p>
+<p>La scelta della birra è fondamentale. Le Kriek più giovani tendono a essere più vivaci e acidule, mentre quelle invecchiate sviluppano note più complesse, con sentori di frutta secca e legno. Alcune versioni commerciali aggiungono zucchero dopo la fermentazione, risultando più dolci e facili da bilanciare. Le Kriek tradizionali, invece, richiedono una maggiore attenzione al dosaggio degli zuccheri.</p>
+<p>Per chi inizia, un consiglio utile è quello di preparare una piccola quantità di miscela di prova, senza mantecarla, per valutarne il gusto e la consistenza. Un semplice test con un termometro e un congelatore domestico può fornire indicazioni sulla capacità di congelamento. Se la miscela rimane liquida a -18°C, significa che la quantità di alcol o zuccheri è eccessiva.</p>
+<p>Le varianti aromatiche arricchiscono il gelato alla Kriek senza stravolgerne l'identità. L'aggiunta di ciliegie fresche o disidratate, in purea o a pezzi, può intensificare la nota fruttata. Il cioccolato fondente, le mandorle tostate o la scorza di limone creano contrasti interessanti. L'importante è dosare questi ingredienti in modo che la birra rimanga protagonista.</p>
+<p>La presentazione del gelato alla birra è un elemento che merita attenzione. Servito in coppette trasparenti, magari accompagnato da un biscotto al burro o da una riduzione di birra, il gelato diventa un'esperienza multisensoriale. Abbinato a una piccola porzione della stessa Kriek, può trasformarsi in un dessert che celebra la cultura brassicola.</p>
+<p>Per chi gestisce un birrificio o una taproom, il gelato alla birra rappresenta un'opportunità per differenziare l'offerta e attrarre nuovi clienti. L'organizzazione di release day o eventi speciali può essere un'occasione per presentare il prodotto. L'articolo sulla <a href="https://www.lacasettacraftbeercrew.it/guida-all-organizzazione-di-un-release-day-per-birre-artigianali-strategie-per-prevendite-token-e-analisi-del-sell-out/">guida all'organizzazione di un release day per birre artigianali</a> offre spunti utili per pianificare queste iniziative.</p>
+<p>Il gelato artigianale alla birra Kriek non è solo un dessert, ma un ponte tra due mondi: quello della gelateria e quello della birra artigianale. Conoscere le proprietà di ogni ingrediente, saper calcolare i bilanciamenti e avere la pazienza di sperimentare sono le chiavi per ottenere un prodotto che sappia sorprendere e conquistare. Che si tratti di una produzione professionale o di un esperimento casalingo, l'importante è non perdere mai di vista l'obiettivo: regalare a chi assaggia un momento di piacere autentico, dove ogni cucchiaiata racconta una storia di passione e artigianalità.</p>
+<h2 id="sintesi-tldr">tl;dr: Sintesi concisa</h2>
+<p>Produrre gelato artigianale con birra Kriek richiede di bilanciare zuccheri e alcol per gestire il punto di congelamento e la struttura. La Kriek apporta acidità e aromi che vanno preservati. Zuccheri come destrosio e zucchero invertito, insieme a tecniche come la riduzione dell'alcol e l'uso di stabilizzanti, aiutano a ottenere una consistenza cremosa. La sperimentazione e la conoscenza della birra sono chiave per un risultato di successo.</p>
+			]]></content:encoded>
+		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
+		<wp:post_id>1</wp:post_id>
+		<wp:post_date>2025-05-07 08:00:00</wp:post_date>
+		<wp:post_date_gmt>2025-05-07 06:00:00</wp:post_date_gmt>
+		<wp:comment_status>open</wp:comment_status>
+		<wp:ping_status>open</wp:ping_status>
+		<wp:post_name>gelato-artigianale-alla-birra-kriek-come-bilanciare-zuccheri-e-alcol-in-gelateria</wp:post_name>
+		<wp:status>publish</wp:status>
+		<wp:post_parent>0</wp:post_parent>
+		<wp:menu_order>0</wp:menu_order>
+		<wp:post_type>post</wp:post_type>
+		<wp:post_password></wp:post_password>
+		<wp:is_sticky>0</wp:is_sticky>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_title</wp:meta_key>
+			<wp:meta_value><![CDATA[Gelato Artigianale Alla Birra Kriek: Come Bilanciare Zuccheri e Alcol in Gelateria]]></wp:meta_value>
+		</wp:postmeta>
+		<wp:postmeta>
+			<wp:meta_key>_aioseop_description</wp:meta_key>
+			<wp:meta_value><![CDATA[]]></wp:meta_value>
+		</wp:postmeta>
+	</item>
+</channel>
+</rss>
