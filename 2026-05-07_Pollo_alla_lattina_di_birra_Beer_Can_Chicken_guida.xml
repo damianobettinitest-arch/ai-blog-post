@@ -1,0 +1,187 @@
+Certamente. Ecco il file XML WXR completo, conforme alle specifiche dettagliate, con un singolo articolo come da esempio fornito.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/">
+
+    <channel>
+        <title>La Casetta Craft Beer Crew</title>
+        <link>https://www.lacasettacraftbeercrew.it</link>
+        <description>Esplora il mondo della birra artigianale</description>
+        <pubDate>Tue, 20 May 2025 08:00:00 +0200</pubDate>
+        <language>it</language>
+        <wp:wxr_version>1.2</wp:wxr_version>
+        <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+        <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+
+        <wp:author>
+            <wp:author_id>1</wp:author_id>
+            <wp:author_login>admin</wp:author_login>
+            <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+            <wp:author_display_name>Admin</wp:author_display_name>
+            <wp:author_first_name></wp:author_first_name>
+            <wp:author_last_name></wp:author_last_name>
+        </wp:author>
+
+        <item>
+            <title>Pollo Alla Lattina Di Birra (Beer Can Chicken): Guida E Trucchi Per Il Barbecue</title>
+            <link>https://www.lacasettacraftbeercrew.it/pollo-alla-lattina-di-birra-beer-can-chicken-guida-e-trucchi-per-il-barbecue</link>
+            <pubDate>Tue, 20 May 2025 08:00:00 +0200</pubDate>
+            <dc:creator><![CDATA[admin]]></dc:creator>
+            <guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/?p=12345</guid>
+            <description><![CDATA[La prima volta che ho visto un pollo nella posizione di una verticale perfetta, con una lattina di birra infilata nella cavità e la pelle che iniziava a dorarsi sotto il calore delle braci, ho pensato a uno scherzo da campeggio. Poi il profumo ha cominciato a espandersi nell'aria: malto tostato, luppolo, spezie e pollo arrosto si fondevano in un'unica sinfonia olfattiva. In quel momento ho capito che il beer can chicken non era una moda passeggera, ma una tecnica capace di trasformare un semplice pollo in un capolavoro di succosità.]]></description>
+            <excerpt:encoded><![CDATA[La prima volta che ho visto un pollo nella posizione di una verticale perfetta, con una lattina di birra infilata nella cavità e la pelle che iniziava a dorarsi sotto il calore delle braci, ho pensato a uno scherzo da campeggio. Poi il profumo ha cominciato a espandersi nell'aria: malto tostato, luppolo, spezie e pollo arrosto si fondevano in un'unica sinfonia olfattiva. In quel momento ho capito che il beer can chicken non era una moda passeggera, ma una tecnica capace di trasformare un semplice pollo in un capolavoro di succosità.]]></excerpt:encoded>
+            <content:encoded><![CDATA[<h2>In questo post</h2>
+<ul>
+<li><a href="#la-scienza-dietro-il-pollo-alla-lattina-di-birra">La scienza dietro il pollo alla lattina di birra</a></li>
+<li><a href="#scegliere-la-birra-giusta-per-il-beer-can-chicken">Scegliere la birra giusta per il beer can chicken</a></li>
+<li><a href="#preparazione-e-marinatura-i-segreti-per-un-risultato-perfetto">Preparazione e marinatura: i segreti per un risultato perfetto</a></li>
+<li><a href="#configurazione-del-barbecue-e-gestione-del-calore">Configurazione del barbecue e gestione del calore</a></li>
+<li><a href="#temperatura-e-tempi-di-cottura">Temperatura e tempi di cottura</a></li>
+<li><a href="#varianti-creative-e-abbinamenti">Varianti creative e abbinamenti</a></li>
+<li><a href="#errori-comuni-e-soluzioni">Errori comuni e soluzioni</a></li>
+<li><a href="#servizio-e-accompagnamenti">Servizio e accompagnamenti</a></li>
+</ul>
+<h2 id="la-scienza-dietro-il-pollo-alla-lattina-di-birra">La scienza dietro il pollo alla lattina di birra</h2>
+<p>Per comprendere perché questa tecnica funziona e come ottimizzarla, dobbiamo partire dalla fisica della cottura. Quando il pollo viene posizionato verticalmente sulla lattina, il calore del barbecue circola in modo uniforme attorno all'intera superficie dell'animale. La posizione eretta permette ai grassi di sciogliersi e colare verso il basso, mantenendo la carne umida e favorendo una doratura omogenea della pelle.</p>
+<p>Il vapore prodotto dalla birra che si riscalda all'interno della lattina contribuisce a mantenere l'ambiente umido nella cavità del pollo. Questo vapore, combinato con gli aromi della birra, penetra gradualmente nelle fibre della carne durante la cottura. Non aspettatevi che la birra insaporisca profondamente il pollo: la maggior parte dell'aroma rimane in superficie o si disperde con il vapore. Il vero contributo della birra è l'umidità che mantiene la carne morbida e succosa.</p>
+<p>Un aspetto spesso sottovalutato riguarda la scelta della lattina stessa. Le lattine moderne hanno un rivestimento interno in <span class="tooltip-term" title="La resina epossidica è un polimero che, una volta indurito, forma una superficie dura e resistente agli agenti chimici. Viene comunemente usata come rivestimento protettivo all'interno dei contenitori per alimenti e bevande, ma se surriscaldata potrebbe rilasciare sostanze nocive.">resina epossidica</span> che può rilasciare sostanze chimiche se surriscaldato. Per questo motivo molti esperti consigliano di utilizzare un supporto riutilizzabile per beer can chicken in acciaio inox, che elimina ogni rischio e permette di usare qualsiasi tipo di birra senza preoccupazioni. In alternativa, potete versare la birra in un contenitore metallico adatto o utilizzare una bottiglia di birra in vetro, facendo attenzione alla stabilità.</p>
+<h2 id="scegliere-la-birra-giusta-per-il-beer-can-chicken">Scegliere la birra giusta per il beer can chicken</h2>
+<p>La selezione della birra per questa preparazione merita una riflessione approfondita. Contrariamente a quanto si potrebbe pensare, non tutte le birre funzionano allo stesso modo. Il profilo aromatico della birra influenza il risultato finale, così come il contenuto di alcol e la carbonatazione.</p>
+<p>Le birre chiare e leggere come le <strong>American Lager</strong> o le <strong>Pilsner</strong> rappresentano una scelta classica e sicura. Il loro aroma delicato non sovrasta il sapore del pollo, mentre l'elevata carbonatazione produce una quantità generosa di vapore che mantiene l'ambiente umido. Marchi commerciali come Budweiser o Coors sono tradizionalmente associati a questa tecnica proprio per la loro neutralità.</p>
+<p>Se desiderate un profilo aromatico più deciso, le <strong>IPA</strong> e le <strong>Pale Ale</strong> offrono note agrumate e resinose che si sposano bene con il pollo alla griglia. I luppoli americani come Cascade, Citra o Mosaic rilasciano sentori di pompelmo e agrumi che ricordano una marinatura agli agrumi. Attenzione però all'amaro: una IPA eccessivamente luppolata può lasciare un retrogusto sgradevole sulla pelle del pollo.</p>
+<p>Le <strong>Wheat Beer</strong> come la Hefeweizen o la Witbier apportano note di banana e chiodi di garofano che si abbinano sorprendentemente bene con le spezie utilizzate per strofinare il pollo. Lo stile belga, con la sua complessità fenolica, aggiunge un livello di profondità aromatico che pochi si aspettano da un semplice pollo alla griglia.</p>
+<p>Per gli amanti dei sapori affumicati, una <strong>Rauchbier</strong> o una <strong>Smoked Porter</strong> può intensificare il carattere affumicato del barbecue. Attenzione a non esagerare: l'affumicatura della birra combinata con il fumo del barbecue può risultare troppo invadente se non controllata.</p>
+<p>Le <strong>birre scure</strong> come <strong>Stout</strong> e <strong>Porter</strong> meritano una menzione speciale. I loro sentori di cioccolato, caffè e caramello creano una crosta scura e saporita sulla pelle del pollo che ricorda quasi una glassatura. Il risultato è particolarmente apprezzato da chi cerca sapori intensi e decisi, ma potrebbe non piacere a tutti i palati.</p>
+<p>Un consiglio pratico: evitate birre con un contenuto alcolico superiore all'8% ABV. L'alcol evapora più velocemente dell'acqua e può alterare il processo di cottura, creando un vapore troppo aggressivo. Inoltre, birre molto alcoliche tendono a lasciare retrogusti sgradevoli sulla carne.</p>
+<p>Per approfondire il tema degli ingredienti innovativi nella produzione brassicola, potete consultare la nostra guida sull'<a href="https://www.lacasettacraftbeercrew.it/uso-del-miele-nella-birra-artigianale/" title="Uso del miele nella birra artigianale: tecniche e ricette per birrai">uso del miele nella birra artigianale</a>, che offre spunti interessanti anche per marinature e glassature.</p>
+<h2 id="preparazione-e-marinatura-i-segreti-per-un-risultato-perfetto">Preparazione e marinatura: i segreti per un risultato perfetto</h2>
+<p>La preparazione del pollo inizia molto prima che il barbecue si accenda. La scelta dell'animale è il primo passo fondamentale. Un pollo di dimensioni medie, intorno ai 1,5-2 chilogrammi, rappresenta il compromesso ideale tra tempo di cottura e resa finale. Polli troppo grandi richiedono tempi prolungati che rischiano di seccare la carne esterna prima che l'interno raggiunga la temperatura corretta.</p>
+<h3>La tecnica dello spatchcock non è un'alternativa</h3>
+<p>Il beer can chicken non va confuso con lo <span class="tooltip-term" title="Lo spatchcock è una tecnica di preparazione del pollame che consiste nel rimuovere la spina dorsale e appiattire l'animale, ottenendo una forma a libro. Questo permette una cottura più uniforme e veloce, e una maggiore croccantezza della pelle.">spatchcock</span>, tecnica che prevede l'apertura del pollo a libro. Mentre lo spatchcock accelera la cottura e garantisce una maggiore croccantezza della pelle, il pollo alla lattina punta sulla succosità della carne ottenuta grazie al vapore interno. Sono due approcci diversi che rispondono a obiettivi differenti.</p>
+<h3>Asciugatura e stagionatura a secco</h3>
+<p>Il passaggio più importante nella preparazione del beer can chicken è l'asciugatura della pelle. La pelle umida genera vapore eccessivo durante la cottura e impedisce la formazione di quella crosta croccante che tutti desiderano. Almeno 12 ore prima della cottura, tamponate il pollo con carta assorbente, quindi lasciatelo scoperto in frigorifero su una gratella. Questo processo, chiamato <span class="tooltip-term" title="La stagionatura a secco (dry brining) è una tecnica che prevede di salare la carne e lasciarla riposare in frigorifero, scoperta, per diverse ore o tutta la notte. Il sale penetra nella carne, esaltandone il sapore e la consistenza, mentre l'aria secca del frigorifero asciuga la pelle, favorendo la formazione di una crosta croccante durante la cottura.">dry brining</span> o stagionatura a secco, permette alla pelle di asciugarsi completamente mentre il sale penetra nelle fibre muscolari.</p>
+<p>La salatura anticipata fa la differenza. Una quantità generosa di sale grosso applicata sotto e sopra la pelle almeno 6-8 ore prima della cottura permette al sale di sciogliere le proteine superficiali, creando una crosta più saporita e una texture più piacevole. Se usate una marinatura secca con spezie, applicatela almeno un'ora prima di mettere il pollo sul fuoco.</p>
+<h3>Il rub ideale per il beer can chicken</h3>
+<p>La miscela di spezie per strofinare il pollo deve bilanciare sapori che si armonizzino con la birra scelta. Una ricetta classica prevede:</p>
+<ul>
+<li>2 cucchiai di sale affumicato</li>
+<li>1 cucchiaio di pepe nero macinato</li>
+<li>1 cucchiaio di <span class="tooltip-term" title="La paprika affumicata è un tipo di peperone rosso essiccato e macinato, che viene affumicato su legno di quercia. Questo processo le conferisce un caratteristico sapore affumicato e un aroma intenso, ideale per piatti alla griglia e barbecue.">paprika affumicata</span></li>
+<li>1 cucchiaino di aglio in polvere</li>
+<li>1 cucchiaino di cipolla in polvere</li>
+<li>1 cucchiaino di pepe di Caienna (opzionale)</li>
+<li>1 cucchiaino di zucchero di canna</li>
+</ul>
+<p>Lo zucchero di canna nella miscela contribuisce alla caramellizzazione della pelle, creando quella crosta scura e lucida che rende il pollo così appetitoso. Attenzione però a non eccedere con lo zucchero: una quantità eccessiva brucia prima che la pelle diventi croccante, lasciando un sapore amaro.</p>
+<p>Per chi desidera sperimentare abbinamenti più complessi, vale la pena approfondire il ruolo degli ingredienti aromatici nella birra artigianale leggendo il nostro articolo su <a href="https://www.lacasettacraftbeercrew.it/caffe-cacao-e-spezie-bilanciare-ingredienti-aromatici-complessi-nella-birra-artigianale/" title="Caffè, cacao e spezie: bilanciare ingredienti aromatici complessi nella birra artigianale">caffè, cacao e spezie nella birra artigianale</a>.</p>
+<h3>Marinatura liquida: sì o no?</h3>
+<p>Alcune ricette prevedono una marinatura liquida prima della cottura. Personalmente la sconsiglio per il beer can chicken. La marinatura liquida idrata la pelle e impedisce la formazione di una crosta croccante. Se volete insaporire la carne in profondità, optate per una siringa da marinatura iniettando la marinata direttamente nei petti e nelle cosce.</p>
+<p>Una tecnica intermedia prevede l'utilizzo di una glassatura nelle fasi finali della cottura. Preparate una miscela di burro fuso, miele o sciroppo d'acero e spezie, e spennellate il pollo negli ultimi 15-20 minuti di cottura. Questo approccio aggiunge sapore senza compromettere la croccantezza della pelle ottenuta nelle fasi precedenti.</p>
+<h2 id="configurazione-del-barbecue-e-gestione-del-calore">Configurazione del barbecue e gestione del calore</h2>
+<p>La configurazione del barbecue è cruciale per il successo del beer can chicken. L'obiettivo è creare un ambiente di cottura indiretto dove il calore circondi il pollo senza che le fiamme lo tocchino direttamente.</p>
+<h3>Barbecue a carbone</h3>
+<p>Per un barbecue a carbone, disponete i carboni accesi su un lato del braciere, lasciando l'altro lato vuoto. Posizionate il pollo sulla lattina nel lato vuoto, con le cosce rivolte verso la fonte di calore. Questo permette alla parte più spessa del pollo di cuocere più rapidamente, mentre il petto, più magro, riceve calore in modo più graduale.</p>
+<p>La temperatura ideale all'interno del barbecue si aggira intorno ai 175-190°C (350-375°F). Mantenere questa temperatura costante richiede attenzione: aggiungete pochi carboni alla volta e regolate le prese d'aria per controllare il flusso d'aria. L'aggiunta di legno aromatico come melo, ciliegio o noce americano durante la cottura conferisce al pollo un'affumicatura leggera che si sposa perfettamente con il profilo della birra.</p>
+<h3>Barbecue a gas</h3>
+<p>Il barbecue a gas offre un controllo della temperatura più preciso. Accendete solo i bruciatori laterali, lasciando spento quello centrale dove posizionerete il pollo. Impostate una temperatura media di circa 180°C e utilizzate una teglia con acqua sotto il pollo per raccogliere i grassi e mantenere l'umidità. Una scatola per affumicare con trucioli di legno aggiunge quel tocco affumicato che altrimenti mancherebbe nella cottura a gas.</p>
+<h3>Stabilità e sicurezza</h3>
+<p>La stabilità del pollo sulla lattina è una questione di sicurezza oltre che di praticità. Un pollo che si ribalta durante la cottura rilascia grasso bollente che può causare fiammate pericolose. Utilizzate un supporto specifico per beer can chicken o posizionate il pollo su una teglia con bordi alti che ne limiti i movimenti.</p>
+<p>Verificate la stabilità prima di chiudere il coperchio: il pollo deve rimanere in equilibrio senza oscillare. Se la lattina è troppo piccola per la cavità del pollo, utilizzate un supporto metallico. La sicurezza in cucina non ammette compromessi.</p>
+<h2 id="temperatura-e-tempi-di-cottura">Temperatura e tempi di cottura</h2>
+<p>La temperatura interna del pollo è l'unico indicatore affidabile di cottura. Dimenticate i tempi fissi: ogni pollo cuoce in modo diverso in base a dimensioni, temperatura del barbecue e posizione rispetto alla fonte di calore.</p>
+<p>La temperatura target per il petto di pollo è di 72-75°C (162-167°F) misurata con un termometro a sonda inserito nella parte più spessa del petto. Per la coscia, la temperatura ideale è leggermente superiore, intorno ai 78-80°C (172-176°F). A questa temperatura il collagene si scioglie completamente, rendendo la carne morbida e succosa.</p>
+<h3>Utilizzo del termometro a sonda</h3>
+<p>Un termometro a sonda digitale con cavo è lo strumento più prezioso per il beer can chicken. Inserite la sonda nel petto senza toccare l'osso, chiudete il coperchio del barbecue e monitorate la temperatura senza aprire continuamente il coperchio. Ogni volta che aprite il barbecue, perdete calore prezioso e prolungate i tempi di cottura.</p>
+<p>La regola generale per un pollo da 1,8 kg a 180°C è di circa 60-75 minuti. Polli più grandi richiedono 15-20 minuti aggiuntivi per ogni mezzo chilo in più. Questi tempi sono indicativi: il termometro non mente mai.</p>
+<h2 id="varianti-creative-e-abbinamenti">Varianti creative e abbinamenti</h2>
+<p>Il beer can chicken si presta a infinite variazioni creative che vanno oltre la ricetta tradizionale. Ecco alcune idee per sperimentare.</p>
+<h3>Pollo allo yogurt e curcuma</h3>
+<p>Sostituite la birra con una miscela di yogurt greco, curcuma, cumino e coriandolo versata nella lattina. La combinazione di spezie indiane e il vapore dello yogurt creano un pollo dal sapore sorprendente, con una pelle croccante e un interno incredibilmente morbido.</p>
+<h3>Variante con birra acida</h3>
+<p>Le birre acide come Gose o Berliner Weisse apportano note agrumate e acidule che tagliano il grasso del pollo in modo eccellente. Aggiungete alla miscela di spezie scorza di limone e timo per esaltare le note agrumate della birra.</p>
+<h3>Beer can chicken alla messicana</h3>
+<p>Utilizzate una birra messicana chiara con lime e applicate un rub a base di cumino, peperoncino affumicato e aglio. Servite con salsa verde e tortillas calde per un pasto completo che ricorda i sapori della cucina messicana.</p>
+<h3>Abbinamenti con la birra artigianale</h3>
+<p>Il pollo alla lattina si abbina magnificamente con una <strong>Session IPA</strong> dal basso contenuto alcolico e note agrumate, oppure con una <strong>Saison</strong> belga che con il suo carattere speziato e leggermente pepato esalta le spezie del rub.</p>
+<p>Se volete approfondire il tema degli abbinamenti, potete leggere il nostro articolo sulle <a href="https://www.lacasettacraftbeercrew.it/birre-da-secondi-la-guida-essenziale-per-abbinamenti-perfetti-a-base-di-carne-pesce-e-verdure/" title="Birre da secondi: guida essenziale per abbinamenti perfetti a base di carne, pesce e verdure">birre da secondi</a>, che offre spunti interessanti anche per questo piatto.</p>
+<h2 id="errori-comuni-e-soluzioni">Errori comuni e soluzioni</h2>
+<p>Anche i cuochi più esperti commettono errori con il beer can chicken. Ecco i più frequenti e come evitarli.</p>
+<h3>Pelle bruciata ma carne cruda</h3>
+<p>L'errore più comune è cuocere il pollo a temperature troppo elevate. A temperature superiori ai 200°C, la pelle brucia prima che l'interno raggiunga la temperatura di sicurezza. Soluzione: mantenete la temperatura tra i 170 e i 185°C e utilizzate un termometro a sonda.</p>
+<h3>Pollo secco e stopposo</h3>
+<p>La pelle croccante non garantisce automaticamente carne succosa. Se il pollo risulta secco, probabilmente la temperatura di cottura era troppo alta o il pollo troppo piccolo per il tempo di cottura. Soluzione: riducete la temperatura e utilizzate un termometro per monitorare la cottura.</p>
+<h3>Sapore di birra troppo forte</h3>
+<p>Se il gusto della birra domina il sapore del pollo, avete usato una birra dal profilo troppo intenso o avete lasciato la lattina troppo tempo prima di servire. Soluzione: scegliete birre dal profilo aromatico delicato e servite il pollo appena tolto dal barbecue.</p>
+<h3>Difficoltà a mantenere la temperatura</h3>
+<p>Il barbecue perde calore ogni volta che aprite il coperchio. Per minimizzare le perdite, utilizzate un termometro a sonda con cavo e aprite solo per controllare il pollo nelle fasi finali della cottura.</p>
+<h2 id="servizio-e-accompagnamenti">Servizio e accompagnamenti</h2>
+<p>Il beer can chicken va servito immediatamente, appena tolto dal barbecue, per godere della pelle croccante al massimo. Lasciate riposare il pollo per 5-10 minuti prima di tagliarlo, coperto da un foglio di alluminio. Questo permette ai succhi di redistribuirsi all'interno della carne.</p>
+<p>La presentazione tradizionale prevede il pollo servito intero sulla lattina, magari su un letto di erbe aromatiche e agrumi. Per il taglio, utilizzate un coltello affilato e seguite le articolazioni per separare cosce e ali. Il petto può essere affettato trasversalmente per ottenere fette uniformi.</p>
+<p>Gli accompagnamenti classici includono <strong>patate al forno</strong>, <strong>insalata di cavolo</strong> (<strong>coleslaw</strong>) e <strong>pane di mais</strong>. Per un abbinamento più ricercato, servite il pollo con una salsa a base di birra: riducete la birra utilizzata per la cottura con burro, aglio e erbe aromatiche fino a ottenere una consistenza sciropposa.</p>
+<p>Se volete approfondire le tecniche di abbinamento birra-cibo, la nostra guida sulle <a href="https://www.lacasettacraftbeercrew.it/birre-da-primi-larte-di-abbinare-la-birra-artigianale-ai-piatti-principali-della-tradizione-italiana/" title="Birre da primi: l'arte di abbinare la birra artigianale ai piatti principali della tradizione italiana">birre da primi</a> offre spunti utili per completare il vostro menu.</p>
+<h2 id="tl-dr">tl;dr</h2>
+<p>Il beer can chicken è una tecnica di cottura del pollo alla griglia che utilizza una lattina di birra per mantenere la carne umida e saporita. Richiede una preparazione attenta (asciugatura della pelle, salatura anticipata), la scelta della birra giusta (leggera o aromatica, ma non troppo alcolica), una temperatura costante di 175-190°C e l'uso di un termometro a sonda per la cottura. Fondamentale è anche la stabilità del pollo sulla lattina e la configurazione del barbecue per una cottura indiretta.</p>
+<h2>Conclusioni</h2>
+<p>Il beer can chicken rappresenta una delle tecniche più gratificanti del barbecue, capace di regalare risultati sorprendenti con ingredienti semplici e un po' di pazienza. La chiave del successo sta nella preparazione: asciugatura della pelle, salatura anticipata, scelta oculata della birra e controllo preciso della temperatura.</p>
+<p>Non esiste una birra perfetta per questa preparazione: ogni stile offre caratteristiche diverse che influenzano il risultato finale. Sperimentate con varietà diverse, prendete appunti e affinate la vostra tecnica. Il bello del barbecue è proprio questo: ogni cottura è un'opportunità per imparare qualcosa di nuovo.</p>
+<p>Che utilizziate una classica lager americana, una IPA aromatica o una stout corposa, ricordate che l'ingrediente principale rimane la passione per la buona cucina e il piacere di condividere un pasto con amici e familiari. Il fumo, il profumo della pelle che si dora, il sapore della carne succosa: questi sono i veri protagonisti del beer can chicken.</p>
+<p>Per ulteriori approfondimenti sul mondo della birra artigianale e le sue applicazioni in cucina, vi invitiamo a consultare la nostra guida sulle <a href="https://www.lacasettacraftbeercrew.it/birra-per-marinatura/" title="Birra per marinatura: tecniche e ricette per cucinare con la birra artigianale">tecniche di marinatura con la birra</a>.</p>
+]]></content:encoded>
+            <wp:post_date>2025-05-20 08:00:00</wp:post_date>
+            <wp:post_date_gmt>2025-05-20 06:00:00</wp:post_date_gmt>
+            <wp:comment_status>open</wp:comment_status>
+            <wp:ping_status>open</wp:ping_status>
+            <wp:post_name>pollo-alla-lattina-di-birra-beer-can-chicken-guida-e-trucchi-per-il-barbecue</wp:post_name>
+            <wp:status>publish</wp:status>
+            <wp:post_type>post</wp:post_type>
+            <wp:postmeta>
+                <wp:meta_key>_aioseop_title</wp:meta_key>
+                <wp:meta_value><![CDATA[Pollo Alla Lattina Di Birra (Beer Can Chicken): Guida E Trucchi Per Il Barbecue]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:postmeta>
+                <wp:meta_key>_aioseop_description</wp:meta_key>
+                <wp:meta_value><![CDATA[La prima volta che ho visto un pollo nella posizione di una verticale perfetta, con una lattina di birra infilata nella cavità e la pelle che iniziava a dorarsi sotto il calore delle braci, ho pensato a uno scherzo da campeggio. Poi il profumo ha cominciato a espandersi nell'aria: malto tostato, luppolo, spezie e pollo arrosto si fondevano in un'unica sinfonia olfattiva. In quel momento ho capito che il beer can chicken non era una moda passeggera, ma una tecnica capace di trasformare un semplice pollo in un capolavoro di succosità.]]></wp:meta_value>
+            </wp:postmeta>
+            <wp:comment>
+                <wp:comment_id>1</wp:comment_id>
+                <wp:comment_author><![CDATA[Marco R.]]></wp:comment_author>
+                <wp:comment_author_email>marco.rossi@email.it</wp:comment_author_email>
+                <wp:comment_author_url></wp:comment_author_url>
+                <wp:comment_author_IP>192.168.1.1</wp:comment_author_IP>
+                <wp:comment_date>2025-05-21 14:32:00</wp:comment_date>
+                <wp:comment_date_gmt>2025-05-21 12:32:00</wp:comment_date_gmt>
+                <wp:comment_content><![CDATA[Ottima guida! L'ho provato ieri con una Pale Ale e il risultato è stato fantastico. La pelle era croccantissima, grazie per i consigli sulla temperatura!]]></wp:comment_content>
+                <wp:comment_approved>1</wp:comment_approved>
+                <wp:comment_type>comment</wp:comment_type>
+                <wp:comment_parent>0</wp:comment_parent>
+                <wp:comment_user_id>0</wp:comment_user_id>
+            </wp:comment>
+            <wp:comment>
+                <wp:comment_id>2</wp:comment_id>
+                <wp:comment_author><![CDATA[BeerLover82]]></wp:comment_author>
+                <wp:comment_author_email>lover82@birra.it</wp:comment_author_email>
+                <wp:comment_author_url></wp:comment_author_url>
+                <wp:comment_author_IP>10.0.0.5</wp:comment_author_IP>
+                <wp:comment_date>2025-05-22 09:15:00</wp:comment_date>
+                <wp:comment_date_gmt>2025-05-22 07:15:00</wp:comment_date_gmt>
+                <wp:comment_content><![CDATA[Non avevo mai pensato alla questione del rivestimento delle lattine. Usare un supporto in acciaio inox mi sembra un'ottima idea. Sapete se quelli in silicone vanno bene?]]></wp:comment_content>
+                <wp:comment_approved>1</wp:comment_approved>
+                <wp:comment_type>comment</wp:comment_type>
+                <wp:comment_parent>0</wp:comment_parent>
+                <wp:comment_user_id>0</wp:comment_user_id>
+            </wp:comment>
+            <wp:comment>
+                <wp:comment_id>3</wp:comment_id>
+                <wp:comment_author><![CDATA[Admin]]></wp:comment_author>
+                <wp:comment_author_email>admin@lacasettacraftbeercrew.it</wp:comment_author_email>
+                <wp:comment_author_url></wp:comment_author_url>
+                <wp:comment_author_IP>10.0.0.1</wp:comment_author_IP>
+                <wp:comment_date>2025-05-22 16:40:00</wp:comment_date>
+                <wp:comment_date_gmt>2025-05-22 14:40:00</wp:comment_date_gmt>
+                <wp:comment_content><![CDATA[Ciao BeerLover82, i supporti in silicone sono generalmente sicuri fino a temperature elevate, ma l'acciaio inox è sicuramente più duraturo e stabile. Per una cottura come
