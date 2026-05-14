@@ -1,0 +1,246 @@
+Certamente. Ecco il file XML WXR completo, preparato secondo le specifiche fornite.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+    <title>La Casetta Craft Beer Crew</title>
+    <link>https://www.lacasettacraftbeercrew.it</link>
+    <description>Esplora il mondo della birra artigianale</description>
+    <pubDate>Wed, 07 May 2025 17:00:00 +0200</pubDate>
+    <language>it</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+    <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login>admin</wp:author_login>
+        <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+        <wp:author_display_name>Admin</wp:author_display_name>
+        <wp:author_first_name></wp:author_first_name>
+        <wp:author_last_name></wp:author_last_name>
+    </wp:author>
+
+    <item>
+        <title>La Regola dei 3 Sorsi: Come Dissetarsi Correttamente con la Prima Pinta</title>
+        <link>https://www.lacasettacraftbeercrew.it/la-regola-dei-3-sorsi-come-dissetarsi-correttamente-con-la-prima-pinta/</link>
+        <pubDate>Wed, 07 May 2025 08:00:00 +0200</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/?p=100</guid>
+        <description></description>
+        <content:encoded><![CDATA[
+<h1>La regola dei 3 sorsi: come dissetarsi correttamente con la prima pinta</h1>
+<p>C’è un momento, nell’esperienza di ogni amante della birra artigianale, che racchiude una promessa di piacere e ristoro. Quel primo contatto tra le labbra e il bordo del bicchiere, quando la schiuma accarezza il palato e la temperatura perfetta si sposa con la carbonatazione ideale. La prima pinta della serata non è solo un gesto: è un rituale che merita di essere compreso, rispettato e soprattutto eseguito con consapevolezza.</p>
+<p>La cosiddetta “regola dei 3 sorsi” non nasce da un manuale di etichetta né da un capriccio di sommelier, ma da una solida base scientifica e sensoriale che molti appassionati trascurano. Disperdere il potenziale della prima birra con un approccio frettoloso significa perdere metà dell’esperienza che il birrificio ha progettato per chi beve. Quando si apre una lattina o si stappa una bottiglia di <span class="tooltip" title="Birra prodotta da birrifici indipendenti, con metodi tradizionali e ingredienti di alta qualità, spesso caratterizzata da sapori complessi e ricercati.">birra artigianale</span>, inizia un conto alla rovescia in cui ogni sorso racconta una storia diversa.</p>
+<p>In questo post esploreremo insieme i segreti di una degustazione consapevole, partendo proprio da quella prima pinta che può trasformare una serata qualunque in un viaggio sensoriale indimenticabile.</p>
+<nav>
+    <p><strong>In questo post:</strong></p>
+    <ul>
+        <li><a href="#perche-la-prima-pinta-merita-unattenzione-speciale">Perché la prima pinta merita un'attenzione speciale</a></li>
+        <li><a href="#le-basi-scientifiche-della-regola-dei-3-sorsi">Le basi scientifiche della regola dei 3 sorsi</a></li>
+        <li><a href="#come-la-temperatura-influenza-la-percezione-del-gusto">Come la temperatura influenza la percezione del gusto</a></li>
+        <li><a href="#la-carbonatazione-e-il-suo-ruolo-nella-dissetazione">La carbonatazione e il suo ruolo nella dissetazione</a></li>
+        <li><a href="#tecniche-di-versamento-per-una-schiuma-perfetta">Tecniche di versamento per una schiuma perfetta</a></li>
+        <li><a href="#birra-artigianale-e-abbinamenti-per-la-prima-pinta">Birra artigianale e abbinamenti per la prima pinta</a></li>
+        <li><a href="#stili-consigliati-per-chi-cerca-una-birra-dissetante">Stili consigliati per chi cerca una birra dissetante</a></li>
+        <li><a href="#errori-comuni-da-evitare-quando-si-stappa-la-prima-birra">Errori comuni da evitare quando si stappa la prima birra</a></li>
+        <li><a href="#tldr">tl;dr</a></li>
+    </ul>
+</nav>
+
+<section id="perche-la-prima-pinta-merita-unattenzione-speciale">
+    <h2>Perché la prima pinta merita un'attenzione speciale</h2>
+    <p>Immaginate di entrare in una taproom dopo una giornata calda, con la gola secca e l’aspettativa alta. Il bicchiere arriva, la schiuma bianca e compatta sale oltre il bordo, e l’istinto naturale spinge a bere d’un fiato. Fermatevi un attimo. Quella prima pinta non è solo un liquido da ingerire: rappresenta il punto di contatto tra le ore di lavoro del mastro birraio e il vostro palato.</p>
+    <p>La <strong>birra artigianale</strong> si distingue per la complessità dei suoi profili aromatici, e il primo sorso determina l’intera esperienza di degustazione. I composti volatili del luppolo, gli esteri fruttati della fermentazione e la base maltata si presentano in un ordine preciso che il cervello elabora in pochi secondi. Affrontare questa fase con troppa foga significa annullare le sfumature che rendono unica ogni produzione.</p>
+    <p>Gli esperti di degustazione sostengono che il primo contatto con la birra attivi i recettori del freddo sulla lingua, preparando il palato a ricevere le informazioni aromatiche successive. Un sorso troppo rapido non dà tempo al sistema olfattivo retronasale di entrare in gioco, e la complessità del prodotto si perde in una generica sensazione di freschezza.</p>
+    <p>La regola dei 3 sorsi diventa quindi uno strumento pratico per rallentare il consumo e massimizzare il piacere. Il primo sorso esplora, il secondo conferma e il terzo integra. Ogni fase ha un obiettivo preciso che trasforma un gesto meccanico in un’esperienza consapevole.</p>
+</section>
+
+<section id="le-basi-scientifiche-della-regola-dei-3-sorsi">
+    <h2>Le basi scientifiche della regola dei 3 sorsi</h2>
+    <p>La scienza della percezione gustativa offre una spiegazione chiara del perché tre sorsi siano il numero magico per apprezzare una pinta. Quando si beve una <strong>birra a bassa fermentazione</strong> o una <strong>birra chiara</strong>, il palato attraversa fasi distinte di adattamento sensoriale.</p>
+
+    <h3>Il primo sorso: la fase di esplorazione</h3>
+    <p>Il primo contatto con la birra attiva i termorecettori e i meccanorecettori della lingua. La temperatura, la carbonatazione e la consistenza del liquido inviano segnali immediati al cervello. In questa fase, il sistema gustativo non è ancora pronto a percepire le sfumature aromatiche più sottili. L’obiettivo del primo sorso è idratare la mucosa orale e preparare le papille gustative a ricevere informazioni più complesse.</p>
+    <p>I birrifici artigianali progettano le loro <strong>session beer</strong> tenendo conto proprio di questa fase iniziale. Una carbonatazione moderata, tipica degli stili inglesi, permette un primo approccio morbido che non aggredisce il palato. Al contrario, birre con una carbonatazione molto alta, come le <strong>German Pils</strong>, richiedono un primo sorso più cauto per non sovraccaricare i recettori.</p>
+
+    <h3>Il secondo sorso: la fase di conferma</h3>
+    <p>A pochi secondi dal primo sorso, il palato si è adattato alla temperatura e alla carbonatazione. Il secondo sorso permette di cogliere la struttura del corpo, la percezione dell’amaro e le note maltate di fondo. È in questo momento che il <strong>profilo aromatico della birra artigianale</strong> inizia a rivelarsi con chiarezza.</p>
+    <p>Gli esteri prodotti dal lievito, come quelli tipici di una <strong>birra belga</strong> o di una <strong>birra inglese</strong>, diventano percepibili solo dopo che il palato ha superato la fase di shock termico. Se il primo sorso è stato troppo rapido, il secondo rischia di partire da zero senza aver beneficiato della preparazione sensoriale precedente.</p>
+
+    <h3>Il terzo sorso: la fase di integrazione</h3>
+    <p>Il terzo sorso completa l’esperienza. A questo punto, il cervello ha elaborato le informazioni sulla temperatura, sulla carbonatazione e sul corpo. Le papille gustative sono pronte a ricevere i dettagli più fini: le note resinose del luppolo, le sfumature di frutta tropicale, i sentori di pane tostato del malto. Il terzo sorso integra tutto in un quadro armonico che rappresenta l’esperienza completa della birra.</p>
+    <p>Da questo momento in poi, ogni sorso successivo conferma o modifica leggermente l’impressione iniziale, ma la struttura portante del giudizio si forma nei primi tre. Per questo i degustatori professionisti insistono sull’importanza di non affrettare i primi istanti.</p>
+</section>
+
+<section id="come-la-temperatura-influenza-la-percezione-del-gusto">
+    <h2>Come la temperatura influenza la percezione del gusto</h2>
+    <p>La temperatura della birra al momento del versamento gioca un ruolo determinante nella regola dei 3 sorsi. Una <strong>birra artigianale servita troppo fredda</strong> maschera buona parte dei suoi aromi, mentre una temperatura troppo alta può far emergere difetti o note sgradite.</p>
+
+    <h3>La temperatura ideale per ogni stile</h3>
+    <p>Ogni stile di birra ha una temperatura di servizio consigliata che valorizza le sue caratteristiche specifiche. Le <strong>birre lager</strong>, spesso consumate molto fredde in paesi come la Germania o la Repubblica Ceca, beneficiano di temperature intorno ai 4-6°C. In questo range, la <strong>birra chiara a bassa fermentazione</strong> mantiene la sua freschezza senza nascondere completamente la complessità del malto.</p>
+    <p>Le <strong>birre ale</strong>, specialmente quelle ad alta fermentazione come le IPA o le <strong>birre belghe</strong>, rivelano il meglio di sé a temperature più alte, tra gli 8 e i 12°C. Servire una Double IPA a temperature da frigo significa perdere le note di luppolo americano che il birrificio ha tanto curato.</p>
+    <p>Il primo sorso a temperatura errata condiziona l’intera esperienza. Se la birra è troppo fredda, i recettori del freddo dominano la percezione e il cervello non riesce a cogliere le sfumature aromatiche. Il secondo sorso, con la birra che inizia a scaldarsi leggermente nel bicchiere, rivela già più dettagli. Il terzo, a una temperatura più vicina a quella ideale, offre la migliore rappresentazione di ciò che il birrificio ha voluto comunicare.</p>
+
+    <h3>L’effetto del bicchiere sulla temperatura</h3>
+    <p>Anche il bicchiere influisce sulla temperatura della birra durante i tre sorsi. Un calice con pareti spesse mantiene la temperatura più a lungo, mentre un bicchiere sottile permette un riscaldamento più rapido. Per questo molti birrifici consigliano bicchieri specifici per ogni stile: non si tratta solo di estetica, ma di funzionalità termica che incide direttamente sulla regola dei 3 sorsi.</p>
+    <p>La <strong>schiuma della birra</strong> ha anche un ruolo isolante. Una schiuma compatta e persistente rallenta il riscaldamento del liquido sottostante, permettendo ai primi tre sorsi di mantenersi vicini alla temperatura ideale di servizio.</p>
+</section>
+
+<section id="la-carbonatazione-e-il-suo-ruolo-nella-dissetazione">
+    <h2>La carbonatazione e il suo ruolo nella dissetazione</h2>
+    <p>La carbonatazione rappresenta uno degli elementi più discussi quando si parla di <strong>birra dissetante</strong>. Le bollicine di anidride carbonica non sono solo un elemento estetico o una piacevole sensazione sulla lingua: svolgono una funzione fisiologica precisa che si collega direttamente alla regola dei 3 sorsi.</p>
+
+    <h3>Come la CO2 stimola la sete</h3>
+    <p>La carbonatazione attiva i recettori del dolore sulla lingua, creando una sensazione di freschezza che il cervello interpreta come dissetante. Questo effetto è particolarmente evidente nelle <strong>birre ad alta carbonatazione</strong> come le <strong>German Pils</strong> o le <strong>Italian Pils</strong>, stili pensati proprio per offrire una <strong>birra rinfrescante</strong> nelle giornate calde.</p>
+    <p>Il primo sorso di una birra molto carbonata produce una sensazione di “pulizia” del palato che prepara la bocca ai sorsi successivi. La CO2 stimola la produzione di saliva, favorendo la digestione e aumentando la percezione di freschezza. Per questo molti considerano la <strong>birra chiara lager</strong> come la scelta migliore per dissetarsi dopo uno sforzo fisico.</p>
+
+    <h3>Carbonatazione naturale vs forzata</h3>
+    <p>La differenza tra <strong>carbonazione forzata</strong> e <strong>carbonazione naturale</strong> incide sulla qualità della sensazione in bocca. Le birre rifermentate in bottiglia sviluppano una carbonatazione più integrata, con bollicine più fini e persistenti. Questa caratteristica rende i primi tre sorsi più armonici, perché la CO2 non si separa bruscamente dal liquido.</p>
+    <p>Nelle birre con <span class="tooltip" title="Processo di aggiunta di anidride carbonica alla birra in modo artificiale, dopo la fermentazione, per ottenere la giusta effervescenza.">carbonazione forzata</span>, le bollicine tendono a essere più grandi e a liberarsi più rapidamente. Il primo sorso può risultare molto frizzante, ma la sensazione cala velocemente nei sorsi successivi. Per chi cerca una <strong>birra dissetante</strong> di qualità, la scelta tra i due metodi di carbonazione fa una differenza notevole nell’esperienza della prima pinta.</p>
+</section>
+
+<section id="tecniche-di-versamento-per-una-schiuma-perfetta">
+    <h2>Tecniche di versamento per una schiuma perfetta</h2>
+    <p>La quantità e la qualità della schiuma influenzano direttamente la regola dei 3 sorsi. Una schiuma troppo abbondante riduce lo spazio per il liquido, mentre una schiuma assente priva la birra di una componente fondamentale per l’esperienza sensoriale.</p>
+
+    <h3>L’angolo di versamento</h3>
+    <p>Per ottenere una schiuma adeguata, l’angolo di versamento del bicchiere è cruciale. Tenere il bicchiere inclinato a 45 gradi e versare la birra lentamente permette di controllare la formazione della schiuma. Quando si raddrizza il bicchiere verso la fine del versamento, la schiuma si alza in modo naturale senza diventare eccessiva.</p>
+    <p>Il primo sorso, in questo caso, incontra una schiuma compatta che trattiene gli aromi volatili. Il secondo sorso rompe la schiuma e libera i profumi. Il terzo sorso, con la schiuma ormai ridotta, permette di apprezzare il liquido nella sua completezza.</p>
+
+    <h3>Pulizia del bicchiere e formazione della schiuma</h3>
+    <p>Un bicchiere pulito è essenziale per una schiuma di qualità. Residui di grasso o detersivo impediscono alla schiuma di formarsi correttamente, rovinando l’esperienza dei primi tre sorsi. I professionisti della <strong>birra artigianale</strong> sanno che un bicchiere sgrassato con acido o con prodotti specifici produce una schiuma più stabile e persistente.</p>
+    <p>Anche la temperatura del bicchiere conta. Un bicchiere troppo freddo favorisce una schiuma più compatta, mentre un bicchiere a temperatura ambiente produce una schiuma più aerata. La scelta dipende dallo stile e dalle preferenze personali, ma influisce sulla consistenza della schiuma che i primi tre sorsi devono attraversare.</p>
+</section>
+
+<section id="birra-artigianale-e-abbinamenti-per-la-prima-pinta">
+    <h2>Birra artigianale e abbinamenti per la prima pinta</h2>
+    <p>La regola dei 3 sorsi si applica anche quando si accompagna la birra con del cibo. Il primo sorso pulisce il palato dagli eventuali residui del boccone precedente, il secondo rivela le interazioni tra cibo e birra, il terzo conferma o smentisce l’abbinamento.</p>
+
+    <h3>I migliori abbinamenti per iniziare la serata</h3>
+    <p>Per la prima pinta, gli abbinamenti leggeri funzionano meglio. Formaggi freschi come la mozzarella di bufala o il caprino si sposano bene con una <strong>birra chiara</strong> dal profilo delicato. Le insalate estive con agrumi trovano un partner ideale in una <strong>Witbier</strong> o in una <strong>Gose</strong>, birre che con la loro acidità leggera esaltano la freschezza degli ingredienti.</p>
+    <p>Chi preferisce abbinamenti più decisi può optare per una <strong>Pale Ale</strong> con un carpaccio di manzo o un tagliere di salumi magri. L’amaro del luppolo contrasta il grasso della carne, mentre la carbonatazione pulisce la bocca preparandola al sorso successivo.</p>
+
+    <h3>Cibi da evitare con la prima pinta</h3>
+    <p>Alcuni cibi compromettono la regola dei 3 sorsi. Piatti molto speziati o piccanti desensibilizzano le papille gustative, rendendo difficile apprezzare le sfumature della birra. Anche i cibi molto grassi o fritti rivestono la lingua, impedendo al primo sorso di svolgere la sua funzione esplorativa.</p>
+    <p>Per chi vuole rispettare la regola dei 3 sorsi, meglio iniziare con abbinamenti neutri che non interferiscano con la percezione della birra. Dopo aver valutato i primi tre sorsi, si può passare a cibi più complessi che interagiscono con la birra in modo diverso.</p>
+</section>
+
+<section id="stili-consigliati-per-chi-cerca-una-birra-dissetante">
+    <h2>Stili consigliati per chi cerca una birra dissetante</h2>
+    <p>Non tutte le birre sono uguali quando si parla di capacità dissetante. La regola dei 3 sorsi funziona con ogni stile, ma alcuni si prestano meglio di altri a essere la prima pinta della serata.</p>
+
+    <h3>Le lager come punto di riferimento</h3>
+    <p>Le <strong>birre lager</strong> rappresentano la scelta classica per chi cerca una <strong>birra dissetante</strong>. La loro pulizia gustativa, la carbonatazione vivace e il finale secco le rendono ideali per il primo sorso. Una <strong>German Pils</strong> o una <strong>Czech Pilsner</strong> offrono un perfetto equilibrio tra amaro e freschezza, con una complessità sufficiente per essere apprezzate ma non eccessiva da stancare il palato.</p>
+    <p>Le <strong>Helles</strong> bavaresi, con il loro corpo più pieno ma sempre bilanciato, rappresentano un’alternativa interessante. Il primo sorso di una Helles rivela note di pane e miele, mentre il secondo e il terzo sorso evidenziano la pulizia del finale.</p>
+
+    <h3>Le session beer per un consumo prolungato</h3>
+    <p>Le <strong>session beer</strong>, caratterizzate da una gradazione alcolica contenuta, sono progettate per essere bevute in quantità maggiori senza appesantire. Una <strong>Session IPA</strong> mantiene il profilo aromatico del luppolo ma riduce l’amaro e l’alcol, rendendola più accessibile per la prima pinta.</p>
+    <p>Il primo sorso di una Session IPA esplora gli aromi del luppolo senza l’aggressività di una Double IPA. Il secondo sorso conferma la leggerezza del corpo, mentre il terzo sorso integra la sensazione di freschezza che rende questo stile così popolare tra gli appassionati di <strong>birra artigianale</strong>.</p>
+
+    <h3>Le birre acide come alternativa rinfrescante</h3>
+    <p>Le <strong>birre acide</strong>, come le <strong>Gose</strong> o le <strong>Berliner Weisse</strong>, offrono una prospettiva diversa sulla dissetazione. La loro acidità stimola la produzione di saliva in modo ancora più marcato rispetto alla carbonatazione, creando una sensazione di freschezza immediata.</p>
+    <p>Il primo sorso di una birra acida sorprende per la sua vivacità. Il secondo sorso permette di apprezzare le note fruttate e l’eventuale aggiunta di sale o spezie. Il terzo sorso integra l’acidità con la base maltata, rivelando un profilo complesso ma estremamente rinfrescante.</p>
+</section>
+
+<section id="errori-comuni-da-evitare-quando-si-stappa-la-prima-birra">
+    <h2>Errori comuni da evitare quando si stappa la prima birra</h2>
+    <p>Anche i consumatori esperti commettono errori che compromettono la regola dei 3 sorsi. Riconoscerli aiuta a migliorare l’esperienza di degustazione.</p>
+
+    <h3>Bere troppo velocemente</h3>
+    <p>L’errore più comune è bere la prima pinta troppo velocemente. Il corpo ha bisogno di tempo per elaborare le informazioni sensoriali, e affrettare il consumo significa perdere dettagli importanti. La regola dei 3 sorsi impone una pausa tra un sorso e l’altro, almeno di qualche secondo, per permettere al cervello di processare le sensazioni.</p>
+
+    <h3>Trascurare l’odore</h3>
+    <p>Il naso gioca un ruolo fondamentale nella percezione del gusto. Annusare la birra prima del primo sorso prepara il cervello ad accogliere gli aromi che arriveranno con il liquido. Molti birrifici artigianali progettano i loro profili aromatici proprio per essere valutati prima ancora di bere.</p>
+
+    <h3>Servire la birra troppo fredda</h3>
+    <p>Come già accennato, una temperatura troppo bassa maschera gli aromi. Il primo sorso risulta piatto e generico, e i successivi non riescono a recuperare le informazioni perse. Riscaldare leggermente la birra nel bicchiere, portandola gradualmente alla temperatura ideale, permette di seguire correttamente la regola dei 3 sorsi.</p>
+
+    <h3>Non pulire il bicchiere</h3>
+    <p>Un bicchiere sporco rovina la schiuma e altera gli aromi. Residui di grasso impediscono la formazione di una schiuma stabile, mentre residui di detersivo aggiungono sapori estranei. Per la prima pinta, un bicchiere perfettamente pulito è un investimento sulla qualità dell’esperienza.</p>
+</section>
+
+<section id="conclusione">
+    <h2>Conclusione</h2>
+    <p>La regola dei 3 sorsi non è un metodo rigido o una regola imposta dall’alto, ma un approccio consapevole che trasforma il consumo di birra artigianale in un’esperienza più ricca e soddisfacente. Il primo sorso esplora, il secondo conferma, il terzo integra. Ogni fase ha un ruolo preciso che valorizza il lavoro del birrificio e la qualità degli ingredienti.</p>
+    <p>La prossima volta che stapperete una lattina di <strong>birra artigianale</strong> o stapperete una <strong>Hefeweizen</strong>, provate a seguire questa regola. Lasciate che il primo sorso prepari il palato, che il secondo sveli le sfumature, che il terzo completi il quadro. Scoprirete che una pinta bevuta con consapevolezza dice molto di più di tre sorsi frettolosi.</p>
+    <p>Per approfondire ulteriormente il tema della degustazione consapevole, vi consigliamo di consultare la guida completa alla <a href="https://www.lacasettacraftbeercrew.it/birra-artigianale-la-guida-definitiva/" title="Guida completa alla birra artigianale">birra artigianale</a> disponibile sul nostro sito, oppure di esplorare l’articolo dedicato agli <a href="https://www.lacasettacraftbeercrew.it/guida-definitiva-agli-stili-di-birra/" title="Guida definitiva agli stili di birra">stili di birra</a> per conoscere meglio le caratteristiche di ogni tipologia.</p>
+    <p>Se desiderate un supporto più autorevole, la <a href="https://www.brewersassociation.org/" target="_blank" rel="nofollow noopener" title="Sito della Brewers Association">Brewers Association</a> offre risorse scientifiche e tecniche per approfondire ogni aspetto della produzione e del consumo di birra artigianale.</p>
+    <p>Ricordate: ogni pinta racconta una storia. Con la regola dei 3 sorsi, imparate ad ascoltarla.</p>
+</section>
+
+<section id="tldr">
+    <h2>tl;dr</h2>
+    <p>La regola dei 3 sorsi è un metodo per apprezzare al meglio la prima birra di una serata. Il primo sorso esplora temperatura e carbonatazione, il secondo conferma corpo e amaro, il terzo integra gli aromi più fini per un'esperienza completa.</p>
+</section>
+        ]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>100</wp:post_id>
+        <wp:post_date>2025-05-07 08:00:00</wp:post_date>
+        <wp:post_date_gmt>2025-05-07 06:00:00</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>la-regola-dei-3-sorsi-come-dissetarsi-correttamente-con-la-prima-pinta</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="post_tag" nicename="degustazione-birra"><![CDATA[degustazione birra]]></category>
+        <category domain="post_tag" nicename="prima-pinta"><![CDATA[prima pinta]]></category>
+        <category domain="post_tag" nicename="regola-3-sorsi"><![CDATA[regola 3 sorsi]]></category>
+        <category domain="post_tag" nicename="temperatura-birra"><![CDATA[temperatura birra]]></category>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_title</wp:meta_key>
+            <wp:meta_value><![CDATA[La Regola dei 3 Sorsi: Come Dissetarsi Correttamente con la Prima Pinta]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_description</wp:meta_key>
+            <wp:meta_value><![CDATA[]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:comment>
+            <wp:comment_id>101</wp:comment_id>
+            <wp:comment_author><![CDATA[Marco V.]]></wp:comment_author>
+            <wp:comment_author_email>marco.v@example.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.10</wp:comment_author_IP>
+            <wp:comment_date>2025-05-07 20:35:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-07 18:35:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Articolo molto interessante. Non avevo mai pensato alla prima pinta in questi termini. Proverò stasera stessa la regola dei 3 sorsi con una Pils.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>102</wp:comment_id>
+            <wp:comment_author><![CDATA[BeerLover_77]]></wp:comment_author>
+            <wp:comment_author_email>beerfan77@example.com</wp:comment_author_email>
+            <wp:comment_author_url>https://www.ratebeer.com</wp:comment_author_url>
+            <wp:comment_author_IP>10.0.0.25</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 10:12:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 08:12:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Molto bello! Finalmente un articolo che spiega il "perché" dietro ai consigli dei sommelier. Unico dubbio: nel terzo sorso si possono davvero percepire le note resinose? A me sembra che dopo due sorsi il palato sia già un po' "abituato" e faccia più fatica. Grazie per il lavoro!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>103</wp:comment_id>
+            <wp:comment_author><![CDATA[Admin]]></wp:comment_author>
+            <wp:comment_author_email>admin@lacasettacraftbeercrew.it</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>10.0.0.1</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 14:30:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 12:30:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Ciao BeerLover_77, grazie per il commento! È
