@@ -1,0 +1,208 @@
+Ecco il file XML WXR completo, conforme alle specifiche richieste, con l'articolo revisionato e ottimizzato.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/">
+
+<channel>
+    <title>La Casetta Craft Beer Crew</title>
+    <link>https://www.lacasettacraftbeercrew.it</link>
+    <description>Esplora il mondo della birra artigianale</description>
+    <pubDate>Tue, 06 May 2025 08:00:00 +0200</pubDate>
+    <language>it</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+    <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login>admin</wp:author_login>
+        <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+        <wp:author_display_name>Admin</wp:author_display_name>
+        <wp:author_first_name></wp:author_first_name>
+        <wp:author_last_name></wp:author_last_name>
+    </wp:author>
+
+    <item>
+        <title>Forme delle Bottiglie di Birra: Perché alcune hanno il Collo Lungo e altre Tozzo?</title>
+        <description><![CDATA[Scopri come la forma della bottiglia influenza gusto, conservazione e identità di ogni stile brassicolo.]]></description>
+        <content:encoded><![CDATA[
+<nav>
+    <h2>In questo post</h2>
+    <ul>
+        <li><a href="#le-origini-storiche">Le origini storiche delle forme delle bottiglie di birra</a></li>
+        <li><a href="#collo-lungo">Il collo lungo: funzionalità e tradizione belga</a></li>
+        <li><a href="#bottiglie-tozze">Bottiglie tozze e panciute: il mondo delle rifermentazioni</a></li>
+        <li><a href="#protezione-luce">La protezione dalla luce e il colore del vetro</a></li>
+        <li><a href="#design-craft">L'evoluzione del design nel mercato craft contemporaneo</a></li>
+        <li><a href="#sostenibilita">Formati innovativi e sostenibilità: lattine e vetro leggero</a></li>
+    </ul>
+</nav>
+
+<section>
+    <h2 id="le-origini-storiche">Le origini storiche delle forme delle bottiglie di birra</h2>
+    <p>Per comprendere le differenze tra le forme delle bottiglie di birra, occorre fare un passo indietro nel tempo. La produzione di contenitori in vetro per bevande alcoliche ha radici antiche, ma l'industrializzazione del XIX secolo ha standardizzato alcuni formati. In Germania e in Repubblica Ceca, dove la tradizione lager ha dominato per decenni, la forma più diffusa era quella della bottiglia dal collo relativamente corto e dal corpo cilindrico, spesso con una lieve rastrematura verso il fondo. Questo formato, chiamato <span class="tooltip-term" title="Bottiglia dal profilo tozzo e dal collo corto, tipica della tradizione tedesca e ceca per birre lager.">"steinie" o "stubby"</span>, consentiva un impilamento efficiente nei vecchi sistemi di imbottigliamento e una buona resistenza alla pressione interna.</p>
+    <p>Nel Regno Unito, invece, la cultura delle birre ad alta fermentazione come le Pale Ale e le Bitter ha favorito l'adozione di bottiglie dal collo più lungo e stretto, spesso con una spalla pronunciata. Questa forma agevolava la decantazione e la separazione dei depositi di lievito, elemento comune nelle birre non filtrate tipiche della tradizione britannica. Le bottiglie inglesi classiche presentano un profilo che ricorda quelle utilizzate per il vino, con una lunghezza del collo che permette una presa salda e un versamento controllato.</p>
+    <p>Il Belgio, culla di alcuni degli stili più complessi e affascinanti del mondo, ha sviluppato una varietà di formati forse superiore a qualsiasi altra nazione. Qui troviamo bottiglie che sembrano vere e proprie opere d'arte: le cosiddette "bottiglie da champagne" per le birre ad alta rifermentazione come le Saison e le Tripel, oppure i flaconi panciuti e scuri tipici delle Dubbel e delle Quadrupel trappiste. Ogni birrificio belga custodisce gelosamente la propria forma caratteristica, spesso legata a una tradizione secolare che risale ai monasteri e alle abbazie.</p>
+    <p>La forma della bottiglia non è mai stata solo una questione estetica. In un'epoca in cui la refrigerazione non era diffusa, il vetro scuro proteggeva la birra dalla luce solare, mentre il collo lungo facilitava la formazione e la conservazione della schiuma. Le bottiglie dalla base ampia offrivano maggiore stabilità durante la <span class="tooltip-term" title="Processo di fermentazione che avviene direttamente in bottiglia, dove viene aggiunto zucchero e lievito per generare una carbonazione naturale e più complessa.">rifermentazione in bottiglia</span>, processo che genera pressioni interne considerevoli. Ogni dettaglio costruttivo rispondeva a una precisa esigenza tecnica, prima ancora che commerciale.</p>
+</section>
+
+<section>
+    <h2 id="collo-lungo">Il collo lungo: funzionalità e tradizione belga</h2>
+    <p>Le bottiglie di birra dal collo lungo rappresentano forse l'immagine più iconica del mondo brassicolo artigianale. Quando si pensa a una birra trappista o a una Saison belga, la mente corre immediatamente a quel profilo slanciato e aristocratico che ricorda le bottiglie di champagne. Questa somiglianza non è casuale. Le birre belghe ad alta fermentazione subiscono spesso una rifermentazione in bottiglia, un processo che genera anidride carbonica e crea una pressione interna che può raggiungere le 4-5 atmosfere.</p>
+    <p>Il collo stretto e allungato svolge una funzione fondamentale in questo contesto. Durante la rifermentazione, i lieviti ancora attivi consumano lo zucchero residuo e producono CO2. La pressione si accumula nello spazio di testa, ovvero la parte della bottiglia non occupata dal liquido. Un collo lungo e stretto riduce il volume di questo spazio, limitando l'esposizione all'ossigeno e favorendo una carbonazione più fine e persistente. Inoltre, la forma slanciata facilita la decantazione dei depositi di lievito che si accumulano sul fondo, consentendo al consumatore di versare la birra con un unico movimento fluido, lasciando il sedimento nella bottiglia.</p>
+    <p>Le bottiglie utilizzate per le birre belghe più pregiate, come quelle delle abbazie trappiste, presentano spesso un vetro spesso e resistente, capace di sopportare pressioni elevate senza rischiare rotture. Il collo è solitamente più lungo rispetto a quello delle bottiglie standard, con una leggera curvatura che permette una presa sicura. Alcuni birrifici belgi utilizzano anche un formato chiamato <span class="tooltip-term" title="Formato di bottiglia con base larga e collo che si restringe gradualmente, tipico dei vini rossi della Borgogna, adattato per alcune birre artigianali.">"burgundy"</span>, con una base allargata e un collo che si restringe progressivamente verso l'alto. Questo design facilita il versamento e contribuisce a mantenere la temperatura della birra più stabile durante la bevuta.</p>
+    <p>Un altro aspetto interessante riguarda la protezione dalla luce. Le bottiglie dal collo lungo sono spesso realizzate in vetro scuro, solitamente marrone o verde scuro, per bloccare i raggi UV che possono provocare il famigerato difetto chiamato <span class="tooltip-term" title="Difetto della birra causato dall'esposizione alla luce UV, che reagisce con i composti del luppolo generando un aroma sgradevole simile a quello della puzzola.">"skunking"</span>. Questo fenomeno, causato dalla reazione tra i composti del luppolo e la luce, produce un aroma sgradevole simile a quello della puzzola. I birrifici artigianali belgi e di altri Paesi scelgono il vetro scuro proprio per preservare l'integrità aromatica delle loro creazioni.</p>
+    <p>Tra gli esempi più noti di bottiglie dal collo lungo troviamo quelle utilizzate da birrifici come Chimay, Westmalle e Orval. La bottiglia di Orval, in particolare, è un'icona di design: forma panciuta, collo allungato e tappo a corona con capsula arancione. Una curiosità: il profilo a calice rovesciato di questa bottiglia non è solo estetico, ma facilita anche la rifermentazione, creando una superficie di contatto ottimale tra birra e lievito.</p>
+</section>
+
+<section>
+    <h2 id="bottiglie-tozze">Bottiglie tozze e panciute: il mondo delle rifermentazioni</h2>
+    <p>Se il collo lungo domina la scena belga, le bottiglie tozze e panciute rappresentano l'alternativa più diffusa in molte tradizioni brassicole, dalla Germania agli Stati Uniti, dalla Repubblica Ceca all'Italia. Questo formato, spesso chiamato "steinie" o "stubby", si caratterizza per un corpo cilindrico o leggermente bombato, con un collo corto e una spalla poco pronunciata. La capacità tipica varia dai 330 ai 500 millilitri, con un diametro della base che garantisce una buona stabilità.</p>
+    <p>La forma tozza offre alcuni vantaggi pratici e produttivi. Innanzitutto, una bottiglia dal profilo compatto occupa meno spazio sugli scaffali e nei frigoriferi, ottimizzando la logistica sia per i produttori che per i rivenditori. Inoltre, il vetro più spesso necessario per sostenere la pressione interna viene distribuito in modo più uniforme, riducendo il rischio di rotture durante il trasporto. Questo formato è particolarmente adatto per birre pastorizzate o filtrate, dove la pressione interna è gestita in modo controllato senza rifermentazione in bottiglia.</p>
+    <p>Nella tradizione tedesca e ceca, le bottiglie tozze sono spesso associate a stili lager come le Pilsner e le Helles. In questi casi, la carbonazione è ottenuta tramite <span class="tooltip-term" title="Tecnica di carbonazione artificiale in cui la CO2 viene introdotta nella birra in un serbatoio pressurizzato, prima dell'imbottigliamento.">carbonazione forzata</span> in serbatoio, e la bottiglia deve semplicemente mantenere la pressione senza dover ospitare una rifermentazione attiva. Le bottiglie dal collo corto garantiscono una tenuta ermetica efficace e una resistenza meccanica elevata.</p>
+    <p>Negli ultimi anni, il mondo della birra artigianale ha riscoperto il fascino delle bottiglie panciute di ispirazione belga, anche per stili che tradizionalmente utilizzavano formati più compatti. Sempre più birrifici craft italiani, americani e britannici scelgono bottiglie dal collo lungo per le loro IPA e le loro stout, per richiamare un immaginario di qualità e tradizione. Tuttavia, la tendenza generale negli Stati Uniti, patria del movimento craft, vede una forte preferenza per la lattina come contenitore primario, mentre in Europa la bottiglia di vetro rimane ancora dominante.</p>
+    <p>Un aspetto tecnico fondamentale riguarda la gestione del deposito di lievito nelle birre non filtrate. Le bottiglie tozze, con il loro fondo largo e piatto, offrono una superficie maggiore per l'accumulo del sedimento, ma la separazione durante il versamento risulta meno agevole rispetto alle bottiglie dal collo lungo. Per questo motivo, molti birrifici che producono birre rifermentate in bottiglia optano per formati con una spalla più inclinata, che favorisce la raccolta dei lieviti in un'area ristretta del collo, facilitando la decantazione.</p>
+</section>
+
+<section>
+    <h2 id="protezione-luce">La protezione dalla luce e il colore del vetro</h2>
+    <p>La forma della bottiglia non esaurisce il discorso sulla conservazione della birra. Il colore del vetro gioca un ruolo altrettanto cruciale, ed è strettamente legato alla forma scelta dal produttore. Il vetro trasparente lascia passare la luce visibile e ultravioletta, esponendo la birra ai raggi che possono fotodegradare i composti del luppolo. Il risultato è il già citato difetto di "skunking", che rovina irrimediabilmente l'esperienza di degustazione.</p>
+    <p>Le bottiglie di birra dal collo lungo sono quasi sempre realizzate in vetro marrone, il colore che offre la migliore protezione contro le radiazioni UV. Il vetro verde, sebbene meno efficace, blocca comunque una percentuale significativa di luce, ed è spesso utilizzato per birre che non prevedono una lunga esposizione sugli scaffali. Il vetro trasparente, invece, è da considerarsi inadeguato per la conservazione di birre artigianali, a meno che la bevanda non venga consumata rapidamente e conservata al buio.</p>
+    <p>I birrifici artigianali più attenti alla qualità scelgono vetro di colore marrone per tutte le loro bottiglie, indipendentemente dalla forma. Anche i formati tozzi e panciuti, se realizzati in vetro scuro, offrono una protezione analoga. Tuttavia, la superficie esposta alla luce varia in base alla forma: una bottiglia dal profilo allungato presenta una superficie laterale maggiore rispetto a una tozza, quindi il rapporto tra volume e superficie esposta va considerato nella progettazione.</p>
+    <p>Negli ultimi anni, alcuni birrifici hanno sperimentato l'uso di vetri con rivestimenti protettivi o di bottiglie opache, per ridurre ulteriormente l'effetto della luce. Queste innovazioni puntano a coniugare estetica e funzionalità, senza rinunciare alla tradizionale forma che identifica il marchio. La scelta del colore del vetro e della forma della bottiglia rappresenta quindi un equilibrio tra protezione, immagine e costi di produzione.</p>
+</section>
+
+<section>
+    <h2 id="design-craft">L'evoluzione del design nel mercato craft contemporaneo</h2>
+    <p>Il movimento della birra artigianale ha portato una ventata di creatività anche nel design dei contenitori. Se fino agli anni '90 le forme delle bottiglie di birra erano sostanzialmente standardizzate, oggi assistiamo a una vera e propria esplosione di formati e varianti. I birrifici utilizzano bottiglie dal collo lungo, da quelle tozze, da quelle a forma di fiasco, fino a modelli che ricordano fiasche di terracotta o damigiane in miniatura. Ogni birrificio cerca di distinguersi con un packaging unico, che racconti la propria storia e il proprio approccio alla produzione.</p>
+    <p>Questa diversificazione risponde a esigenze di marketing, ma anche a necessità tecniche specifiche. Le birre ad alta fermentazione e lunga maturazione, come le Imperial Stout e le Barley Wine, trovano spesso accoglienza in bottiglie dal collo lungo, per consentire una rifermentazione controllata e una decantazione agevole. Le birre leggere e rinfrescanti, come le Session IPA e le Blanche, vengono invece imbottigliate in formati tozzi, più pratici per il consumo immediato.</p>
+    <p>Un altro fattore che influenza la forma della bottiglia è la capacità di gestire la pressione interna. Le birre con carbonazione elevata, come le Saison e le Gose, richiedono bottiglie con pareti spesse e un collo robusto, in grado di sopportare pressioni fino a 5-6 atmosfere. Le bottiglie dal collo lungo di tipo champagnotto sono state progettate proprio per questo scopo, con un vetro più spesso nella parte inferiore e un collo che si assottiglia progressivamente per distribuire lo stress meccanico.</p>
+    <p>I birrifici italiani, sempre più apprezzati a livello internazionale, stanno sviluppando un proprio linguaggio visivo. Molti produttori artigianali italiani scelgono bottiglie dal collo lungo ispirate alla tradizione belga, per posizionarsi in una fascia alta di mercato. Altri preferiscono formati più sobri, con etichette essenziali che richiamano l'attenzione sul contenuto piuttosto che sul contenitore. In ogni caso, la forma della bottiglia è diventata parte integrante dell'identità del birrificio e della percezione del consumatore.</p>
+    <p>Per approfondire come la forma della bottiglia interagisca con la conservazione della birra e la sua <span class="tooltip-term" title="Periodo di tempo durante il quale un prodotto mantiene le sue caratteristiche organolettiche e qualitative ottimali.">shelf life</span>, si può consultare l'approfondimento sulla <a href="https://www.lacasettacraftbeercrew.it/shelf-life-birra-artigianale">shelf life della birra artigianale</a>, che analizza i fattori che influenzano la durata e la qualità del prodotto nel tempo. La scelta del contenitore, infatti, incide direttamente sulla stabilità del prodotto finale.</p>
+</section>
+
+<section>
+    <h2 id="sostenibilita">Formati innovativi e sostenibilità: lattine e vetro leggero</h2>
+    <p>Il dibattito tra bottiglie dal collo lungo, bottiglie tozze e lattine è oggi più acceso che mai. La lattina, un tempo considerata un contenitore di minor pregio, ha conquistato una posizione di rilievo nel mondo craft, grazie ai suoi vantaggi in termini di protezione dalla luce, leggerezza e facilità di riciclo. Le lattine bloccano completamente la luce, eliminando il rischio di skunking, e la loro superficie interna è rivestita con uno strato epossidico che impedisce il contatto diretto tra birra e alluminio.</p>
+    <p>Tuttavia, la tradizione della bottiglia di vetro resta forte, soprattutto per stili che prevedono rifermentazione in bottiglia o lunga maturazione. Le bottiglie dal collo lungo continuano a essere il formato preferito per birre trappiste, abbazie e specialità belghe, mentre quelle tozze dominano il segmento delle lager e delle birre da consumo veloce.</p>
+    <p>Un'evoluzione interessante riguarda l'introduzione di vetro leggero per ridurre l'impatto ambientale. Bottiglie dal peso inferiore, con pareti più sottili, consentono di risparmiare materiale e ridurre le emissioni di CO2 legate al trasporto. Questa soluzione è particolarmente adatta per birre pastorizzate o filtrate, dove la pressione interna è più bassa. Tuttavia, il vetro leggero non è indicato per birre rifermentate in bottiglia, che richiedono una resistenza meccanica superiore.</p>
+    <p>Per chi desidera esplorare ulteriormente il tema della sostenibilità nel packaging, suggerisco la lettura dell'articolo dedicato al <a href="https://www.lacasettacraftbeercrew.it/packaging-sostenibile-microbirrifici">packaging sostenibile per microbirrifici</a>, che analizza le opzioni disponibili per ridurre l'impatto ambientale senza compromettere la qualità del prodotto.</p>
+    <p>La scelta della forma della bottiglia, in definitiva, è il risultato di un equilibrio tra tradizione, funzionalità, marketing e sostenibilità. Non esiste una forma giusta o sbagliata in assoluto, ma ogni birrificio seleziona il contenitore più adatto al proprio stile, al proprio processo produttivo e al proprio posizionamento commerciale. Per l'appassionato, conoscere queste dinamiche arricchisce l'esperienza di degustazione e permette di apprezzare anche l'aspetto tecnico che si cela dietro una semplice bottiglia.</p>
+</section>
+
+<hr />
+
+<section>
+    <h2 id="conclusione">Conclusione: la forma della bottiglia di birra come specchio di un'arte millenaria</h2>
+    <p>Le forme delle bottiglie di birra raccontano molto più di quanto si possa immaginare a prima vista. Ogni curva, ogni proporzione tra collo e corpo, ogni scelta cromatica del vetro riflette decisioni tecniche, tradizioni storiche e strategie di posizionamento. Il collo lungo, simbolo di raffinatezza e rifermentazione controllata, convive con quello tozzo, emblema di praticità e robustezza. La lattina, dal canto suo, rappresenta l'evoluzione moderna di un mondo in continua trasformazione.</p>
+    <p>Per chi si avvicina alla birra artigianale, comprendere queste differenze significa arricchire la propria cultura e imparare a leggere il prodotto anche attraverso il suo involucro. La prossima volta che si osserva una bottiglia, non si vede solo un contenitore, ma un concentrato di sapere, ricerca e passione. Un invito a stappare, versare e assaporare con maggiore consapevolezza.</p>
+    <p>L'articolo ha cercato di offrire una panoramica autorevole e completa, basata su conoscenze tecniche consolidate e sull'esperienza di produttori e esperti del settore. Ogni classifica, ogni elenco di formati può sempre essere perfezionato e aggiornato, perché il mondo della birra artigianale è vivo, in evoluzione, e ricco di sfumature che variano da birrificio a birrificio. La bellezza di questo universo sta proprio nella sua infinita varietà.</p>
+</section>
+
+<section>
+    <h2 id="tldr">tl;dr</h2>
+    <p>La forma delle bottiglie di birra (collo lungo vs. tozza) non è solo estetica, ma risponde a esigenze tecniche e storiche. Il collo lungo, tipico delle birre belghe, facilita la rifermentazione e la decantazione dei lieviti. Il formato tozzo, comune per lager, offre praticità e resistenza. La scelta del colore del vetro (marrone) protegge dalla luce. Il design riflette tradizione e identità di birrificio, mentre lattine e vetro leggero rappresentano le innovazioni moderne per la sostenibilità.</p>
+</section>
+
+<hr />
+
+<p>Scopri l'ampia selezione di birre artigianali disponibili su <a href="https://www.lacasettacraftbeercrew.it">La Casetta Craft Beer Crew</a>, dove ogni bottiglia racconta la sua storia e ogni stile trova il suo contenitore ideale.</p>
+        ]]></content:encoded>
+        <excerpt:encoded><![CDATA[Scopri come la forma della bottiglia influenza gusto, conservazione e identità di ogni stile brassicolo.]]></excerpt:encoded>
+        <wp:post_date>2025-05-06 08:00:00</wp:post_date>
+        <wp:post_date_gmt>2025-05-06 06:00:00</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>forme-delle-bottiglie-di-birra-perche-alcune-hanno-il-collo-lungo-e-altre-tozzo</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_type>post</wp:post_type>
+        <dc:creator>admin</dc:creator>
+
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_title</wp:meta_key>
+            <wp:meta_value><![CDATA[Forme delle Bottiglie di Birra: Perché alcune hanno il Collo Lungo e altre Tozzo?]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_description</wp:meta_key>
+            <wp:meta_value><![CDATA[Scopri come la forma della bottiglia influenza gusto, conservazione e identità di ogni stile brassicolo.]]></wp:meta_value>
+        </wp:postmeta>
+
+        <wp:comment>
+            <wp:comment_id>1</wp:comment_id>
+            <wp:comment_author><![CDATA[Marco R.]]></wp:comment_author>
+            <wp:comment_author_email>marco.rossi@example.com</wp:comment_author_email>
+            <wp:comment_author_url>https://www.marcobrews.it</wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.10</wp:comment_author_IP>
+            <wp:comment_date>2025-05-07 14:22:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-07 12:22:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Articolo davvero illuminante! Non avevo mai pensato che la forma del collo potesse influenzare la rifermentazione in modo così specifico. Adesso guarderò le bottiglie di Chimay con occhi diversi. Grazie per la spiegazione tecnica ma accessibile.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>2</wp:comment_id>
+            <wp:comment_author><![CDATA[Sara_BrewFan]]></wp:comment_author>
+            <wp:comment_author_email>sara.bianchi@example.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.11</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 09:45:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 07:45:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Molto interessante la parte sul vetro marrone e lo skunking. Però mi chiedo: le birre in lattina, pur bloccando la luce, non rischiano di avere un sapore metallico se non sono ben rivestite?]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>3</wp:comment_id>
+            <wp:comment_author><![CDATA[admin]]></wp:comment_author>
+            <wp:comment_author_email>admin@lacasettacraftbeercrew.it</wp:comment_author_email>
+            <wp:comment_author_url>https://www.lacasettacraftbeercrew.it</wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.1</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 11:00:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 09:00:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Ciao Sara, ottima domanda! I moderni rivestimenti epossidici interni delle lattine sono progettati per essere inerti e non alterare il sapore della birra. Un produttore serio garantisce sempre la qualità del suo packaging. Grazie per lo spunto!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>2</wp:comment_parent>
+            <wp:comment_user_id>1</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>4</wp:comment_id>
+            <wp:comment_author><![CDATA[Luca_87]]></wp:comment_author>
+            <wp:comment_author_email>luca.verdi@example.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.12</wp:comment_author_IP>
+            <wp:comment_date>2025-05-09 18:30:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-09 16:30:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Non sono completamente d'accordo sul fatto che le bottiglie tozze siano solo per lager. Ho visto molte ottime IPA americane in formato stubby. Penso che la scelta sia anche una questione di costi e di immagine del birrificio. Qualcun altro la pensa come me?]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>5</wp:comment_id>
+            <wp:comment_author><![CDATA[BeerGeek_01]]></wp:comment_author>
+            <wp:comment_author_email>geek.beer@example.com</wp:comment_author_email>
+            <wp:comment_author_url>https://www.ratebeer.com</wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.13</wp:comment_author_IP>
+            <wp:comment_date>2025-05-10 21:15:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-10 19:15:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Articolo ben scritto. Un dettaglio: il formato "burgundy" è affascinante, ma è difficile da decantare senza perdere parte del sedimento. Preferisco il classico collo lungo belga per le trappiste.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+    </item>
+</channel>
+</rss>
