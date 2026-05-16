@@ -1,0 +1,150 @@
+Certamente. Ecco il file XML WXR completo, pronto per l'importazione su WordPress, seguendo scrupolosamente tutte le istruzioni fornite.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+>
+
+<channel>
+    <title>La Casetta Craft Beer Crew</title>
+    <link>https://www.lacasettacraftbeercrew.it</link>
+    <description>Esplora il mondo della birra artigianale</description>
+    <pubDate>Tue, 06 May 2025 17:00:00 +0200</pubDate>
+    <language>it</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+    <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login>admin</wp:author_login>
+        <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+        <wp:author_display_name>Admin</wp:author_display_name>
+        <wp:author_first_name></wp:author_first_name>
+        <wp:author_last_name></wp:author_last_name>
+    </wp:author>
+
+    <item>
+        <title>Porceddu Sardo e Birre Artigianali Locali: Come Esaltare la Cotenna Croccante</title>
+        <link>https://www.lacasettacraftbeercrew.it/porceddu-sardo-e-birre-artigianali-locali-come-esaltare-la-cotenna-croccante</link>
+        <pubDate>Tue, 06 May 2025 08:00:00 +0200</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/porceddu-sardo-e-birre-artigianali-locali-come-esaltare-la-cotenna-croccante</guid>
+        <description><![CDATA[Scopri come esaltare il porceddu sardo con le migliori birre artigianali locali. Consigli su abbinamenti, temperatura di servizio e birrifici sardi.]]></description>
+        <content:encoded><![CDATA[
+<p>Quando si parla di tradizione gastronomica sarda, pochi piatti evocano un immaginario potente quanto il porceddu. Questo maialino da latte, cotto lentamente allo spiedo o nel forno a legna, rappresenta un rito che affonda le radici nei secoli, un simbolo di convivialità e maestria culinaria che ogni famiglia sarda custodisce con orgoglio. La sua pelle, croccante e dorata, è forse l'elemento più celebrato, quel contrasto tra l'esterno friabile e l'interno tenero e succoso che fa innamorare al primo morso.</p>
+<p>Negli ultimi anni, però, sta nascendo un nuovo interesse: abbinare il porceddu non più solo al classico vino rosso sardo, ma alle birre artigianali locali, che stanno vivendo una stagione di grande fermento nell'isola. Birrifici come il Birrificio di Sardegna, il Birrificio Karalis o il Birrificio Talìa stanno producendo etichette capaci di dialogare con la complessità grassa e affumicata del maialino, creando accostamenti sorprendenti. Questo articolo esplora le sinergie possibili, fornendo indicazioni utili per chi desidera portare in tavola un'esperienza sensoriale completa.</p>
+<p>L'obiettivo non è stabilire classifiche rigide o proclamare abbinamenti universali, perché si sa: il gusto personale e il background di ciascuno giocano un ruolo determinante. Piuttosto, si vogliono offrire spunti di riflessione, suggerimenti basati sull'esperienza di esperti del settore e sulle caratteristiche tecniche delle birre. Ogni consiglio può essere adattato, modificato, perfezionato in base alle proprie preferenze.</p>
+
+<nav aria-labelledby="indice-toc">
+    <h2 id="indice-toc">In questo post</h2>
+    <ul>
+        <li><a href="#la-sfida-del-porceddu">La sfida del porceddu: materia grassa e cottura lenta</a></li>
+        <li><a href="#criteri-tecnici">Criteri tecnici per l'abbinamento: amaro, carbonatazione e corpo</a></li>
+        <li><a href="#birre-sarde">Le birre artigianali sarde da considerare</a></li>
+        <li><a href="#abbinamenti-taglio">Abbinamenti specifici: ogni stile per ogni taglio</a></li>
+        <li><a href="#temperatura-servizio">Il ruolo della temperatura di servizio</a></li>
+        <li><a href="#consigli-pratici">Consigli pratici per birrifici e ristoratori</a></li>
+        <li><a href="#conclusioni">Conclusioni e prospettive future</a></li>
+    </ul>
+</nav>
+
+<article>
+    <h2 id="la-sfida-del-porceddu">La sfida del porceddu: materia grassa e cottura lenta</h2>
+    <p>Il porceddu sardo non è un semplice arrosto. La sua preparazione richiede ore di cottura, durante le quali il grasso sottocutaneo si scioglie lentamente, bagnando le carni e creando quella crosta croccante che tutti cercano. Il maialino da latte, di peso compreso tra i 5 e i 7 chili, viene farcito con erbe aromatiche come mirto, rosmarino e alloro, talvolta con aglio e pepe nero. La cottura, tradizionalmente allo spiedo o nel forno a legna, produce un affumicato leggero ma persistente, che si sposa con le note erbacee delle spezie.</p>
+    <p>Dal punto di vista della percezione sensoriale, il porceddu presenta tre elementi critici per l'abbinamento con la birra. Il primo è l'elevata componente lipidica: il grasso, se non bilanciato, tende a ricoprire il palato, attenuando la percezione di amaro e acidità. Il secondo è la croccantezza della cotenna, che richiede una bevanda con una carbonatazione vivace per "tagliare" la sensazione untuosa e pulire la bocca tra un boccone e l'altro. Il terzo è l'affumicato residuo della cottura, che può entrare in conflitto con alcune note aromatiche della birra se non si sceglie con cura.</p>
+    <p>La tradizione sarda ha storicamente risolto questi problemi con vini rossi strutturati, come il Cannonau o il Carignano, che con i loro tannini riescono a smorzare il grasso. Ma la birra artigianale offre soluzioni altrettanto valide, anzi, per certi versi più versatili. La varietà di stili disponibili permette di modulare amaro, carbonatazione e corpo in modo preciso, adattandosi alle diverse fasi della cottura e alle differenti parti del maialino.</p>
+    <p>Un aspetto da non sottovalutare è la temperatura a cui si serve la birra. Un errore comune è servire birre troppo fredde, che anestetizzano le papille gustative e impediscono di cogliere le sfumature aromatiche. Per il porceddu, una temperatura di servizio intorno agli 8-10 gradi per le birre più leggere e 12-14 gradi per quelle più strutturate rappresenta un buon compromesso.</p>
+    <p>Bisogna anche considerare il momento del pasto. L'antipasto, a base di formaggi pecorini e salumi, richiede birre diverse rispetto al secondo piatto. E il porceddu stesso, se servito con contorni come le patate al forno o il pane carasau, cambia le dinamiche dell'abbinamento. La pianificazione della serata diventa quindi un elemento strategico.</p>
+</article>
+
+<article>
+    <h2 id="criteri-tecnici">Criteri tecnici per l'abbinamento: amaro, carbonatazione e corpo</h2>
+    <p>Scegliere la birra giusta per il porceddu significa lavorare su tre parametri fondamentali: l'amaro, la carbonatazione e il corpo. Ciascuno di questi elementi interagisce in modo specifico con le caratteristiche del maialino e della sua cotenna croccante.</p>
+    <p>L'amaro del luppolo ha la capacità di tagliare il grasso in modo simile ai tannini del vino rosso. Quando il grasso ricopre il palato, l'amaro agisce come un solvente, ripulendo la bocca e preparandola al boccone successivo. Questo spiega perché molte birre di stile IPA o APA funzionano bene con carni grasse. Attenzione però: un amaro troppo aggressivo, superiore ai 60 IBU, rischia di sovrastare le note delicate del maialino da latte, creando una sensazione sgradevole. Un amaro medio-basso, tra i 30 e i 50 IBU, è generalmente più sicuro.</p>
+    <p>La carbonatazione gioca un ruolo altrettanto importante. Una birra con una effervescenza vivace, come una Session IPA o una Saison, produce una sensazione di freschezza che contrasta la croccantezza della cotenna. Le bollicine puliscono il palato e stimolano la salivazione, facilitando la digestione dei grassi. Stili con bassa carbonatazione, come certe English Ale o stout, rischiano di appesantire la bocca, rendendo l'esperienza meno piacevole.</p>
+    <p>Il corpo della birra, ovvero la sua densità percepita, deve bilanciare la succulenza della carne. Un corpo leggero o medio, con una gradazione alcolica tra il 4,5% e il 6%, funziona bene perché non compete con la ricchezza del piatto. Birre troppo alcoliche o con un corpo eccessivo, come le Imperial Stout o le Barley Wine, tendono a sovrastare il porceddu, offuscandone le <strong title="Sfumature sottili e complesse di sapori e aromi che caratterizzano un alimento o una bevanda, spesso percepibili solo da palati allenati.">nuances</strong> aromatiche. Meglio orientarsi verso birre che accompagnano senza coprire.</p>
+    <p>Un altro parametro tecnico da considerare è il profilo di acidità. Birre leggermente acidule, come le Berliner Weisse o le Gose, possono offrire un contrasto interessante con il grasso, ma bisogna stare attenti: un'acidità troppo marcata rischia di scontrarsi con l'affumicato della cottura a legna. Meglio acidità delicate, integrate in stili come le <strong title="Birra di frumento belga, solitamente non filtrata, dal colore torbido e note speziate di coriandolo e scorza d'arancia, rinfrescante e leggermente acidula.">Blanche</strong> belghe o le Kölsch.</p>
+    <p>Da non dimenticare la componente fenolica. Alcuni lieviti belgi producono fenoli che ricordano il chiodo di garofano o il pepe nero, spezie che richiamano le erbe aromatiche usate nella farcitura del porceddu. Questa sinergia olfattiva può creare un ponte tra piatto e bevanda, rendendo l'abbinamento più coeso.</p>
+</article>
+
+<article>
+    <h2 id="birre-sarde">Le birre artigianali sarde da considerare</h2>
+    <p>La Sardegna sta vivendo una piccola rivoluzione brassicola. Negli ultimi dieci anni sono nati birrifici che producono etichette di qualità, molte delle quali utilizzano ingredienti locali come il mirto, il miele di corbezzolo o le varietà di luppolo autoctone. Conoscere queste realtà è il primo passo per organizzare un abbinamento davvero territoriale.</p>
+    <p>Il <strong title="Fondato nel 2010, è uno dei primi birrifici artigianali sardi, noto per l'uso di materie prime locali e per la produzione di birre che raccontano il territorio.">Birrificio di Sardegna</strong> produce una linea di birre che spazia dalle chiare leggere alle scure complesse. La loro Ichnusa Riserva Rossa, una Doppelbock dal colore ramato e note di caramello, mostra una buona affinità con le carni arrosto, anche se il suo corpo importante richiede attenzione nella scelta del taglio. Più interessante per il porceddu è la loro Session IPA del progetto Birrificio Artigianale Sardo, leggera e luppolata, con un amaro contenuto che non copre le note affumicate.</p>
+    <p>Il Birrificio Karalis, situato a Cagliari, offre una Blanche dai sentori agrumati che funziona bene come aperitivo o per accompagnare i primi assaggi di porceddu. La loro Dhea, una American Pale Ale, presenta note di pompelmo e pineta che si sposano con le erbe aromatiche della farcitura. Attenzione alla gradazione: intorno al 5,2%, si inserisce perfettamente nel range consigliato.</p>
+    <p>Il Birrificio Talìa, più recente ma già affermato, produce una Saison di ispirazione belga che merita attenzione. L'uso di lieviti che esprimono note speziate, unite a una carbonatazione vivace, la rende un candidato ideale per contrastare la croccantezza della cotenna. La loro APA, invece, gioca su toni floreali che ricordano la macchia mediterranea, creando un ponte diretto con il territorio sardo.</p>
+    <p>Ci sono poi birrifici come il Birrificio Sa Mariosa, che utilizza malto d'orzo cresciuto nei campi del Campidano, e il Birrificio Biddanoa, che sperimenta con il luppolo selvatico dell'isola. Queste realtà artigianali, sebbene più piccole, offrono prodotti di nicchia che possono sorprendere. Il consiglio è di contattare direttamente i birrifici per capire la disponibilità stagionale e le caratteristiche tecniche delle loro birre.</p>
+    <p>Per chi organizza eventi o cene a tema, creare un abbinamento che coinvolga solo birre sarde rafforza il concetto di filiera corta e valorizzazione del territorio. Il cliente apprezza la coerenza tra il piatto tradizionale e la bevanda locale, percependo un'autenticità che difficilmente si trova con birre industriali o importate.</p>
+</article>
+
+<article>
+    <h2 id="abbinamenti-taglio">Abbinamenti specifici: ogni stile per ogni taglio</h2>
+    <p>Non tutto il porceddu è uguale. Le diverse parti del maialino offrono consistenze e sapori differenti, che meritano birre differenti. Un approccio consapevole prevede di abbinare uno stile specifico a ogni taglio, massimizzando l'esperienza sensoriale.</p>
+    <p>La cotenna croccante, quella parte che tutti cercano, è l'elemento più difficile da bilanciare. La sua croccantezza, unita al grasso sottostante, richiede una birra con carbonatazione alta e un amaro medio. Una American Pale Ale con IBU intorno ai 45, servita a 8-10 gradi, riesce a tagliare il grasso senza sovrastare. Le note di agrumi e pineta dell'APA richiamano le erbe aromatiche della farcitura, creando un abbinamento sinergico.</p>
+    <p>La spalla e il cosciotto, che presentano carne più magra e fibrosa, si prestano meglio a birre con un corpo medio e note maltate. Una Amber Ale o una Vienna Lager, con i loro sentori di caramello e pane tostato, accompagnano la consistenza della carne senza coprirla. La dolcezza del malto bilancia la leggera sapidità, mentre la carbonatazione media pulisce il palato.</p>
+    <p>La pancetta e le parti più grasse, quelle che alcuni trovano eccessive, beneficiano di birre con una componente acida leggera. Una Gose o una Berliner Weisse, se ben bilanciate, offrono un contrasto rinfrescante. Attenzione: l'acidità non deve essere troppo aggressiva, altrimenti si scontra con l'affumicato della cottura. Meglio acidità delicate, intorno ai 3-4 pH, che si avvertono senza essere invadenti.</p>
+    <p>Il filetto, la parte più pregiata e tenera, merita una birra di pari eleganza. Una Bock o una Dunkel tedesca, con note di pane scuro e cioccolato, esaltano la dolcezza della carne. La bassa luppolatura di questi stili permette di apprezzare le sfumature più sottili del maialino. La temperatura di servizio, in questo caso, può salire fino a 12-14 gradi per esaltare gli aromi maltati.</p>
+    <p>Le ossa e gli scarti, spesso usati per brodi o sughi, non necessitano di abbinamento specifico, ma se si prepara un intingolo o una salsa, una Brown Ale leggera può integrarsi bene, aggiungendo note di nocciole e tostato.</p>
+</article>
+
+<article>
+    <h2 id="temperatura-servizio">Il ruolo della temperatura di servizio</h2>
+    <p>La temperatura a cui si serve la birra influisce direttamente sulla percezione degli aromi e sulla sensazione in bocca. Servire una birra troppo fredda, a 2-4 gradi come si fa spesso con le lager industriali, anestetizza le papille gustative, impedendo di cogliere le note aromatiche più sottili. Al contrario, una birra troppo calda, sopra i 14 gradi, esalta l'alcol e l'amaro, creando squilibri nel gusto.</p>
+    <p>Per il porceddu, la temperatura ideale varia in base allo stile. Le birre chiare e leggere, come le APA e le Session IPA, si servono tra gli 8 e i 10 gradi. A questa temperatura, l'aroma del luppolo si esprime in modo equilibrato, mentre l'amaro rimane gestibile. Le birre ambrate e maltate, come le Amber Ale e le Vienna Lager, richiedono una temperatura leggermente superiore, tra i 10 e i 12 gradi, per far emergere le note di caramello e tostato.</p>
+    <p>Le birre scure e complesse, come le Bock o le Dunkel, si servono tra i 12 e i 14 gradi. A questa temperatura, gli aromi di cioccolato e caffè si sviluppano pienamente, senza essere coperti dal freddo. Le birre acide, come le Gose, funzionano bene anche a temperature più basse, tra i 6 e gli 8 gradi, dove l'acidità risulta più rinfrescante.</p>
+    <p>Un consiglio pratico: togliere la birra dal frigorifero 10-15 minuti prima di servirla, in modo che raggiunga la temperatura ottimale. Se la birra è stata conservata in cantina a 12-14 gradi, può essere servita direttamente. L'importante è evitare sbalzi termici che alterano la carbonatazione e la percezione degli aromi.</p>
+    <p>Per chi organizza cene con più portate, è utile prevedere un bicchiere diverso per ogni birra, in modo da evitare contaminazioni di aromi tra una bevuta e l'altra. I bicchieri a tulipano o a calice sono i più indicati per gli stili aromatici, mentre i bicchieri a pinta funzionano bene per le birre più semplici.</p>
+</article>
+
+<article>
+    <h2 id="consigli-pratici">Consigli pratici per birrifici e ristoratori</h2>
+    <p>Per i birrifici artigianali sardi, il porceddu rappresenta un'opportunità di marketing territoriale. Creare abbinamenti studiati con ristoranti locali, organizzare cene tematiche o produrre birre stagionali dedicate può rafforzare il legame con il territorio e fidelizzare la clientela.</p>
+    <p>Un'idea è quella di proporre un "menù degustazione" in cui ogni portata di porceddu è abbinata a una birra diversa del birrificio. Questo permette di mostrare la versatilità dei propri prodotti e di educare il consumatore all'abbinamento. Le birre possono essere presentate con schede tecniche che ne spiegano le caratteristiche e le ragioni dell'abbinamento, creando un'esperienza culturale oltre che gastronomica.</p>
+    <p>Per i ristoratori, formare il personale di sala sull'abbinamento birra-cibo è un investimento che paga. Spesso i camerieri non sanno consigliare una birra al cliente, limitandosi a offrire vino o bevande analcoliche. Una formazione di base sugli stili birrari e sulle loro caratteristiche può migliorare il servizio e aumentare le vendite. I corsi di degustazione organizzati dai birrifici sono un'ottima risorsa.</p>
+    <p>Un altro aspetto da considerare è la presentazione. Servire la birra nel bicchiere giusto, alla temperatura corretta, con una schiuma ben formata, migliora l'esperienza complessiva. Investire in bicchieri di qualità e in sistemi di spillatura adeguati è essenziale per garantire la qualità del prodotto.</p>
+    <p>Per chi produce birra artigianale, è utile studiare l'effetto della carbonatazione sulla percezione del grasso, regolando il livello di CO2 in base allo stile. Le birre destinate all'abbinamento con carni grasse possono beneficiare di una carbonatazione leggermente superiore, che pulisce il palato in modo più efficace. Similmente, l'uso di luppoli con profili aromatici che richiamano le erbe della macchia mediterranea può creare sinergie interessanti.</p>
+</article>
+
+<article>
+    <h2 id="conclusioni">Conclusioni e prospettive future</h2>
+    <p>L'abbinamento tra porceddu sardo e birre artigianali locali rappresenta una frontiera ancora poco esplorata, ma ricca di potenziale. La versatilità degli stili birrari, unita alla qualità crescente della produzione sarda, offre possibilità creative che possono valorizzare sia il piatto che la bevanda.</p>
+    <p>La chiave del successo sta nella conoscenza tecnica delle caratteristiche delle birre e nella capacità di adattare l'abbinamento al contesto specifico. Non esiste una birra universale per il porceddu, ma una gamma di opzioni che possono essere calibrate in base al taglio, al tipo di cottura, ai contorni e alle preferenze personali.</p>
+    <p>Per gli appassionati di birra artigianale che desiderano approfondire le tecniche di abbinamento e di produzione, <a href="https://www.lacasettacraftbeercrew.it/guida-definitiva-agli-stili-di-birra/" title="Guida completa agli stili di birra per abbinamenti perfetti">la guida completa agli stili di birra</a> offre un punto di partenza solido. Chi invece vuole esplorare il rapporto tra birra e alimentazione, magari per capire come <a href="https://www.lacasettacraftbeercrew.it/caffe-cacao-e-spezie-bilanciare-ingredienti-aromatici-complessi-nella-birra-artigianale/" title="Come bilanciare caffè, cacao e spezie nella birra artigianale">bilanciare gli ingredienti aromatici complessi nella birra artigianale</a>, troverà spunti utili per sperimentare in autonomia.</p>
+    <p>La scena brassicola sarda è in crescita, e i birrifici locali stanno dimostrando di saper produrre etichette di livello internazionale. Sostenere queste realtà significa contribuire a un'economia circolare che valorizza le risorse del territorio e crea occupazione qualificata. Per i consumatori, significa avere accesso a prodotti freschi, genuini e legati alla propria terra.</p>
+    <p>In definitiva, la combinazione tra porceddu sardo e birra artigianale non è solo un accostamento gastronomico, ma un atto culturale che celebra l'identità di un'isola ricca di tradizioni e di innovazione. Sperimentare con curiosità e apertura mentale permette di scoprire abbinamenti sorprendenti, che arricchiscono l'esperienza del cibo e della bevanda.</p>
+    <p>Un anello mancante in questa riflessione riguarda il rapporto tra <a href="https://www.lacasettacraftbeercrew.it/tannini-e-polifenoli-come-gestire-l-amaro-vegetale-del-luppolo/" title="Come gestire tannini e polifenoli nella birra">tannini e polifenoli e come gestire l'amaro vegetale del luppolo</a>. La comprensione di queste dinamiche chimiche offre al birraio strumenti per modulare il profilo della birra in funzione dell'abbinamento, ma è un aspetto che merita un approfondimento separato. Chi desidera cimentarsi nella produzione di birre specifiche per il porceddu può trovare indicazioni preziose nella letteratura tecnica del settore.</p>
+    <p>Per una lettura esterna autorevole, <a href="https://www.slowfood.it/" target="_blank" title="Slow Food: approfondimenti sulla tradizione del porceddu sardo">il sito di Slow Food offre approfondimenti sulla tradizione del porceddu sardo e sulle sue varianti territoriali</a>, con un focus sulla sostenibilità e sulla valorizzazione delle produzioni locali.</p>
+</article>
+
+<article>
+    <h2 id="tldr">Tl;dr</h2>
+    <p>L'articolo esplora l'abbinamento tra il porceddu sardo e le birre artigianali locali, analizzando come amaro, carbonatazione e corpo possano esaltare la cotenna croccante e la succulenza della carne. Vengono suggeriti stili come APA, Session IPA e Saison per le parti grasse, e Amber Ale o Bock per i tagli più magri, con un focus su birrifici sardi come Karalis e Talìa e l'importanza della temperatura di servizio. L'obiettivo è offrire una guida pratica per un'esperienza gastronomica completa e territoriale.</p>
+</article>
+        ]]></content:encoded>
+        <excerpt:encoded><![CDATA[Scopri come esaltare il porceddu sardo con le migliori birre artigianali locali. Consigli su abbinamenti, temperatura di servizio e birrifici sardi.]]></excerpt:encoded>
+        <wp:post_date>2025-05-06 08:00:00</wp:post_date>
+        <wp:post_date_gmt>2025-05-06 06:00:00</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>porceddu-sardo-e-birre-artigianali-locali-come-esaltare-la-cotenna-croccante</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_type>post</wp:post_type>
+
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_title</wp:meta_key>
+            <wp:meta_value><![CDATA[Porceddu Sardo e Birre Artigianali Locali: Come Esaltare la Cotenna Croccante]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_description</wp:meta_key>
+            <wp:meta_value><![CDATA[Scopri come esaltare il porceddu sardo con le migliori birre artigianali locali. Consigli su abbinamenti, temperatura di servizio e birrifici sardi.]]></wp:meta_value>
+        </wp:postmeta>
+    </item>
+
+</channel>
+</rss>
