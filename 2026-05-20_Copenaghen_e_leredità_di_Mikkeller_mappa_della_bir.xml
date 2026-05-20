@@ -1,0 +1,201 @@
+Certamente. Ho analizzato il testo fornito e ho applicato tutte le istruzioni specificate, dalla revisione dell'HTML alla creazione del file XML WXR, includendo i commenti e gestendo le date. Ho preservato integralmente il testo originale, apportando solo le modifiche richieste (struttura semantica, tooltip, ancore, rimozione di tag specifici, ecc.). Ecco il file XML WXR completo e pronto per l'importazione.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/">
+
+<channel>
+    <title>La Casetta Craft Beer Crew</title>
+    <link>https://www.lacasettacraftbeercrew.it</link>
+    <description>Esplora il mondo della birra artigianale</description>
+    <pubDate>Thu, 19 Jun 2025 08:00:00 +0200</pubDate>
+    <language>it</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+    <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login>admin</wp:author_login>
+        <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+        <wp:author_display_name>Admin</wp:author_display_name>
+        <wp:author_first_name></wp:author_first_name>
+        <wp:author_last_name></wp:author_last_name>
+    </wp:author>
+
+    <item>
+        <title>Copenaghen E L’Eredità Di Mikkeller: Mappa Della Birra Artigianale Nella Capitale Danese</title>
+        <link>https://www.lacasettacraftbeercrew.it/copenaghen-e-l-eredita-di-mikkeller-mappa-della-birra-artigianale-nella-capitale-danese/</link>
+        <pubDate>Thu, 19 Jun 2025 08:00:00 +0200</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/?p=123</guid>
+        <description></description>
+        <content:encoded><![CDATA[
+<article>
+<p>Se Parigi è la città del vino e Bruxelles la capitale della lambic, Copenaghen è senza dubbio il punto di riferimento globale per la birra artigianale moderna. Pochi luoghi al mondo hanno saputo catalizzare una rivoluzione brassicola con la stessa intensità e coerenza della capitale danese. Il merito è in gran parte di Mikkeller, un birrificio nato come un esperimento di homebrewing alla fine degli anni 2000, che ha contribuito a riscrivere le regole del settore a livello mondiale.</p>
+<p>Tuttavia, ridurre l’intera scena di Copenaghen a un solo nome, per quanto iconico, sarebbe un errore. La città, oggi, offre un ecosistema complesso e articolato, dove convivono birrifici pionieristici, nuove generazioni di produttori, gastropub all’avanguardia e una rete di taproom che trasformano ogni quartiere in una destinazione per gli appassionati. Questa guida non vuole stilare una classifica rigida o premiare un produttore a scapito di un altro. L’obiettivo è fornire una mappa autorevole, basata su informazioni verificate e sul parere di esperti del settore, per aiutare ogni appassionato a scoprire il meglio della <strong>birra craft a Copenaghen</strong>, mettendo in luce l’eredità di Mikkeller e il fermento che la circonda.</p>
+<nav aria-label="Indice dei Contenuti">
+<h2>In questo post</h2>
+<ul>
+<li><a href="#la-rivoluzione-mikkeller">La rivoluzione Mikkeller: l’inizio di una nuova era per la birra artigianale</a></li>
+<li><a href="#taproom-imperdibili">Taproom imperdibili: da WarPigs a BRUS</a></li>
+<li><a href="#nuovo-corso-birrifici">Il nuovo corso dei birrifici artigianali: To Øl, Alefarm e altre storie</a></li>
+<li><a href="#rifugi-per-intenditori">Rifugi per intenditori: i migliori pub e bottle shop</a></li>
+<li><a href="#tendenze-e-stili">Tendenze e stili: cosa bere a Copenaghen oggi</a></li>
+<li><a href="#consigli-pratici">Consigli pratici per una birra a Copenaghen</a></li>
+</ul>
+</nav>
+<section id="la-rivoluzione-mikkeller">
+<h2>La rivoluzione Mikkeller: l’inizio di una nuova era per la birra artigianale</h2>
+<p>Per comprendere la mappa della <strong>birra craft a Copenaghen</strong>, è necessario partire da Mikkel Borg Bjergsø. Insegnante di matematica e fisica, Bjergsø iniziò a produrre birra in casa nel 2003, spinto dalla frustrazione di non trovare birre con il profilo aromatico che cercava. Nel 2006, insieme al socio Kristian Klarup Keller, fondò Mikkeller. Il modello di business era innovativo e allora quasi sconosciuto: il cosiddetto <span class="tooltip-term" title="Il gypsy brewing, o birrificio virtuale, è un modello di business in cui un birrificio non possiede un impianto di produzione fisso, ma noleggia gli spazi e le attrezzature di altri birrifici per produrre le proprie ricette. Questo permette una grande flessibilità e libertà creativa, ma richiede una profonda conoscenza dei processi e una logistica complessa.">gypsy brewing</span> o <em>birrificio virtuale</em>.</p>
+<p>Mikkeller non possedeva un impianto fisso. Noleggiava gli spazi di altri birrifici, come il belga De Proefbrouwerij, per produrre le sue ricette. Questa scelta, dettata inizialmente da necessità economiche, si rivelò un vantaggio strategico. La libertà di sperimentare senza i vincoli di un impianto di proprietà permise a Mikkeller di lanciare decine di stili diversi ogni anno, creando un catalogo sterminato che spaziava dalle classiche IPA a birre acide invecchiate in botte, passando per stout imperiali e collaborazioni con i migliori birrifici del mondo.</p>
+<p>L’impatto di Mikkeller sulla scena della birra artigianale è stato paragonabile a quello di pochi altri. Ha contribuito a sdoganare l’idea che la birra potesse essere complessa, sfaccettata e degna di essere abbinata al cibo come un grande vino. Le loro etichette, disegnate dallo stesso Bjergsø con uno stile minimalista e iconico, sono diventate immediatamente riconoscibili. Oggi, Mikkeller possiede una serie di bar e taproom in tutto il mondo (da Tokyo a San Diego, da Barcellona a Seoul), ma Copenaghen resta il cuore pulsante.</p>
+<p>Visitare il <strong>Mikkeller Bar</strong> in Viktoriagade è un rito quasi obbligato. Si tratta di un locale piccolo, con un’atmosfera intima, dove il personale conosce perfettamente ogni birra alla spina. La selezione è in continuo divenire, con numerose varianti <span class="tooltip-term" title="Una birra single-hop è prodotta utilizzando una sola varietà di luppolo durante tutto il processo di birrificazione. Questo permette di esaltare e apprezzare al meglio le caratteristiche specifiche e uniche di quel luppolo, come l'aroma, il sapore e l'amarezza.">single-hop</span> e limited edition. Un altro punto di riferimento è il <strong>Mikkeller &amp; Friends</strong>, situato nello "Stefansgade" (Stefansgade 29, Nørrebro). Questo spazio è molto più ampio, con un bancone lungo e un’incredibile selezione di bottiglie. È il luogo ideale per sedersi e assaggiare un flight di birre, magari accompagnato da uno dei loro famosi hot dog gourmet. L’eredità di Mikkeller non si limita ai suoi locali. Ha ispirato un’intera generazione di birrai danesi, dimostrando che con passione e visione si poteva competere a livello globale. Per un approfondimento su come le tecniche di produzione si siano evolute nel tempo, leggi il nostro articolo dedicato ai <a href="https://www.lacasettacraftbeercrew.it/lieviti-birra-innovativi-la-nuova-frontiera-della-birrificazione/">lieviti birra innovativi e la nuova frontiera della birrificazione</a>.</p>
+</section>
+<section id="taproom-imperdibili">
+<h2>Taproom imperdibili: da WarPigs a BRUS</h2>
+<p>Se i bar Mikkeller rappresentano il tempio del culto, le taproom dei birrifici sono i laboratori dove la magia prende forma. Copenaghen ne offre di spettacolari, ognuna con una personalità ben distinta.</p>
+<section id="warpigs">
+<h3>WarPigs: l’incontro tra birra e barbecue</h3>
+<p>WarPigs è una joint venture tra Mikkeller e il birrificio statunitense 3 Floyds. Il locale, situato in una zona industriale di Vesterbro, è un capannone immenso con tavolate in legno, un enorme bancone a forma di ferro di cavallo e un affumicatore texano di dimensioni gigantesche. La proposta è chiara: birre dal carattere deciso e grasso barbecue. Le loro IPA sono famose per l’intensa luppolatura, mentre le stout e le porter offrono profili tostati e cioccolatosi che si sposano perfettamente con le costolette di maiale e il brisket. L’atmosfera è informale, rumorosa, conviviale. WarPigs è un esempio perfetto di come la <strong>birra artigianale a Copenaghen</strong> sappia integrarsi con altre culture gastronomiche.</p>
+</section>
+<section id="brus">
+<h3>BRUS: il regno di To Øl</h3>
+<p>To Øl è un altro birrificio che ha seguito la scia di Mikkeller, diventando uno dei più innovativi e rispettati in Scandinavia. La loro taproom, BRUS, si trova nel quartiere di Nørrebro. Il nome significa "eruzione" in danese, e il locale è effettivamente un’esplosione di energia creativa. BRUS non è solo un bar. Al suo interno trovi un birrificio a vista, un forno per pizza, un laboratorio di fermentazione acida (dove producono kombucha e altre bevande fermentate) e un negozio di dischi. La selezione di birre è vastissima, con un focus sulle loro produzioni principali ma anche su serie limitate e collaborazioni esclusive. Il cibo è all’altezza: la pizza, cotta nel forno a legna, è tra le migliori in città. BRUS rappresenta il modello moderno di taproom: un luogo polifunzionale dove la birra è il fulcro di un’esperienza culturale e gastronomica più ampia.</p>
+</section>
+<section id="fermentoren">
+<h3>Fermentoren: un’istituzione a Vesterbro</h3>
+<p>Prima che la taproom diventasse un modello di business diffuso, c’era Fermentoren. Aperto nel 2013, questo locale ha giocato un ruolo fondamentale nel creare una community attorno alla birra artigianale. Fermentoren è un ambiente più raccolto e intimo rispetto a WarPigs, con un arredamento in stile industriale e un’atmosfera da pub di quartiere. La selezione di birre alla spina è curatissima, con un mix di birrifici danesi e internazionali. Fermentoren è il posto giusto per chiacchierare con i locals, ricevere consigli sinceri e scoprire birre di piccoli produttori emergenti. La loro lista di bottiglie è impressionante, con un focus particolare sulle birre acide e sui lambic belgi.</p>
+</section>
+<section id="baghaven">
+<h3>Baghaven: l’universo acido di Mikkeller</h3>
+<p>Non tutte le taproom sono uguali. Baghaven è un progetto parallelo di Mikkeller, dedicato esclusivamente alla produzione di birre acide e fermentazione spontanea. Situato nel distretto di Refshaleøen, un’isola industriale in piena trasformazione urbanistica, Baghaven sembra un piccolo villaggio di botti. Il locale è un mix tra un laboratorio scientifico e una cantina di champagne. Qui non troverai IPA o stout. Troverai invece lambic, gueuze, birre alla frutta e blend complessi, spesso invecchiati per anni in botte. L’esperienza è quasi mistica. Il personale spiega con passione i processi di fermentazione, la flora batterica e l’influenza del legno. Baghaven è una tappa obbligata per chi vuole capire la complessità della <strong>birra craft a Copenaghen</strong> e apprezzare la ricerca scientifica che c’è dietro un bicchiere di kriek.</p>
+</section>
+</section>
+<section id="nuovo-corso-birrifici">
+<h2>Il nuovo corso dei birrifici artigianali: To Øl, Alefarm e altre storie</h2>
+<p>Oltre ai grandi nomi, la scena di Copenaghen è animata da decine di birrifici artigianali che stanno tracciando rotte originali. Conoscere questi produttori significa allontanarsi dalle rotte turistiche e scoprire il vero polso della città.</p>
+<ul>
+<li><strong>Alefarm Brewing:</strong> Fondato nel 2015, Alefarm è cresciuto rapidamente grazie a una produzione incentrata su luppoli americani e neozelandesi. Le loro IPA sono spesso un’esplosione di frutta tropicale, con profili puliti e un’amarezza ben integrata. Hanno una piccola taproom a Greve, poco fuori Copenaghen, ma le loro lattine si trovano facilmente nei migliori bottle shop della città.</li>
+<li><strong>The Rumour:</strong> Un birrificio giovane che sta facendo parlare di sé per le sue birre “hazy” e per l’approccio giocoso alla produzione. Non prendono tutto troppo sul serio, ma la qualità è indiscutibile. Le loro DIPA sono morbide e succose, con una carbonazione vellutata.</li>
+<li><strong>Amager Bryghus:</strong> Sebbene si trovi sull’isola di Amager (a un breve tragitto dal centro), merita una menzione. È uno dei pilastri della birra danese, con uno stile che guarda alla tradizione tedesca e belga, ma senza paura di sperimentare. La loro taproom è un luogo accogliente, con birre che spaziano dalla classica pilsner alle imperious stout.</li>
+</ul>
+<p>Questi birrifici, insieme a molti altri, ridefiniscono costantemente il concetto di <strong>birra artigianale a Copenaghen</strong>. Non si limitano a copiare le mode americane, ma le reinterpretano con un tocco nordico: maggiore attenzione alla purezza degli ingredienti, uso di malti locali e una ricerca costante di equilibrio piuttosto che di eccesso. Per chi fosse interessato a capire come queste scelte si riflettano nella gestione di un birrificio, il nostro approfondimento sulla <a href="https://www.lacasettacraftbeercrew.it/mash-efficiency-come-ottimizzare-la-resa-senza-sacrificare-il-profilo-aromatico/">mash efficiency e l’ottimizzazione della resa</a> offre spunti tecnici di grande valore.</p>
+</section>
+<section id="rifugi-per-intenditori">
+<h2>Rifugi per intenditori: i migliori pub e bottle shop</h2>
+<p>Non sempre si ha voglia di visitare una taproom lontana dal centro. Per fortuna, Copenaghen è costellata di pub e bottle shop che offrono selezioni eccellenti di birra craft. Questi luoghi sono il termometro della scena locale, perché spesso propongono birre di birrifici che non hanno una taproom propria.</p>
+<section id="the-beer-bar">
+<h3>Ølbaren (The Beer Bar)</h3>
+<p>Situato in Vestergade, Ølbaren è un classico pub danese con oltre 50 spine. La selezione è varia e ben curata, con un buon numero di birrifici danesi e internazionali. L’atmosfera è rilassata, il personale competente e i prezzi, per Copenaghen, sono nella media. È un’ottima base di partenza per un giro dei pub del centro.</p>
+</section>
+<section id="kihoskh">
+<h3>Kihoskh</h3>
+<p>Forse il bottle shop più famoso e amato di Copenaghen. Kihoskh è un piccolo chiosco situato in Sønder Boulevard, nel cuore di Vesterbro. Non è un pub, ma un punto vendita di birre artigianali da asporto. La selezione è sbalorditiva: centinaia di lattine e bottiglie, con un focus sui birrifici danesi emergenti e sulle novità americane. Il proprietario ha un fiuto straordinario per scovare le piccole produzioni. È il luogo perfetto per creare il proprio <em>mix pack</em> personale e portare a casa un pezzo di Copenaghen. Non aspettarti di sederti: si compra, si paga e si esce. Durante l’estate, la piazza antistante si riempie di persone che degustano le birre appena acquistate, creando un’atmosfera da festival di quartiere.</p>
+</section>
+<section id="ol-e-brod">
+<h3>Øl &amp; Brød</h3>
+<p>Un gastropub che ha fatto della birra e del cibo un connubio indissolubile. Lo chef, ex del premiato ristorante Relæ, propone piatti semplici ma raffinati, studiati per esaltare le birre alla spina. La carta delle birre cambia frequentemente e include sempre perle rare. Øl &amp; Brød è il posto ideale per una cena elegante ma informale, dove la birra non è un contorno ma la protagonista della serata.</p>
+</section>
+<section id="host-taphouse">
+<h3>Høst (Taphouse)</h3>
+<p>Questo locale è un vero e proprio tempio della birra. Høst, situato nello storico quartiere di Nørrebro, dispone di un numero impressionante di spine (oltre 60) e di un’altrettanto vasta selezione di bottiglie. L’arredamento è elegante, con ampi spazi e un’illuminazione soffusa. La clientela è variegata: dai giovani hipster agli appassionati più maturi. Høst organizza spesso eventi di lancio e degustazioni guidate, diventando un punto di riferimento per la community. La loro <em>food menu</em> è curata e offre abbinamenti mirati per ogni stile.
+Per chi volesse organizzare un evento simile a casa, la nostra guida sull'<a href="https://www.lacasettacraftbeercrew.it/guida-all-organizzazione-di-un-release-day-per-birre-artigianali-strategie-per-prevendite-token-e-analisi-del-sell-out/">organizzazione di un release day per birre artigianali</a> fornisce consigli utili tratti dall'esperienza del settore.</p>
+</section>
+</section>
+<section id="tendenze-e-stili">
+<h2>Tendenze e stili: cosa bere a Copenaghen oggi</h2>
+<p>La scena della birra a Copenaghen non è statica. Si evolve rapidamente, seguendo e talvolta anticipando le tendenze globali.</p>
+<ul>
+<li><strong>Le IPA moderne rimangono il pilastro.</strong> Le Hazy IPA e le New England IPA (NEIPA) sono onnipresenti. I birrifici danesi, come abbiamo visto, riescono a produrre versioni di questo stile con una morbidezza e una succosità che spesso superano le controparti americane. La luppolatura è sempre più audace, con l’uso di varietà come Mosaic, Citra, e l’emergente Nelson Sauvin dalla Nuova Zelanda.</li>
+<li><strong>Le lager stanno vivendo una rinascita.</strong> Dopo anni di dominio delle ale, molti birrifici stanno tornando alle lager, ma con un approccio craft. Stiamo parlando di Pilsner, Helles e Kellerbier prodotte con ingredienti di altissima qualità e una cura maniacale per la pulizia del profilo. Queste birre, spesso a bassa gradazione, sono la scelta perfetta per una pausa dissetante.</li>
+<li><strong>Le birre acide (sour) sono un universo a parte.</strong> Oltre alle produzioni di Baghaven, birrifici come To Øl e Dry &amp; Bitter producono kettle sour e barrel-aged sour di notevole complessità. La frutta utilizzata (ribes, lamponi, ciliegie) proviene spesso da agricoltura biologica, conferendo freschezza e acidità naturale. La fermentazione spontanea, <span class="tooltip-term" title="La fermentazione spontanea è un processo in cui la birra viene lasciata raffreddare e inoculare naturalmente da lieviti e batteri selvaggi presenti nell'aria, anziché aggiungere un lievito selezionato. Questo metodo, tipico dei lambic belgi, produce birre dal profilo acido e complesso, unico e difficilmente replicabile.">ispirata ai lambic belgi</span>, è considerata la strada più nobile e difficile.</li>
+</ul>
+<p>Una tendenza interessante è l’uso di <strong>adjuncts non convenzionali</strong>. Molti birrifici sperimentano con l’uso di cereali antichi come il farro e la segale, o con l’aggiunta di ingredienti nordici come il muschio islandese e le bacche di ginepro. Come spieghiamo nel nostro articolo dedicato agli <a href="https://www.lacasettacraftbeercrew.it/adjuncts-non-convenzionali-cereali-alternativi-e-tendenze-globali/">adjuncts non convenzionali e cereali alternativi</a>, questa tendenza non è solo una moda, ma una ricerca di sapori autentici e di un legame più stretto con il territorio.</p>
+</section>
+<section id="consigli-pratici">
+<h2>Consigli pratici per una birra a Copenaghen</h2>
+<p>Visitare Copenaghen per la birra artigianale richiede un minimo di pianificazione, ma la ricompensa è enorme. Ecco alcuni consigli pratici.</p>
+<ul>
+<li><strong>Il mezzo migliore è la bicicletta.</strong> Copenaghen è una città piatta e dotata di una rete di piste ciclabili eccellente. Noleggiare una bici ti permette di spostarti rapidamente tra i vari quartieri (Vesterbro, Nørrebro, Refshaleøen) e di raggiungere anche le taproom più periferiche.</li>
+<li><strong>Porta contanti.</strong> Sebbene la Danimarca sia una società quasi completamente cashless, alcuni chioschi (come Kihoskh) e pub più piccoli potrebbero accettare solo carte o avere un minimo di spesa per i pagamenti contactless. Avere una carta di debito internazionale è d’obbligo.</li>
+<li><strong>Non aspettarti orari italiani.</strong> I pub e le taproom di Copenaghen chiudono generalmente intorno alla mezzanotte nei giorni feriali e all’1 di notte nel weekend. L’ora di punta è tra le 18:00 e le 21:00. La maggior parte dei locali serve cibo solo fino a una certa ora, quindi controlla gli orari in anticipo.</li>
+<li><strong>Assaggia un flight.</strong> Quasi ogni taproom offre la possibilità di ordinare un assaggio (spesso chiamato <em>sampler</em> o <em>flight</em>) di 4 o 5 birre. È il modo migliore per esplorare la selezione senza doversi impegnare su una pinta intera.</li>
+<li><strong>Prenota per la cena.</strong> I posti più famosi, come WarPigs e BRUS, possono diventare molto affollati, soprattutto durante il fine settimana. Se hai intenzione di cenare, prenotare un tavolo è sempre una buona idea.</li>
+</ul>
+</section>
+<section id="conclusione-articolo">
+<h2>Conclusione</h2>
+<p>Copenaghen non è solo una capitale scandinava. È un modello di come la birra artigianale possa diventare un veicolo di innovazione culturale e gastronomica. L’eredità di Mikkeller non si è esaurita con il suo successo globale. Al contrario, ha creato il terreno fertile per una nuova generazione di birrai, taproom e pub che rendono la città una delle mete più entusiasmanti per ogni appassionato di birra craft.</p>
+<p>Che siate alla ricerca di una Hazy IPA succosa, di una lager cristallina o di una sour complessa, la <strong>mappa della birra craft a Copenaghen</strong> offre un percorso ricco di scoperte. L’obiettivo di questa guida è fornire uno strumento di orientamento, nella consapevolezza che la scena è in continua evoluzione e che ogni palato può trovare la sua destinazione perfetta. Buona esplorazione e, come si dice in danese, <em>Skål!</em></p>
+<p><strong>Nota dell’autore:</strong> Come sempre, queste indicazioni rappresentano un punto di vista basato su opinioni di esperti e fonti accreditate. Ogni classifica o mappa può essere perfezionata e aggiornata. I gusti personali e il proprio background influenzano naturalmente le scelte, quindi è del tutto legittimo non condividere necessariamente tutte le segnalazioni proposte. L’importante è continuare a esplorare e a scoprire nuovi sapori.</p>
+<p>Per un approfondimento su un’altra capitale brassicola, leggi la nostra guida su <a href="https://www.lacasettacraftbeercrew.it/quale-birra-bere-a-berlino-scopri-la-cultura-brassicola-della-capitale-tedesca/">quale birra bere a Berlino</a>.</p>
+<p><strong>Link esterno:</strong> Per una prospettiva più ampia sull’evoluzione della scena birraria danese, ti consigliamo l’articolo di <em>BeerAdvocate</em> sul fenomeno Mikkeller (si apre in una nuova finestra): <a href="https://www.beeradvocate.com/articles/18033/the-mikkeller-effect/" target="_blank">BeerAdvocate - The Mikkeller Effect</a>.</p>
+</section>
+<section id="tldr">
+<h2>tl;dr</h2>
+<p>Copenaghen è una delle capitali mondiali della birra artigianale, grazie all'eredità di Mikkeller e a una scena vivace di taproom (WarPigs, BRUS, Baghaven) e pub (Kihoskh, Høst). La guida offre una mappa per orientarsi tra stili moderni (IPA, lager, sour) e consigli pratici, sottolineando come la città sia un modello di innovazione brassicola e gastronomica.</p>
+</section>
+</article>
+        ]]></content:encoded>
+        <excerpt:encoded><![CDATA[Esplora la scena della birra craft a Copenaghen. Dalla rivoluzione Mikkeller ai nuovi birrifici artigianali, una mappa completa per orientarsi tra taproom, stili e tendenze.]]></excerpt:encoded>
+        <wp:post_date>2025-06-19 08:00:00</wp:post_date>
+        <wp:post_date_gmt>2025-06-19 06:00:00</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>copenaghen-e-l-eredita-di-mikkeller-mappa-della-birra-artigianale-nella-capitale-danese</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_type>post</wp:post_type>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_title</wp:meta_key>
+            <wp:meta_value><![CDATA[Copenaghen E L’Eredità Di Mikkeller: Mappa Della Birra Artigianale Nella Capitale Danese]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_description</wp:meta_key>
+            <wp:meta_value><![CDATA[Esplora la scena della birra craft a Copenaghen. Dalla rivoluzione Mikkeller ai nuovi birrifici artigianali, una mappa completa per orientarsi tra taproom, stili e tendenze.]]></wp:meta_value>
+        </wp:postmeta>
+
+        <!-- Commenti -->
+        <wp:comment>
+            <wp:comment_id>1</wp:comment_id>
+            <wp:comment_author><![CDATA[Marco B.]]></wp:comment_author>
+            <wp:comment_author_email>m.bianchi@email.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.10</wp:comment_author_IP>
+            <wp:comment_date>2025-06-20 14:32:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-06-20 12:32:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Articolo fantastico! Sono stato a Copenaghen l'anno scorso e confermo ogni parola. BRUS è pazzesco, mi ci sono perso per ore tra birre e dischi in vinile. Unico neo: secondo me, la birra a Berlino è comunque superiore, ma forse sono di parte. Alla prossima!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>2</wp:comment_id>
+            <wp:comment_author><![CDATA[ElenaRossi]]></wp:comment_author>
+            <wp:comment_author_email>elena.rossi@example.org</wp:comment_author_email>
+            <wp:comment_author_url>https://unsplash.com</wp:comment_author_url>
+            <wp:comment_author_IP>10.0.0.25</wp:comment_author_IP>
+            <wp:comment_date>2025-06-21 09:15:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-06-21 07:15:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Bellissima guida, molto utile e dettagliata. Una domanda: ma per chi non ama particolarmente le birre molto luppolate o acide, ci sono opzioni valide consigliate? Sto cercando qualcosa di più morbido e maltato, tipo una doppelbock. Grazie!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>3</wp:comment_id>
+            <wp:comment_author><![CDATA[BeerLover_99]]></wp:comment_author>
+            <wp:comment_author_email>beerlover99@proton.me</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>203.0.113.42</wp:comment_author_IP>
+            <wp:comment_date>2025-06-21 18:50:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-06-21 16:50:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Ho apprezzato molto l'approfondimento sugli adjuncts non convenzionali. È un tema che mi affascina. Avete mai pensato di scrivere un articolo sul "terroir" della birra, visto che parlate di legame col territorio? Sarebbe interessante.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:

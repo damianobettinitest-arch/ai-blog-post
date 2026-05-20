@@ -1,0 +1,250 @@
+Ecco il file XML WXR completo, pronto per l'importazione in WordPress, conforme alle specifiche richieste.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/">
+
+<channel>
+    <title>La Casetta Craft Beer Crew</title>
+    <link>https://www.lacasettacraftbeercrew.it</link>
+    <description>Esplora il mondo della birra artigianale</description>
+    <pubDate>Tue, 06 May 2025 17:00:00 +0200</pubDate>
+    <language>it</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+    <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login>admin</wp:author_login>
+        <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+        <wp:author_display_name>Admin</wp:author_display_name>
+        <wp:author_first_name></wp:author_first_name>
+        <wp:author_last_name></wp:author_last_name>
+    </wp:author>
+
+    <item>
+        <title>Il Great American Beer Festival (GABF): l'evento brassicolo più grande del mondo</title>
+        <link>https://www.lacasettacraftbeercrew.it/il-great-american-beer-festival-gabf-levento-brassicolo-piu-grande-del-mondo</link>
+        <pubDate>Tue, 06 May 2025 08:00:00 +0200</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/?p=123</guid>
+        <description><![CDATA[Il Great American Beer Festival (GABF) è l'evento brassicolo più grande del mondo, un punto di riferimento per appassionati e professionisti della birra artigianale.]]></description>
+        <content:encoded><![CDATA[
+<p>Ogni autunno, Denver si trasforma nella capitale indiscussa della birra artigianale mondiale. Per quattro giorni, il Colorado Convention Center accoglie un flusso inarrestabile di appassionati, birrai, giornalisti e curiosi pronti a immergersi in quella che non è semplicemente una fiera, ma un vero e proprio ecosistema culturale dedicato alla cultura brassicola. Il Great American Beer Festival, meglio noto come GABF, rappresenta il punto di riferimento assoluto per chiunque operi o ami il settore della produzione di <span title="La birra artigianale è una bevanda alcolica prodotta da birrifici indipendenti, spesso con metodi tradizionali e ingredienti di alta qualità, a differenza della birra industriale prodotta su larga scala." class="tooltip">birra artigianale</span>.</p>
+
+<p>C'è un dettaglio che sfugge anche ai frequentatori più assidui: il GABF nasce nel 1982 come evento modesto, quasi di nicchia, con soli 24 birrifici partecipanti e meno di mille visitatori. Oggi, dopo oltre quarant'anni di evoluzione, parliamo di numeri che lasciano senza fiato. Oltre 800 birrifici, più di 4.000 birre in degustazione e circa 60.000 partecipanti che ogni anno trasformano Denver in un laboratorio a cielo aperto di sapori, tecniche e innovazione.</p>
+
+<p>Ma cosa rende il GABF così speciale rispetto ad altri eventi brassicoli internazionali? La risposta risiede nella combinazione unica di competizione professionale, opportunità di networking per operatori del settore e accessibilità per il pubblico generalista. Non esiste altro evento al mondo in cui un appassionato possa degustare birre provenienti da ogni angolo degli Stati Uniti in un unico spazio, confrontando stili, approcci e filosofie produttive diverse. E non esiste altro contest in cui una medaglia d'oro valga tanto in termini di visibilità e credibilità per un birrificio artigianale.</p>
+
+<p>In questo post:</p>
+<nav aria-label="Indice dei contenuti">
+<ul>
+<li><a href="#origini">Le origini e l'evoluzione del GABF: come un piccolo incontro è diventato un colosso mondiale</a></li>
+<li><a href="#competizione">La competizione: il cuore pulsante del festival e il suo impatto sul mercato</a></li>
+<li><a href="#guida">Cosa aspettarsi dal GABF: guida pratica per il visitatore</a></li>
+<li><a href="#categorie">Le categorie in gara: analisi dei principali stili e tendenze emergenti</a></li>
+<li><a href="#business">Il GABF oltre la competizione: masterclass, seminari e opportunità di business</a></li>
+<li><a href="#impatto">L'impatto del GABF sul panorama brassicolo globale</a></li>
+</ul>
+</nav>
+
+<section>
+<h2 id="origini">Le origini e l'evoluzione del GABF: come un piccolo incontro è diventato un colosso mondiale</h2>
+<p>Per comprendere la portata del Great American Beer Festival bisogna riavvolgere il nastro fino al 1982. In quegli anni, la scena della birra artigianale americana muoveva i primi passi. Birrifici come Sierra Nevada e Boston Beer Company erano agli albori, e il concetto stesso di "craft beer" come la intendiamo oggi era ancora in fase embrionale. Fu Charlie Papazian, figura leggendaria nel mondo della <span title="La homebrewing, o produzione casalinga di birra, è l'attività di produrre birra in ambito domestico per scopi personali o amatoriali, spesso come primo passo per diventare birrai professionisti." class="tooltip">homebrewing</span> e fondatore della Brewers Association, a immaginare un evento che potesse riunire i produttori indipendenti e far conoscere al pubblico la varietà di birre che cominciavano a emergere.</p>
+
+<p>Il primo GABF si tenne al Writer's Manor di Denver con 24 birrifici e 22 categorie di stili. Oggi fa sorridere pensare che all'epoca si trattasse di un raduno quasi familiare, ma quelle fondamenta hanno permesso la costruzione di un impero. La Brewers Association, organizzazione no-profit che promuove e protegge i birrifici artigianali americani, ha saputo crescere l'evento anno dopo anno, trasformandolo in un punto di riferimento imprescindibile.</p>
+
+<p>Uno degli elementi chiave del successo del GABF risiede nella sua capacità di adattarsi ai cambiamenti del mercato. Negli anni Novanta, con l'esplosione del movimento craft, il festival ha ampliato la propria offerta includendo non solo la degustazione ma anche sessioni formative, incontri B2B e momenti di confronto tra professionisti. Negli anni Duemila, l'ingresso delle birre acide, delle sperimentazioni con legni e fermentazioni miste ha trovato spazio nelle categorie in gara, dimostrando una flessibilità che pochi altri eventi possono vantare.</p>
+
+<p>Oggi il GABF non è solo un festival: è un termometro della salute del settore brassicolo americano. Ogni edizione racconta lo stato dell'arte della produzione di birra artigianale, evidenziando tendenze, innovazioni e, talvolta, anche criticità. L'evoluzione delle categorie in gara, per esempio, riflette l'espansione degli stili: si è passati dalle 22 categorie iniziali alle oltre 100 attuali, un numero che testimonia la complessità e la ricchezza del panorama contemporaneo.</p>
+</section>
+
+<section>
+<h2 id="competizione">La competizione: il cuore pulsante del festival e il suo impatto sul mercato</h2>
+<p>Il cuore del Great American Beer Festival batte al ritmo della competizione. Il GABF Competition, organizzato dalla Brewers Association, rappresenta uno dei concorsi brassicoli più prestigiosi al mondo. Ogni anno, birrifici artigianali da tutti gli Stati Uniti inviano i propri campioni per essere giudicati da una giuria internazionale composta da esperti del settore, birrai professionisti, giornalisti specializzati e ciceroni certificati.</p>
+
+<p>Il processo di valutazione segue protocolli rigorosi. I giudici lavorano in sessioni cieche, senza conoscere il nome del birrificio o la provenienza del campione, per garantire imparzialità assoluta. Ogni birra viene valutata secondo parametri specifici legati allo stile di appartenenza: aspetto, aroma, sapore, corpo e impressione complessiva. Solo le migliori ricevono una medaglia d'oro, d'argento o di bronzo.</p>
+
+<p>Vincere una medaglia al GABF equivale a ottenere un sigillo di qualità riconosciuto a livello nazionale. Per un birrificio artigianale, anche di piccole dimensioni, una medaglia può tradursi in un incremento significativo delle vendite, in una maggiore visibilità mediatica e in un consolidamento della reputazione. Non è raro vedere birrifici che, dopo una vittoria, vedono quadruplicare la domanda del prodotto premiato.</p>
+
+<p>Va detto che la competizione non è esente da critiche. Alcuni operatori sostengono che il sistema di valutazione premi eccessivamente gli stili tradizionali rispetto alle sperimentazioni più audaci, o che la geografia dei giudici possa influenzare i risultati. La Brewers Association lavora costantemente per perfezionare il processo, aggiornando le linee guida e formando nuovi giudici per garantire equità e rappresentatività.</p>
+
+<p>Ciononostante, il valore del GABF Competition resta indiscusso. Per gli appassionati che seguono il festival da lontano, consultare le classifiche dei vincitori offre uno spaccato interessante sulle tendenze del settore. Per i birrai, partecipare significa confrontarsi con i migliori e ricevere un feedback tecnico di altissimo livello. Per il pubblico, sapere quali birre hanno ottenuto il riconoscimento aiuta a orientare le scelte d'acquisto, specialmente in un mercato sempre più affollato.</p>
+</section>
+
+<section>
+<h2 id="guida">Cosa aspettarsi dal GABF: guida pratica per il visitatore</h2>
+<p>Partecipare al Great American Beer Festival da visitatore richiede una pianificazione attenta. Non si tratta di una semplice fiera dove passeggiare tra stand e assaggiare qualche birra. L'evento offre un'esperienza immersiva che, se gestita senza strategia, rischia di diventare dispersiva e poco soddisfacente.</p>
+
+<p>Il formato prevede sessioni di degustazione distribuite su più giorni, generalmente dal giovedì al sabato. Ogni sessione dura circa quattro ore, durante le quali i partecipanti possono accedere a un'area espositiva immensa, suddivisa per regioni e tipologie di birrifici. Il biglietto d'ingresso include un bicchiere da degustazione e un certo numero di gettoni per gli assaggi, anche se molti birrifici offrono campioni gratuiti.</p>
+
+<p>Uno degli errori più comuni tra i neofiti è quello di voler assaggiare tutto, finendo per saturare il palato dopo poche decine di birre. I veterani del GABF sanno bene che la chiave è la selezione. Prima di entrare, conviene studiare la mappa del festival e identificare i birrifici che si desidera assolutamente provare. Le birre più rare e ricercate, come le <span title="Le limited edition sono birre prodotte in quantità limitata, spesso per celebrare eventi speciali o collaborazioni, e sono molto ricercate dai collezionisti e dagli appassionati." class="tooltip">limited edition</span> o le collaborazioni esclusive, tendono a esaurire rapidamente, quindi è consigliabile dare priorità a queste.</p>
+
+<p>Il festival offre anche aree tematiche dedicate a stili specifici. La zona delle birre acide, per esempio, attira ogni anno una folla di appassionati grazie alla presenza di produttori specializzati in fermentazioni miste e affinamento in botte. L'area dedicata alle IPA, con le sue infinite varianti tra West Coast, New England e Double IPA, rappresenta un vero paradiso per gli amanti del luppolo.</p>
+
+<p>Non va dimenticato l'aspetto formativo. Durante il GABF si tengono seminari, masterclass e degustazioni guidate tenute da esperti del settore, che spaziano dalla storia degli stili alla tecnica produttiva, fino alle ultime tendenze in fatto di ingredienti e processi. Questi momenti rappresentano un'occasione imperdibile per approfondire la conoscenza della birra artigianale, sia per il pubblico generalista sia per i professionisti.</p>
+</section>
+
+<section>
+<h2 id="categorie">Le categorie in gara: analisi dei principali stili e tendenze emergenti</h2>
+<p>La struttura delle categorie del GABF Competition offre una mappa fedele del panorama brassicolo americano contemporaneo. Ogni anno, la Brewers Association aggiorna l'elenco per riflettere le evoluzioni del mercato, introducendo nuove voci e modificando i criteri di valutazione.</p>
+
+<p>Le categorie più tradizionali, come American Pale Ale, American IPA e Stout, continuano a raccogliere il maggior numero di iscrizioni. Questo non sorprende, considerando che si tratta degli stili più popolari e diffusi tra i birrifici artigianali americani. Tuttavia, negli ultimi anni si è assistito a una crescita significativa di categorie considerate fino a poco tempo fa di nicchia.</p>
+
+<p>Le birre acide, per esempio, hanno conquistato una fetta importante della competizione. La categoria Experimental Sour Ale, introdotta per dare spazio alle sperimentazioni più creative, vede ogni anno un numero crescente di partecipanti che spingono i confini della fermentazione con l'utilizzo di frutta, spezie e affinamenti in botte. Allo stesso modo, le Lager, un tempo considerate appannaggio esclusivo dei grandi produttori industriali, stanno vivendo una rinascita grazie all'interesse dei birrifici artigianali per stili come Pilsner, Helles e Vienna Lager.</p>
+
+<p>Un'altra tendenza interessante riguarda le birre a bassa gradazione alcolica. La categoria <span title="Session Beer è una birra con un contenuto alcolico inferiore al 5%, progettata per essere bevuta in quantità maggiori durante una sessione di degustazione senza causare un eccessivo effetto inebriante." class="tooltip">Session Beer</span>, introdotta per premiare le birre con un contenuto alcolico inferiore al 5%, ha registrato un boom di iscrizioni, segno che i consumatori cercano sempre più spesso opzioni leggere ma non per questo prive di personalità. I birrifici rispondono con ricette che esaltano l'aroma del luppolo e la bevibilità senza appesantire il palato.</p>
+
+<p>Per chi desidera approfondire l'analisi degli stili birrari, sul nostro sito trovate una guida completa dedicata alla classificazione delle birre: l'articolo <a href="https://www.lacasettacraftbeercrew.it/sigle-stili-birrari-guida-completa">sulle sigle degli stili birrari</a> offre un quadro dettagliato delle sigle e delle caratteristiche di ogni famiglia. Vale la pena consultarlo per comprendere meglio il linguaggio tecnico utilizzato durante il festival e nei report della competizione.</p>
+</section>
+
+<section>
+<h2 id="business">Il GABF oltre la competizione: masterclass, seminari e opportunità di business</h2>
+<p>Il Great American Beer Festival non si limita alla degustazione e alla competizione. Una componente fondamentale dell'evento è rappresentata dalle attività rivolte ai professionisti del settore. La Brewers Association organizza, in concomitanza con il festival, conferenze e workshop pensati per birrai, distributori, retailer e ristoratori.</p>
+
+<p>Il GABF Brewers Studio, per esempio, offre sessioni tecniche su argomenti che spaziano dalla gestione della qualità in birrificio alle strategie di marketing per il canale HORECA. Questi incontri rappresentano un'opportunità unica per confrontarsi con i migliori esperti del settore e portare a casa conoscenze applicabili immediatamente alla propria attività.</p>
+
+<p>Un tema ricorrente nei seminari degli ultimi anni riguarda la <span title="La sostenibilità ambientale nella produzione di birra artigianale si riferisce all'adozione di pratiche che riducono l'impatto ecologico, come il risparmio idrico, l'efficienza energetica e il riciclo degli scarti." class="tooltip">sostenibilità ambientale</span> nella produzione di birra artigianale. I birrifici americani stanno investendo risorse significative per ridurre il consumo idrico, ottimizzare l'efficienza energetica e gestire gli scarti di produzione in modo circolare. Il GABF dedica sessioni specifiche a queste tematiche, con case history di birrifici che hanno adottato soluzioni innovative.</p>
+
+<p>Per i distributori e i retailer, il festival offre l'opportunità di stringere contatti con produttori emergenti e scoprire nuove referenze da inserire nel proprio catalogo. Il GABF Trade Day, riservato agli operatori professionali, permette di incontrare i birrai in un contesto più rilassato rispetto alle sessioni aperte al pubblico, facilitando lo scambio di informazioni commerciali e tecniche.</p>
+
+<p>Chi opera nel settore della ristorazione e della distribuzione può trarre grande beneficio dalla partecipazione al festival. Le informazioni raccolte durante le degustazioni e i seminari aiutano a costruire una carta delle birre più interessante e competitiva, in grado di soddisfare le richieste di una clientela sempre più esigente e informata. Sul nostro portale, l'articolo <a href="https://www.lacasettacraftbeercrew.it/fornitura-birra-per-locali">dedicato alla fornitura di birra per locali</a> offre spunti utili per chi vuole avvicinarsi a questo mondo con cognizione di causa.</p>
+</section>
+
+<section>
+<h2 id="impatto">L'impatto del GABF sul panorama brassicolo globale</h2>
+<p>Sebbene il Great American Beer Festival sia un evento americano, la sua influenza si estende ben oltre i confini degli Stati Uniti. Birrai europei, asiatici e oceaniani seguono con attenzione i risultati della competizione e le tendenze che emergono durante il festival. Molte delle innovazioni nate negli Stati Uniti trovano poi applicazione in altri paesi, contribuendo a un processo di contaminazione culturale che arricchisce l'intero settore brassicolo.</p>
+
+<p>Uno degli esempi più evidenti riguarda l'evoluzione delle IPA. Lo stile American IPA, con le sue caratteristiche di luppolatura aggressiva e profili agrumati e resinose, ha influenzato birrifici di tutto il mondo, spingendoli a sviluppare versioni locali con luppoli autoctoni. Il GABF ha giocato un ruolo fondamentale in questo processo, fornendo una vetrina internazionale ai birrifici pionieri e incoraggiando la sperimentazione.</p>
+
+<p>Anche il mercato italiano trae beneficio dal confronto con il GABF. Sempre più birrifici artigianali italiani partecipano alla competizione, ottenendo riconoscimenti che accrescono la visibilità del made in Italy brassicolo. La qualità della birra artigianale italiana è oggi riconosciuta a livello globale, e il GABF rappresenta un banco di prova importante per misurarsi con i migliori produttori mondiali.</p>
+
+<p>Per chi segue il festival da remoto, la Brewers Association mette a disposizione materiali e report che analizzano i risultati della competizione e le tendenze emerse. Questi documenti rappresentano una risorsa preziosa per birrai e appassionati che vogliono tenersi aggiornati senza dover necessariamente viaggiare fino a Denver.</p>
+</section>
+
+<section>
+<h2 id="conclusione">Conclusione: il GABF come specchio del futuro della birra artigianale</h2>
+<p>Il Great American Beer Festival non è solo il più grande evento brassicolo del mondo per numeri e partecipazione. È un osservatorio privilegiato sulle evoluzioni del settore, un termometro che misura la temperatura di un movimento in continua trasformazione. Ogni edizione racconta qualcosa di nuovo: un ingrediente che emerge, una tecnica che si afferma, uno stile che conquista il pubblico.</p>
+
+<p>La forza del GABF risiede nella capacità di unire competizione e condivisione, professionalità e passione. Per chi produce birra artigianale, partecipare significa confrontarsi con i pari e ricevere feedback preziosi. Per chi la consuma, significa esplorare un universo di sapori che altrimenti rimarrebbe sconosciuto. Per chi osserva il settore da una prospettiva più ampia, significa comprendere dove sta andando la cultura brassicola globale.</p>
+
+<p>Le classifiche, i premi e le tendenze che emergono dal GABF vanno presi per quello che sono: indicazioni utili, mai verdetti assoluti. Ogni birra ha una storia, un contesto, un pubblico di riferimento. Ciò che funziona a Denver potrebbe non funzionare a Milano, e viceversa. Tuttavia, confrontarsi con l'eccellenza aiuta a crescere, a innovare e a migliorare.</p>
+
+<p>Per questo, che siate birrai professionisti, homebrewer appassionati o semplici curiosi, il GABF merita un posto nella vostra agenda. Magari non quest'anno, ma prima o poi. Perché quando si parla di birra artigianale, Denver resta il punto di riferimento. E il Great American Beer Festival, la sua celebrazione più autentica.</p>
+</section>
+
+<section>
+<h2 id="tldr">Tl;dr</h2>
+<p>Il Great American Beer Festival (GABF) di Denver è il più grande evento mondiale di birra artigianale, nato nel 1982. Offre degustazioni, una prestigiosa competizione, masterclass e opportunità di business, influenzando le tendenze globali del settore.</p>
+</section>
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Il Great American Beer Festival (GABF): l'evento brassicolo più grande del mondo",
+  "description": "Il Great American Beer Festival (GABF) è l'evento brassicolo più grande del mondo, un punto di riferimento per appassionati e professionisti della birra artigianale.",
+  "author": {
+    "@type": "Organization",
+    "name": "La Casetta Craft Beer Crew"
+  },
+  "datePublished": "2025-05-06",
+  "image": "https://www.lacasettacraftbeercrew.it/wp-content/uploads/2025/05/gabf-denver.jpg"
+}
+</script>
+]]></content:encoded>
+        <excerpt:encoded><![CDATA[Il Great American Beer Festival (GABF) è l'evento brassicolo più grande del mondo, un punto di riferimento per appassionati e professionisti della birra artigianale.]]></excerpt:encoded>
+        <wp:post_date>2025-05-06 08:00:00</wp:post_date>
+        <wp:post_date_gmt>2025-05-06 06:00:00</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>il-great-american-beer-festival-gabf-levento-brassicolo-piu-grande-del-mondo</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_type>post</wp:post_type>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_title</wp:meta_key>
+            <wp:meta_value><![CDATA[Il Great American Beer Festival (GABF): L'evento Brassicolo Più Grande del Mondo]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_description</wp:meta_key>
+            <wp:meta_value><![CDATA[Il Great American Beer Festival (GABF) è l'evento brassicolo più grande del mondo, un punto di riferimento per appassionati e professionisti della birra artigianale.]]></wp:meta_value>
+        </wp:postmeta>
+        
+        <wp:comment>
+            <wp:comment_id>1</wp:comment_id>
+            <wp:comment_author><![CDATA[Marco R.]]></wp:comment_author>
+            <wp:comment_author_email>marco.r@example.com</wp:comment_author_email>
+            <wp:comment_author_url>http://www.beerpassion.it</wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.10</wp:comment_author_IP>
+            <wp:comment_date>2025-05-07 14:32:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-07 12:32:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Articolo molto interessante! Sono stato al GABF l'anno scorso e la descrizione dell'atmosfera è perfetta. Unico neo: secondo me bisognerebbe menzionare anche le difficoltà logistiche per i visitatori stranieri, come il visto e i costi. Per chi è interessato, consiglio di prenotare con largo anticipo.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+        </wp:comment>
+        
+        <wp:comment>
+            <wp:comment_id>2</wp:comment_id>
+            <wp:comment_author><![CDATA[BeerLover_88]]></wp:comment_author>
+            <wp:comment_author_email>beerlover88@example.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.20</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 09:15:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 07:15:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Grande articolo! Una domanda: ho sentito parlare di birrifici italiani che hanno vinto medaglie. Sapete quali sono stati i più premiati negli ultimi anni? Mi piacerebbe provare le loro birre.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+        </wp:comment>
+        
+        <wp:comment>
+            <wp:comment_id>3</wp:comment_id>
+            <wp:comment_author><![CDATA[admin]]></wp:comment_author>
+            <wp:comment_author_email>admin@lacasettacraftbeercrew.it</wp:comment_author_email>
+            <wp:comment_author_url>https://www.lacasettacraftbeercrew.it</wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.1</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 10:45:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 08:45:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Ciao BeerLover_88, grazie per la domanda! Negli ultimi anni, birrifici come Birra del Borgo e Baladin hanno ottenuto ottimi risultati al GABF. Presto pubblicheremo un articolo dedicato proprio ai birrifici italiani premiati. Resta sintonizzato!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>2</wp:comment_parent>
+        </wp:comment>
+        
+        <wp:comment>
+            <wp:comment_id>4</wp:comment_id>
+            <wp:comment_author><![CDATA[Giulia N.]]></wp:comment_author>
+            <wp:comment_author_email>giulia.n@example.org</wp:comment_author_email>
+            <wp:comment_author_url>https://www.craftbeeritaly.org</wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.30</wp:comment_author_IP>
+            <wp:comment_date>2025-05-09 18:00:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-09 16:00:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Ho partecipato al GABF per lavoro come distributore e devo dire che l'articolo coglie bene l'importanza dell'evento per fare networking. Peccato per la parte sulle categorie: avrei aggiunto più dettagli sulle birre sperimentali, che secondo me sono il futuro. Comunque ottimo lavoro!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+        </wp:comment>
+        
+        <wp:comment>
+            <wp:comment_id>5</wp:comment_id>
+            <wp:comment_author><![CDATA[Andrea_the_brewer]]></wp:comment_author>
+            <wp:comment_author_email>andrea.brewer@example.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.40</wp:comment_author_IP>
+            <wp:comment_date>2025-05-10 11:22:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-10 09:22:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Articolo ben scritto, ma mi permetto di fare una critica costruttiva: secondo me il GABF sta diventando troppo commerciale e le birre artigianali di qualità rischiano di perdersi nella massa. Spero che la Brewers Association mantenga l'attenzione sulla qualità e non solo sui numeri.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+        </wp:comment>
+    </item>
+</channel>
+</rss>
