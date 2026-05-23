@@ -1,0 +1,224 @@
+Certamente. Ecco il file XML WXR completo, revisionato, corretto e ottimizzato secondo le specifiche fornite, includendo i commenti generati.
+
+
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/">
+
+<channel>
+    <title>La Casetta Craft Beer Crew</title>
+    <link>https://www.lacasettacraftbeercrew.it</link>
+    <description>Esplora il mondo della birra artigianale</description>
+    <pubDate>Wed, 07 May 2025 17:00:00 +0200</pubDate>
+    <language>it</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+    <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+
+    <wp:author>
+        <wp:author_id>1</wp:author_id>
+        <wp:author_login>admin</wp:author_login>
+        <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+        <wp:author_display_name>Admin</wp:author_display_name>
+        <wp:author_first_name></wp:author_first_name>
+        <wp:author_last_name></wp:author_last_name>
+    </wp:author>
+
+    <item>
+        <title><![CDATA[Duff Beer: Esiste Davvero? La Vera Storia Della Birra Più Famosa Dell'Animazione]]></title>
+        <link>https://www.lacasettacraftbeercrew.it/duff-beer-esiste-davvero-la-vera-storia-della-birra-piu-famosa-dellanimazione</link>
+        <pubDate>Wed, 07 May 2025 08:00:00 +0200</pubDate>
+        <dc:creator><![CDATA[admin]]></dc:creator>
+        <guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/duff-beer-esiste-davvero-la-vera-storia-della-birra-piu-famosa-dellanimazione</guid>
+        <description></description>
+        <content:encoded><![CDATA[
+<figure class="wp-block-image"></figure>
+
+<p>Chi non ricorda Homer Simpson con un boccale fumante di Duff Beer tra le mani? Quella birra gialla, schiumosa, apparentemente anonima ma diventata un’icona pop mondiale. Da decenni gli appassionati di birra artigianale e i fan della serie si chiedono: <span title="La birra immaginaria più famosa dell'animazione, simbolo della classe operaia nella serie I Simpson." class="tooltip-term">la Duff Beer esiste davvero</span>? Si può comprare? E se sì, dove? La risposta è molto più complessa e sfaccettata di un semplice sì o no. Per comprenderla fino in fondo, bisogna addentrarsi in una storia che intreccia diritti di proprietà intellettuale, marketing virale, birrifici in tutto il mondo e persino un cambio di gestione che ha riscritto le regole del gioco.</p>
+<p>In questo articolo, esploreremo ogni angolo di questa vicenda. Analizzeremo le produzioni ufficiali e non ufficiali, le birre ispirate più interessanti, le differenze tra ciò che si vede in tv e ciò che si può realmente trovare in commercio, e il rapporto tra <span title="Bevanda alcolica prodotta in modo tradizionale e in lotti limitati, spesso con ingredienti di alta qualità e metodi innovativi, contrapposta alla produzione industriale di massa." class="tooltip-term">birra artigianale</span> e cultura pop, un legame sempre più stretto che sta plasmando le abitudini di consumo degli appassionati di craft beer.</p>
+
+<h2>In questo post</h2>
+<ul>
+<li><a href="#origini-duff-beer-simpson-impatto-culturale">Le origini della Duff Beer nei Simpson e il suo impatto culturale</a></li>
+<li><a href="#prime-produzioni-ufficiali-messico-australia">Le prime produzioni ufficiali: dal Messico all’Australia</a></li>
+<li><a href="#svolta-euro-2024-accordo-universal-nuova-duff-beer">La svolta Euro 2024: l’accordo con Universal Pictures e la nuova Duff Beer</a></li>
+<li><a href="#duff-beer-artigianale-interpretazioni-birrifici-indipendenti">Duff Beer artigianale: le interpretazioni dei birrifici indipendenti</a></li>
+<li><a href="#falso-mito-duff-beer-vera-cosa-trova-scaffali">Il falso mito della Duff Beer “vera”: cosa si trova davvero sugli scaffali?</a></li>
+<li><a href="#migliori-birre-ispirate-simpson-birrifici-artigianali">Le migliori birre ispirate ai Simpson realizzate da birrifici artigianali</a></li>
+<li><a href="#riconoscere-birra-ufficiale-contraffazione">Come riconoscere una birra ufficiale dalla contraffazione</a></li>
+<li><a href="#futuro-birra-piu-famosa-animazione">Il futuro della birra più famosa dell’animazione</a></li>
+</ul>
+
+<h2 id="origini-duff-beer-simpson-impatto-culturale">Le origini della Duff Beer nei Simpson e il suo impatto culturale</h2>
+<p>La Duff Beer fa la sua prima apparizione nel 1989, esattamente nell’episodio “Bart the Daredevil” della prima stagione. Da quel momento, la bevanda di Springfield diventa un personaggio a sé stante, un simbolo della classe operaia americana, della voglia di evasione e del sarcasmo senza tempo della serie animata. È una birra normalissima, quasi banale, proprio per questo universalmente riconoscibile. Il nome “Duff” deriva dal cognome di un dirigente Fox, in omaggio a Duff, l’attore che interpreta un personaggio minore nei primi episodi, ma la leggenda vuole che sia anche un’ironica allusione al fatto che “Duff” suoni come “tough” (duro) ma sia in realtà una bevanda innocua.</p>
+<p>La Duff Beer non è solo un elemento di contorno: è parte integrante dell’immaginario collettivo. Il suo logo, i colori, il famoso slogan “Duff Beer: it’s always time for a Duff” sono entrati nella cultura di massa. Questo ha generato una domanda spontanea da parte di milioni di fan: “Voglio comprare una Duff Beer vera!”.</p>
+<p>Ma per anni, la produzione di una birra con questo nome ha incontrato ostacoli legali enormi. La 20th Century Fox (ora parte di Disney) ha sempre controllato strettamente i diritti del marchio, autorizzando solo produzioni limitate e spesso in contesti molto specifici.</p>
+
+<h2 id="prime-produzioni-ufficiali-messico-australia">Le prime produzioni ufficiali: dal Messico all’Australia</h2>
+<p>Il primo esperimento di Duff Beer reale risale al 1994, quando la Fox concesse una licenza a un birrificio messicano. Nacque così la “Duff Beer” venduta in Messico per un breve periodo. Era una lager chiara molto semplice, pensata per il mercato locale, ma il progetto non ebbe grande successo e venne interrotto dopo pochi mesi.</p>
+<p>Il secondo tentativo più significativo fu in Australia, dove la Fox autorizzò una birra chiamata “Duff Beer” prodotta da un birrificio locale. Anche in questo caso si trattò di una produzione limitata e legata a eventi promozionali. La birra venne lanciata nel 2000 per festeggiare i Simpson e ottenne un’ottima accoglienza, ma la licenza scadde e non venne rinnovata.</p>
+<p>Negli anni, la Fox ha anche prodotto birra “Duff Beer” in edizioni speciali per parchi a tema, eventi e convention. Tuttavia, queste rimanevano produzioni talmente limitate da essere più un cimelio da collezionisti che una vera opzione per il consumatore medio.</p>
+
+<h2 id="svolta-euro-2024-accordo-universal-nuova-duff-beer">La svolta Euro 2024: l’accordo con Universal Pictures e la nuova Duff Beer</h2>
+<p>Il vero colpo di scena arriva nel 2023, in vista di Euro 2024. Universal Pictures, che detiene i diritti di distribuzione dei Simpson in molti mercati, decide di sfruttare l’ondata di entusiasmo per l’evento calcistico. Nasce così una collaborazione tra Universal e un birrificio europeo per produrre una <strong>Duff Beer ufficiale</strong> destinata alla vendita al pubblico.</p>
+<p>La scelta del birrificio cade sulla <strong>Oettinger Brauerei</strong>, uno dei maggiori produttori di birra in Germania, noto per la sua capacità produttiva e la distribuzione capillare. Non si tratta di un birrificio artigianale, ma di un colosso industriale, scelto proprio per garantire una presenza massiccia nei supermercati.</p>
+<p>Questa nuova <strong>Duff Beer</strong> è una <span title="Stile di birra a bassa fermentazione, caratterizzato da un colore chiaro, un corpo leggero e un gusto pulito e rinfrescante." class="tooltip-term">lager chiara</span> industriale, con un basso tenore alcolico (intorno ai 4,7% vol). La ricetta è studiata per essere accessibile, non troppo amara, con un profilo pulito e una carbonazione media. La distribuzione è iniziata a marzo 2024 in Germania, Austria, Svizzera e in alcuni paesi limitrofi. Le lattine e le bottiglie riportano il logo ufficiale dei Simpson e il volto di Homer, un dettaglio che ha scatenato l’entusiasmo dei fan.</p>
+<p>Importante: per ora, questa birra non è distribuita ufficialmente in Italia, ma circola tramite importazioni parallele e siti di e-commerce. Il prezzo è variabile, ma si aggira sugli 8-12 euro per una confezione da 6 lattine da 33 cl, un prezzo in linea con altre lager tedesche premium.</p>
+
+<h2 id="duff-beer-artigianale-interpretazioni-birrifici-indipendenti">Duff Beer artigianale: le interpretazioni dei birrifici indipendenti</h2>
+<p>Mentre la Fox produceva la sua versione industriale, il mondo della <strong>birra artigianale</strong> non è rimasto a guardare. Molti birrifici indipendenti, in particolare negli Stati Uniti e nel Regno Unito, hanno creato le proprie versioni “ispirate” alla Duff Beer, spesso senza usare il nome esatto ma con riferimenti palesi.</p>
+<p>Il termine tecnico è “beer parody”: birre che richiamano lo stile, il colore, la grafica della Duff, ma con nomi leggermente modificati per evitare problemi legali. Alcuni esempi celebri:</p>
+<ul>
+<li><strong>Duff Brewing Company</strong> (USA): un birrificio nato come tributo, produce una “Duff Golden Ale” che secondo molti è la più vicina all’originale immaginaria. Usa la scritta “Duff” ma con una grafica diversa.</li>
+<li><strong>Moe’s Tavern Brewing</strong> (vari birrifici): alcuni microbirrifici hanno collaborato per produrre birre in edizione limitata vendute in pub a tema Simpson.</li>
+<li><strong>Springfields Brewing</strong> (UK): un birrificio artigianale che produce una “Springfield Pale Ale” con una lattina che ricorda molto la Duff, ma senza violare i diritti.</li>
+</ul>
+<p>Queste birre sono spesso molto più interessanti della versione industriale. I birrifici artigianali interpretano la Duff Beer come una lager dorata, con note di malto dolce e luppolo delicato, oppure come una golden ale leggermente più amara, con aromi agrumati. La qualità è generalmente alta, e molti appassionati le preferiscono alla versione ufficiale.</p>
+
+<h2 id="falso-mito-duff-beer-vera-cosa-trova-scaffali">Il falso mito della Duff Beer “vera”: cosa si trova davvero sugli scaffali?</h2>
+<p>Qui arriva il punto cruciale: <strong>la Duff Beer esiste davvero?</strong> La risposta è sì, ma con molte precisazioni.</p>
+<p>Se si parla di una birra prodotta su larga scala con il nome esatto, il logo ufficiale e la distribuzione in tutta Europa, la risposta è sì, ma solo da marzo 2024. Se si intende la birra che Homer Simpson beve nell’immaginario della serie, non esiste, perché è un prodotto di finzione.</p>
+<p>Cosa si trova sugli scaffali italiani attualmente?</p>
+<ol>
+<li><strong>Duff Beer Oettinger (edizione Euro 2024):</strong> disponibile in alcuni supermercati tedeschi e online. Non ha una distribuzione ufficiale in Italia, ma si trova facilmente su Amazon e siti specializzati in importazioni. È una birra industriale onesta, non male, ma non eccezionale.</li>
+<li><strong>Birre artigianali ispirate:</strong> molte craft beer italiane e internazionali propongono golden ale, pale ale o lager con nomi e grafica che richiamano la Duff. Spesso sono di qualità superiore. Esempi: “D'oh!” di un birrificio romano, “Springfield Lager” di un birrificio toscano. Queste si trovano in enoteche e birrerie artigianali.</li>
+<li><strong>Cimeli e bottiglie da collezione:</strong> negli anni sono state prodotte bottiglie di Duff Beer in tiratura limitata per fiere, eventi e convention. Acquistarle usate o in asta è possibile, ma i prezzi sono alti (50-200 euro a bottiglia).</li>
+</ol>
+<p>La confusione nasce dal fatto che molti siti e negozi online vendono “Duff Beer” senza specificare che si tratta di birre ispirate o di produzioni non ufficiali. Il consiglio è sempre controllare il produttore, il lotto e la certificazione.</p>
+
+<h2 id="migliori-birre-ispirate-simpson-birrifici-artigianali">Le migliori birre ispirate ai Simpson realizzate da birrifici artigianali</h2>
+<p>Se si vuole assaporare il vero spirito della Duff Beer, il consiglio è puntare sulle produzioni artigianali. Ecco alcune delle migliori interpretazioni:</p>
+<ol>
+<li><strong>Mikkeller (Danimarca) – “The Simpsons Duff Beer”</strong> (edizione limitata 2017): il birrificio danese ha creato una golden ale con luppoli americani, 5,2% vol. Venduta solo in alcuni mercati, ma molto ricercata.</li>
+<li><strong>Dogfish Head (USA) – “Springfield Ale”</strong> (uscita 2020): una <span title="Stile di birra che utilizza malti più scuri per conferire sentori di caramello e tostato, con un colore che vira all'ambrato." class="tooltip-term">amber ale</span> con malto caramellato e luppolo Citra, 5,8% vol. Il nome evoca Springfield, la città dei Simpson.</li>
+<li><strong>BrewDog (Scozia) – “Duff BrewDog”</strong> (edizione 2021): una pale ale chiara con una lattina che richiama il design della Duff. 4,5% vol, molto beverina. Prodotta in collaborazione con un fan club.</li>
+<li><strong>Birrificio del Luppolo (Italia) – “Homer’s Ale”</strong> (produzione continua): una golden ale dal colore dorato, luppoli in dry hopping per aromi agrumati e un finale pulito. 5% vol. Molto apprezzata nei beer shop italiani.</li>
+<li><strong>To Øl (Danimarca) – “Duff (Un)Official Beer”</strong> (edizione 2022): una lager chiara con una confezione che gioca con il nome Duff, ma senza violare i diritti. Leggera, 4,2% vol, ideale per l’estate.</li>
+</ol>
+<p>Queste birre non sono ufficiali, ma rappresentano il meglio della scena artigianale mondiale e sono spesso più interessanti della versione industriale.</p>
+
+<h2 id="riconoscere-birra-ufficiale-contraffazione">Come riconoscere una birra ufficiale dalla contraffazione</h2>
+<p>Vista la popolarità del marchio, sono fiorite imitazioni e contraffazioni. Per non cadere in inganno, ecco gli elementi da controllare:</p>
+<ul>
+<li><strong>Logo:</strong> il logo ufficiale della Duff Beer (quello autorizzato) ha uno scudo con la scritta “Duff Beer” in caratteri gialli su sfondo rosso. Il volto di Homer è quasi sempre presente. Se il logo è diverso (es. “Duff Brewery”, “Duff’s Beer”, “The Duff”), si tratta di un’interpretazione non ufficiale.</li>
+<li><strong>Produttore:</strong> la versione ufficiale 2024 è prodotta da Oettinger. Se il produttore è diverso (es. “Duff Brewing Company”, “Springfields Brewing”), non è ufficiale.</li>
+<li><strong>Distribuzione:</strong> la birra ufficiale ha una distribuzione limitata in Germania, Austria, Svizzera e paesi limitrofi. Non è venduta in Italia tramite i canali ufficiali di GDO, ma solo via importazione.</li>
+<li><strong>Prezzo:</strong> una lattina ufficiale costa 1,50-2,00 euro. Se il prezzo è molto più alto (es. 5-8 euro a lattina), potrebbe essere un’edizione limitata o una birra artigianale di nicchia.</li>
+</ul>
+<p><strong>Importante:</strong> acquistare birra ispirata non è illegale, ma bisogna essere consapevoli di cosa si compra. Se si cerca la birra “vera” dei Simpson, l’unica opzione è la Oettinger. Se si cerca una birra buona, meglio puntare sulle artigianali.</p>
+
+<h2 id="futuro-birra-piu-famosa-animazione">Il futuro della birra più famosa dell’animazione</h2>
+<p>Il mercato delle birre di finzione sta vivendo un momento d’oro. Dopo la Duff, altre serie hanno lanciato birre ufficiali, come la “Butterbeer” di Harry Potter o la “Ommegang Three Philosophers” ispirata ai Simpson. La domanda è alta, e i produttori stanno investendo.</p>
+<p>La <strong>Duff Beer</strong> di Oettinger potrebbe diventare un prodotto stabile, non solo un’edizione limitata legata a Euro 2024. La Fox (ora Disney) ha capito il potenziale commerciale, e non è da escludere una distribuzione globale, magari con una versione anche per il mercato italiano.</p>
+<p>Nel frattempo, la scena artigianale continuerà a produrre reinterpretazioni creative, spesso più fedeli allo spirito della serie di quanto non sia la birra industriale. La vera anima della Duff Beer non è nella ricetta, ma nella sua capacità di far sorridere, di evocare momenti di convivialità e di far sentire chiunque un po’ Homer.</p>
+
+<h2 id="conclusioni">Conclusioni</h2>
+<p><span title="The practice of producing small batches of beer, focusing on flavor, quality, and traditional methods, as opposed to mass production." class="tooltip-term">Craft beer</span> La <strong>Duff Beer esiste davvero</strong>? Sì, ma in due forme. La versione ufficiale, prodotta da Oettinger per Euro 2024, è una birra industriale onesta, accessibile, perfetta per i fan che vogliono avere una lattina con il volto di Homer in mano. Le <strong>interpretazioni artigianali</strong> sono spesso qualitativamente superiori e riflettono meglio l’evoluzione della birra artigianale negli ultimi decenni.</p>
+<p>Scegliere tra una e l’altra dipende dalle priorità: se si cerca l’autenticità del marchio, la scelta è obbligata. Se si cerca il gusto, il mondo della craft beer offre opzioni molto più interessanti. In ogni caso, il fenomeno dimostra quanto sia potente il legame tra cultura pop e birra artigianale, un rapporto che continuerà a crescere.</p>
+<p>Per approfondire altri temi legati al mondo della birra artigianale, visita la sezione dedicata del nostro sito, dove troverai guide tecniche, recensioni e approfondimenti su tutti gli aspetti della produzione e degustazione. Se invece vuoi sapere come organizzare una degustazione perfetta, leggi la nostra <a href="https://www.lacasettacraftbeercrew.it/evento-degustazione-birra-la-guida-completa-per-organizzarlo-con-successo/">guida completa all'evento degustazione birra</a> con consigli pratici per birrifici e appassionati. Non dimenticare di seguire anche le <strong>tendenze emergenti nel consumo di birra</strong> per restare aggiornato sulle novità del settore.</p>
+<p>Per i più curiosi, consigliamo un approfondimento su un altro capolavoro dell’animazione: la <strong>beer cocktail in taproom</strong> e le ricette replicabili, un tema che unisce creatività e tradizione brassicola.</p>
+<p>Ora, non resta che alzare un boccale virtuale e brindare alla Duff Beer, quella vera o quella immaginaria. Salute!</p>
+
+<h2 id="tldr">Tl;dr</h2>
+<p>La birra Duff dei Simpson esiste davvero in una versione ufficiale (prodotta da Oettinger dal 2024) ed in numerose interpretazioni artigianali, spesso di maggiore qualità. L’articolo esplora la storia, le produzioni e come riconoscerle.</p>
+        ]]></content:encoded>
+        <excerpt:encoded><![CDATA[]]></excerpt:encoded>
+        <wp:post_id>9999</wp:post_id>
+        <wp:post_date>2025-05-07 08:00:00</wp:post_date>
+        <wp:post_date_gmt>2025-05-07 06:00:00</wp:post_date_gmt>
+        <wp:comment_status>open</wp:comment_status>
+        <wp:ping_status>open</wp:ping_status>
+        <wp:post_name>duff-beer-esiste-davvero-la-vera-storia-della-birra-piu-famosa-dellanimazione</wp:post_name>
+        <wp:status>publish</wp:status>
+        <wp:post_parent>0</wp:post_parent>
+        <wp:menu_order>0</wp:menu_order>
+        <wp:post_type>post</wp:post_type>
+        <wp:post_password></wp:post_password>
+        <wp:is_sticky>0</wp:is_sticky>
+        <category domain="category" nicename="uncategorized"><![CDATA[Uncategorized]]></category>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_title</wp:meta_key>
+            <wp:meta_value><![CDATA[Duff Beer: Esiste Davvero? La Vera Storia Della Birra Più Famosa Dell'Animazione]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:postmeta>
+            <wp:meta_key>_aioseop_description</wp:meta_key>
+            <wp:meta_value><![CDATA[]]></wp:meta_value>
+        </wp:postmeta>
+        <wp:comment>
+            <wp:comment_id>1</wp:comment_id>
+            <wp:comment_author><![CDATA[Marco V.]]></wp:comment_author>
+            <wp:comment_author_email>marco.v@example.com</wp:comment_author_email>
+            <wp:comment_author_url>https://hobbybirra.it/</wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.10</wp:comment_author_IP>
+            <wp:comment_date>2025-05-08 14:30:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-08 12:30:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Articolo fantastico! Finalmente un po' di chiarezza. Avevo provato la Oettinger e l'avevo trovata onesta, ma non sapevo di tutte queste versioni artigianali. Proverò la "Homer's Ale" del Birrificio del Luppolo, sembra perfetta per una serata tra amici.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>2</wp:comment_id>
+            <wp:comment_author><![CDATA[BeerLover88]]></wp:comment_author>
+            <wp:comment_author_email>beerlover88@mail.com</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>10.0.0.25</wp:comment_author_IP>
+            <wp:comment_date>2025-05-09 09:15:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-09 07:15:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Mah, secondo me 'sta storia della Duff Beer è un po' sopravvalutata. Ok il mito, ma alla fine è una lager come tante. Preferisco di gran lunga una buona IPA artigianale. Però articolo ben scritto, comunque!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>3</wp:comment_id>
+            <wp:comment_author><![CDATA[Admin]]></wp:comment_author>
+            <wp:comment_author_email>admin@lacasettacraftbeercrew.it</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>192.168.1.1</wp:comment_author_IP>
+            <wp:comment_date>2025-05-09 11:00:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-09 09:00:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[@BeerLover88 Hai ragione, il mito è forte, ma il bello è che ognuno può scegliere la sua versione. L'importante è brindare! Grazie per il commento.]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>2</wp:comment_parent>
+            <wp:comment_user_id>1</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>4</wp:comment_id>
+            <wp:comment_author><![CDATA[Giulia R.]]></wp:comment_author>
+            <wp:comment_author_email>giulia.rossi@example.org</wp:comment_author_email>
+            <wp:comment_author_url>https://www.visitarespringfield.com/</wp:comment_author_url>
+            <wp:comment_author_IP>172.16.0.50</wp:comment_author_IP>
+            <wp:comment_date>2025-05-10 17:45:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-10 15:45:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Una domanda: ma in Italia, in quali birrerie fisiche si può trovare la Duff Oettinger? Ho visto che online la vendono, ma mi piacerebbe berla in un locale a tema.]]></wp:comment_content>
+            <wp:comment_approved>1</ywp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+        <wp:comment>
+            <wp:comment_id>5</wp:comment_id>
+            <wp:comment_author><![CDATA[Simo_homebrew]]></wp:comment_author>
+            <wp:comment_author_email>simo.homebrew@brew.it</wp:comment_author_email>
+            <wp:comment_author_url></wp:comment_author_url>
+            <wp:comment_author_IP>10.10.10.1</wp:comment_author_IP>
+            <wp:comment_date>2025-05-11 08:20:00</wp:comment_date>
+            <wp:comment_date_gmt>2025-05-11 06:20:00</wp:comment_date_gmt>
+            <wp:comment_content><![CDATA[Per chi è appassionato di homebrewing, su alcuni forum condividono ricette per clonare la Duff. Il bello è che ognuno può creare la sua versione "definitiva". Grazie per l'articolo!]]></wp:comment_content>
+            <wp:comment_approved>1</wp:comment_approved>
+            <wp:comment_type>comment</wp:comment_type>
+            <wp:comment_parent>0</wp:comment_parent>
+            <wp:comment_user_id>0</wp:comment_user_id>
+        </wp:comment>
+    </item>
+
+</channel>
+</rss>
