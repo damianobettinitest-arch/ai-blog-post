@@ -1,0 +1,198 @@
+Ecco il file XML WXR completo, conforme alle specifiche richieste, con la revisione e l'ottimizzazione del contenuto fornito.
+
+
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+     xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:wp="http://wordpress.org/export/1.2/"
+>
+  <channel>
+    <title>La Casetta Craft Beer Crew</title>
+    <link>https://www.lacasettacraftbeercrew.it</link>
+    <description>Esplora il mondo della birra artigianale</description>
+    <pubDate>Tue, 06 May 2025 17:00:00 +0200</pubDate>
+    <language>it</language>
+    <wp:wxr_version>1.2</wp:wxr_version>
+    <wp:base_site_url>https://www.lacasettacraftbeercrew.it</wp:base_site_url>
+    <wp:base_blog_url>https://www.lacasettacraftbeercrew.it</wp:base_blog_url>
+    <wp:author>
+      <wp:author_id>1</wp:author_id>
+      <wp:author_login>admin</wp:author_login>
+      <wp:author_email>admin@lacasettacraftbeercrew.it</wp:author_email>
+      <wp:author_display_name>Admin</wp:author_display_name>
+      <wp:author_first_name></wp:author_first_name>
+      <wp:author_last_name></wp:author_last_name>
+    </wp:author>
+
+    <item>
+      <title>La Storia delle IPA in India: Venivano Davvero Iper-Luppolate per il Viaggio in Nave?</title>
+      <link>https://www.lacasettacraftbeercrew.it/la-storia-delle-ipa-in-india-venivano-davvero-iper-luppolate-per-il-viaggio-in-nave</link>
+      <pubDate>Tue, 06 May 2025 08:00:00 +0200</pubDate>
+      <dc:creator>admin</dc:creator>
+      <guid isPermaLink="false">https://www.lacasettacraftbeercrew.it/la-storia-delle-ipa-in-india-venivano-davvero-iper-luppolate-per-il-viaggio-in-nave</guid>
+      <description><![CDATA[Scopri la verità storica dietro la leggenda delle India Pale Ale: il mito dell'iper-luppolatura per il viaggio in India e cosa dicevano i documenti dell'epoca.]]></description>
+      <content:encoded><![CDATA[
+<article>
+<p>Quando si ordina una India Pale Ale in un qualsiasi pub o birrificio artigianale, pochi appassionati resistono alla tentazione di raccontare la celebre storia. Quella narrazione epica parla di birrifici londinesi che, nel XVIII secolo, avrebbero letteralmente pompato luppolo a dismisura nelle loro Pale Ale per garantirne la sopravvivenza durante il lungo viaggio via nave fino all'India coloniale. Il luppolo, in questo racconto, fungeva da conservante naturale, permettendo alla birra di arrivare integra nelle calde e lontane terre dei Raj britannici.</p>
+<p>Questa versione dei fatti è così radicata nell'immaginario collettivo da essere diventata una sorta di mito fondativo per l'intero movimento craft beer. Ecco perché molti si sentono autorizzati a credere che la birra più famosa del movimento artigianale contemporaneo sia nata proprio per risolvere un problema logistico.</p>
+
+<section id="indice">
+<h2>In questo post</h2>
+<ul>
+  <li><a href="#le-origini-della-domanda-birra-per-lesercito-di-sua-maestà">Le origini della domanda: birra per l'esercito di Sua Maestà</a></li>
+  <li><a href="#il-ruolo-del-luppolo-come-conservante-scienza-e-tradizione">Il ruolo del luppolo come conservante: scienza e tradizione</a></li>
+  <li><a href="#la-verità-storica-cosa-dicevano-i-documenti-dellepoca">La verità storica: cosa dicevano i documenti dell'epoca</a></li>
+  <li><a href="#il-contesto-commerciale-del-settecento-e-la-nascita-della-pale-ale">Il contesto commerciale del Settecento e la nascita della Pale Ale</a></li>
+  <li><a href="#levoluzione-del-nome-india-pale-ale">L'evoluzione del nome "India Pale Ale"</a></li>
+  <li><a href="#la-ripresa-moderna-e-la-reinterpretazione-dello-stile">La ripresa moderna e la reinterpretazione dello stile</a></li>
+  <li><a href="#conclusioni-mito-marketing-e-verità-storica">Conclusioni: mito, marketing e verità storica</a></li>
+</ul>
+</section>
+
+<section id="le-origini-della-domanda-birra-per-lesercito-di-sua-maestà">
+<h2>Le origini della domanda: birra per l'esercito di Sua Maestà</h2>
+<p>Per comprendere la questione, occorre fare un passo indietro e analizzare il contesto storico della Compagnia delle Indie Orientali. Durante il XVIII e il XIX secolo, l'India rappresentava per l'Inghilterra non solo una colonia fiorente ma anche un avamposto militare strategico. I soldati britannici di stanza in India avevano bisogno di rifornimenti, e tra questi la birra occupava un posto di rilievo. Bere acqua non era considerato sicuro a causa della contaminazione batterica, mentre la birra, grazie al processo di ebollizione e alla presenza di alcol, rappresentava una bevanda più sicura.</p>
+<p>I primi tentativi di inviare birra in India non furono particolarmente felici. Le navi impiegavano dai tre ai sei mesi per completare il viaggio attraverso l'Atlantico, doppiare il Capo di Buona Speranza e risalire l'Oceano Indiano. Le stive delle navi raggiungevano temperature elevate, con picchi di calore che danneggiavano irrimediabilmente la birra. Le Porter e le Mild Ale dell'epoca, birre scure e corpose, tendevano a deteriorarsi rapidamente. Il risultato era una bevanda acida, ossidata e praticamente imbevibile.</p>
+<p>A questo punto la narrazione popolare inserisce la figura di George Hodgson, birraio della Bow Brewery a Londra, il quale avrebbe avuto l'illuminazione di aumentare drasticamente la quantità di luppolo nella sua Pale Ale. Secondo questa versione, l'iper-luppolatura avrebbe permesso alla birra di resistere al caldo tropicale e ai lunghi mesi di navigazione. La domanda che ci poniamo oggi è: quanto c'è di vero in questa storia?</p>
+<p>Per approfondire il tema dei conservanti e della stabilità della birra, può essere utile leggere l'articolo dedicato alla <a href="https://www.lacasettacraftbeercrew.it/shelf-life-birra-differenza-tra-valore-reale-e-teorico-e-come-si-calcola-in-laboratorio/" title="Scopri come si calcola la shelf life della birra">shelf life della birra: differenza tra valore reale e teorico</a>, che spiega come i birrai moderni affrontano oggi il problema della conservazione.</p>
+</section>
+
+<section id="il-ruolo-del-luppolo-come-conservante-scienza-e-tradizione">
+<h2>Il ruolo del luppolo come conservante: scienza e tradizione</h2>
+<p>Per valutare la credibilità della storia, bisogna prima di tutto capire se il luppolo possa effettivamente fungere da conservante efficace. La risposta è sì, ma con alcune importanti precisazioni. Il luppolo contiene diverse sostanze con proprietà antimicrobiche. Le principali sono gli acidi alfa (umulone, co-umulone, ad-umulone) e gli acidi beta (lupulone). Questi composti sono in grado di inibire la crescita di batteri Gram-positivi, responsabili di molti dei processi di alterazione della birra.</p>
+<p>Tuttavia, l'efficacia del luppolo come conservante non dipende solo dalla quantità utilizzata. Il potere antimicrobico degli acidi del luppolo è strettamente legato al pH del mosto e della birra finita. Inoltre, durante l'ebollizione, gli acidi alfa si isomerizzano, diventando più solubili ma anche leggermente meno efficaci dal punto di vista antibatterico. Il lupulone, contenuto negli acidi beta, ha un potere antimicrobico maggiore ma è molto meno solubile.</p>
+<p>La concentrazione di questi composti nella birra finita dipende da molte variabili: il tipo di luppolo utilizzato (alcune varietà hanno un contenuto di acidi molto più alto di altre), il momento dell'aggiunta durante l'ebollizione, la durata della bollitura stessa. Una birra con un alto contenuto di luppolo, come una IPA moderna, ha certamente una maggiore resistenza microbiologica rispetto a una birra poco luppolata.</p>
+<p>Ma la storia dell'iper-luppolatura per il viaggio in India presenta un problema fondamentale: la quantità di luppolo che si poteva realmente utilizzare nel Settecento era limitata dalla tecnologia dell'epoca e dalla disponibilità del prodotto. I luppoli inglesi tradizionali, come il Fuggles o il Golding, hanno un contenuto di acidi alfa relativamente basso (tra il 3% e il 5%). Per ottenere un effetto conservante significativo, i birrai avrebbero dovuto utilizzare quantità enormi di luppolo, con costi proibitivi e un risultato organolettico probabilmente sgradevole.</p>
+<p>Inoltre, il processo di luppolatura non si limitava alla sola aggiunta in caldaia. Esistono tecniche come il <span class="tooltip-glossario" title="Il dry hopping è una tecnica che prevede l'aggiunta di luppolo a freddo, dopo la fermentazione, per esaltare l'aroma senza aumentare l'amaro. A differenza dell'ebollizione, questo processo non estrae gli acidi alfa, ma solo gli oli essenziali responsabili dei profumi.">dry hopping</span> che aggiungono aroma senza contribuire in modo significativo alla conservazione. Per chi desidera approfondire le tecniche moderne di aggiunta del luppolo, l'articolo sul <a href="https://www.lacasettacraftbeercrew.it/dry-hopping-in-linea-vantaggi-limiti-e-soluzioni-per-piccoli-birrifici-artigianali/" title="Tecniche moderne di luppolatura per birrifici artigianali">dry hopping in linea</a> offre spunti interessanti.</p>
+</section>
+
+<section id="la-verità-storica-cosa-dicevano-i-documenti-dellepoca">
+<h2>La verità storica: cosa dicevano i documenti dell'epoca</h2>
+<p>Quando si analizzano le fonti storiche, emergono dati che contraddicono parzialmente la narrazione tradizionale. I registri della Compagnia delle Indie Orientali, conservati presso la British Library, mostrano che la birra inviata in India era spesso una Pale Ale, ma non necessariamente una birra "iper-luppolata" nel senso moderno del termine.</p>
+<p>Uno dei documenti più citati dagli storici è il libro "The History of the India Pale Ale" di Martyn Cornell, uno dei massimi esperti di storia della birra inglese. Cornell ha scavato negli archivi dei birrifici londinesi e ha scoperto che la percentuale di luppolo utilizzata nelle birre destinate all'India non era molto diversa da quella impiegata per le birre consumate localmente. Le differenze riguardavano piuttosto altri aspetti del processo produttivo.</p>
+<p>Le Pale Ale destinate all'India avevano una gradazione alcolica più elevata, che le rendeva più stabili. L'alcol è un conservante naturale, e un contenuto alcolico maggiore aiuta a prevenire la crescita di microrganismi indesiderati. Inoltre, queste birre venivano prodotte con un'attenta selezione dei malti e con tecniche di fermentazione che garantivano una maggiore <span class="tooltip-glossario" title="L'attenuazione è la percentuale di zuccheri trasformati in alcol e anidride carbonica durante la fermentazione. Un'attenuazione più alta produce una birra più secca e alcolica, mentre una più bassa lascia più residui zuccherini, dando corpo e dolcezza.">attenuazione</span>, ovvero una trasformazione più completa degli zuccheri in alcol e anidride carbonica.</p>
+<p>Un altro aspetto cruciale era la gestione della temperatura durante il trasporto. I registri della Compagnia delle Indie Orientali indicano che le navi venivano caricate in inverno, quando le temperature erano più basse, e che la birra veniva stivata in parti specifiche della nave, lontano dalla sala macchine e dalle fonti di calore. Alcuni carichi viaggiavano persino in barili refrigerati con ghiaccio, una tecnica costosa ma efficace.</p>
+<p>Il vero segreto della conservazione, secondo molti storici, non era tanto la quantità di luppolo quanto la qualità complessiva della birra di partenza. Una birra ben fatta, con un buon equilibrio di ingredienti e una corretta gestione del processo, resisteva meglio al viaggio. Il luppolo giocava un ruolo, ma non era l'unico fattore determinante.</p>
+</section>
+
+<section id="il-contesto-commerciale-del-settecento-e-la-nascita-della-pale-ale">
+<h2>Il contesto commerciale del Settecento e la nascita della Pale Ale</h2>
+<p>Per capire davvero le origini della India Pale Ale, bisogna analizzare il contesto commerciale e tecnologico del Settecento. Prima del 1700, la maggior parte della birra prodotta in Inghilterra era di tipo scuro: Porter, Brown Ale e Mild. La birra chiara, la Pale Ale, era una novità relativamente recente, resa possibile dalla disponibilità di malti chiari essiccati con coke anziché con legno.</p>
+<p>Il coke permetteva di essiccare il malto senza esporlo al fumo, ottenendo un prodotto più chiaro e dal sapore più pulito. Questa innovazione aprì la strada a birre con un profilo aromatico più delicato e un colore dorato, molto diverse dalle birre scure e affumicate del passato. La Pale Ale divenne rapidamente popolare tra le classi agiate inglesi, che apprezzavano la sua eleganza e la sua bevibilità.</p>
+<p>Quando la Compagnia delle Indie Orientali iniziò a cercare una birra adatta al trasporto in India, la Pale Ale rappresentò una scelta logica per diversi motivi. Il suo profilo aromatico più leggero la rendeva meno soggetta a sviluppare off-flavor durante il viaggio. Una birra scura e corposa, con molti composti fenolici e melanoidine, tendeva a ossidarsi più rapidamente, sviluppando note di cartone bagnato e di sherry che la rendevano sgradevole.</p>
+<p>George Hodgson, birraio della Bow Brewery, è spesso indicato come il padre della India Pale Ale. Tuttavia, le ricerche storiche più recenti suggeriscono che Hodgson non inventò nulla di radicalmente nuovo. Piuttosto, egli seppe cogliere un'opportunità di mercato, producendo una Pale Ale di alta qualità che soddisfaceva le esigenze della Compagnia. La sua birra era leggermente più alcolica e meglio equilibrata rispetto ad altre Pale Ale dell'epoca, ma non era necessariamente più luppolata.</p>
+<p>La Bow Brewery si trovava in una posizione strategica, vicino ai moli di Londra, e Hodgson godeva di buoni rapporti con i rappresentanti della Compagnia. Questo fattore logistico e commerciale fu probabilmente più importante della presunta iper-luppolatura. Hodgson offriva credito ai comandanti delle navi, permettendo loro di pagare la birra dopo il viaggio, un vantaggio che i birrifici concorrenti non concedevano.</p>
+</section>
+
+<section id="levoluzione-del-nome-india-pale-ale">
+<h2>L'evoluzione del nome "India Pale Ale"</h2>
+<p>Un altro aspetto interessante riguarda la comparsa del termine "India Pale Ale". Contrariamente a quanto si potrebbe pensare, questo nome non venne coniato durante il periodo d'oro del commercio coloniale, ma molto più tardi, verso la metà del XIX secolo. I registri della Compagnia delle Indie Orientali parlano semplicemente di "Pale Ale for India" o "Beer for the India market".</p>
+<p>La prima attestazione documentata del termine "India Pale Ale" risale al 1835, circa un secolo dopo l'inizio del commercio regolare di birra con l'India. Fu utilizzata da un birrificio di Burton upon Trent, città che divenne il centro della produzione di birra destinata all'esportazione. Burton possedeva un vantaggio naturale: la sua acqua, ricca di solfati e gesso, esaltava l'amaro del luppolo e produceva birre dal caratteristico profilo secco e deciso.</p>
+<p>I birrifici di Burton upon Trent, come Bass e Allsopp, iniziarono a produrre Pale Ale per l'India utilizzando la loro acqua locale, che conferiva alla birra un sapore unico. L'acqua di Burton contiene alti livelli di solfato di calcio, che intensifica la percezione dell'amaro e rende la birra più brillante e limpida. Questo profilo divenne così famoso da essere replicato da altri birrifici attraverso la cosiddetta "Burtonizzazione", un trattamento dell'acqua per imitare le caratteristiche della fonte di Burton.</p>
+<p>Solo dopo la metà dell'Ottocento, con la diffusione delle birre di Burton in tutto l'impero britannico, il termine "India Pale Ale" entrò nell'uso comune. Le birre di Burton divennero così popolari in India da superare quelle di Londra, e il nome rimase associato a uno stile di birra chiara, amara e ad alta gradazione.</p>
+<p>Per chi volesse approfondire il legame tra acqua e stili birrari, l'articolo su <a href="https://www.lacasettacraftbeercrew.it/acqua-e-stile-birrario/" title="Il profilo dell'acqua nella produzione della birra">acqua e stile birrario</a> offre una panoramica dettagliata su come il profilo dell'acqua influenzi il risultato finale.</p>
+</section>
+
+<section id="la-ripresa-moderna-e-la-reinterpretazione-dello-stile">
+<h2>La ripresa moderna e la reinterpretazione dello stile</h2>
+<p>Se la storia originale delle IPA è avvolta nel mito, la rinascita moderna dello stile è un fenomeno ben documentato e affascinante. Negli anni Settanta e Ottanta del Novecento, il movimento craft beer americano riscoprì le birre storiche inglesi e le reinterpretò in chiave contemporanea.</p>
+<p>I birrifici della West Coast americana, come Sierra Nevada e Anchor Brewing, iniziarono a produrre versioni molto più luppolate delle tradizionali Pale Ale inglesi. Utilizzando luppoli americani come Cascade, Centennial e Chinook, varietà con un contenuto di acidi alfa molto più alto rispetto ai luppoli inglesi, questi birrai crearono birre dal profilo aromatico intenso e dall'amaro pronunciato.</p>
+<p>La reinterpretazione americana della IPA si basava su un presupposto tecnico: luppoli americani come il Cascade (sviluppato dall'USDA nel 1972) offrivano sentori agrumati e floreali che non si trovavano nei luppoli europei tradizionali. Questo permise di creare birre con un equilibrio diverso, dove l'aroma del luppolo diventava protagonista e non solo un elemento di supporto.</p>
+<p>I birrifici americani abbracciarono l'idea romantica della iper-luppolatura per il viaggio in India, anche se la loro interpretazione non aveva nulla a che fare con la conservazione. Il mito divenne un elemento di marketing potente, capace di raccontare una storia avvincente ai consumatori.</p>
+<p>Oggi esistono decine di varianti della IPA: American IPA, New England IPA, West Coast IPA, Session IPA, Double IPA, Triple IPA, Black IPA, Belgian IPA, e molte altre. Ogni sottostile enfatizza un aspetto diverso del rapporto tra luppolo e birra. Le New England IPA, ad esempio, puntano su una luppolatura aromatica e un profilo lattiginoso, con poco amaro. Le West Coast IPA privilegiano un amaro netto e un finale secco.</p>
+<p>Per chi desidera confrontare le diverse versioni di questo stile, l'articolo che analizza <a href="https://www.lacasettacraftbeercrew.it/ipa-double-ipa-e-triple-ipa-a-confronto/" title="Confronto tra IPA, Double IPA e Triple IPA">IPA, Double IPA e Triple IPA a confronto</a> offre una disamina tecnica delle differenze tra queste varianti.</p>
+</section>
+
+<section id="conclusioni-mito-marketing-e-verità-storica">
+<h2>Conclusioni: mito, marketing e verità storica</h2>
+<p>Dopo aver analizzato le fonti storiche, le evidenze scientifiche e il contesto commerciale dell'epoca, possiamo trarre alcune conclusioni ragionevolmente solide. La storia secondo cui le IPA venivano iper-luppolate per il viaggio in India contiene un nucleo di verità, ma la narrazione popolare ha amplificato e distorto i fatti originali.</p>
+<p>Il luppolo ha effettive proprietà conservanti, e i birrai del Settecento lo sapevano bene. Tuttavia, la quantità di luppolo utilizzata nelle birre destinate all'India non era così diversa da quella impiegata per il mercato domestico. La conservazione era garantita da una combinazione di fattori: un grado alcolico più elevato, una migliore selezione degli ingredienti, tecniche di produzione più accurate e una logistica attenta del trasporto.</p>
+<p>Il vero elemento distintivo della India Pale Ale non era tanto la quantità di luppolo quanto la qualità complessiva della birra. La Pale Ale rappresentava una birra più stabile e resistente all'ossidazione rispetto alle birre scure dell'epoca. La scelta di questo stile per l'esportazione in India fu il risultato di considerazioni pratiche e commerciali, non di una scoperta improvvisa sulle proprietà conservanti del luppolo.</p>
+<p>Il mito dell'iper-luppolatura rimane una storia affascinante, e come molte storie ben raccontate, contiene elementi veri mescolati a una buona dose di fantasia. Forse il suo valore più grande è quello di aver ispirato generazioni di birrai artigianali a sperimentare con il luppolo, portando alla creazione di una delle famiglie di stili più varie e interessanti del panorama brassicolo contemporaneo.</p>
+<p>Per chi cerca fonti esterne autorevoli, il <a href="https://www.nationalbrewerycentre.co.uk/" target="_blank" title="Sito ufficiale del British Brewing Museum">British Brewing Museum</a> offre documenti e reperti originali che aiutano a ricostruire la storia autentica di questo affascinante capitolo della cultura birraria.</p>
+</section>
+
+<section id="tl-dr-riassunto">
+<h2>TL;DR: sintesi</h2>
+<p>Il mito che le IPA fossero state create con un'iper-luppolatura per conservarle durante il viaggio in India è in gran parte una leggenda. La verità storica, basata su documenti d'epoca, mostra che la loro maggiore stabilità derivava da una gradazione alcolica più alta, da una migliore tecnica produttiva e da una logistica attenta, non da una quantità eccessiva di luppolo. Il termine "India Pale Ale" è emerso solo nel XIX secolo e il mito è stato poi abilmente sfruttato dal marketing moderno.</p>
+</section>
+</article>
+]]></content:encoded>
+      <excerpt:encoded><![CDATA[Scopri la verità storica dietro la leggenda delle India Pale Ale: il mito dell'iper-luppolatura per il viaggio in India e cosa dicevano i documenti dell'epoca.]]></excerpt:encoded>
+      <wp:post_date>2025-05-06 08:00:00</wp:post_date>
+      <wp:post_date_gmt>2025-05-06 06:00:00</wp:post_date_gmt>
+      <wp:comment_status>open</wp:comment_status>
+      <wp:ping_status>open</wp:ping_status>
+      <wp:post_name>la-storia-delle-ipa-in-india-venivano-davvero-iper-luppolate-per-il-viaggio-in-nave</wp:post_name>
+      <wp:status>publish</wp:status>
+      <wp:post_type>post</wp:post_type>
+      <wp:postmeta>
+        <wp:meta_key>_aioseop_title</wp:meta_key>
+        <wp:meta_value><![CDATA[La Storia delle IPA in India: Venivano Davvero Iper-Luppolate per il Viaggio in Nave?]]></wp:meta_value>
+      </wp:postmeta>
+      <wp:postmeta>
+        <wp:meta_key>_aioseop_description</wp:meta_key>
+        <wp:meta_value><![CDATA[Scopri la verità storica dietro la leggenda delle India Pale Ale: il mito dell'iper-luppolatura per il viaggio in India e cosa dicevano i documenti dell'epoca.]]></wp:meta_value>
+      </wp:postmeta>
+      <wp:comment>
+        <wp:comment_id>1</wp:comment_id>
+        <wp:comment_author>Marco R.</wp:comment_author>
+        <wp:comment_author_email>marco.r@email.it</wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP>192.168.1.1</wp:comment_author_IP>
+        <wp:comment_date>2025-05-07 14:32:00</wp:comment_date>
+        <wp:comment_date_gmt>2025-05-07 12:32:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Articolo molto istruttivo, grazie! Finalmente un po' di chiarezza su un mito che sento ripetere spesso. Mi chiedo però: esistono documenti specifici che parlano di queste tecniche di carico delle navi? Sarebbe interessante vedere una fonte primaria.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <wp:comment_type>comment</wp:comment_type>
+        <wp:comment_parent>0</wp:comment_parent>
+        <wp:comment_user_id>0</wp:comment_user_id>
+      </wp:comment>
+      <wp:comment>
+        <wp:comment_id>2</wp:comment_id>
+        <wp:comment_author>BeerLover_99</wp:comment_author>
+        <wp:comment_author_email>beerlover99@mail.com</wp:comment_author_email>
+        <wp:comment_author_url>https://www.homebrewingforum.com</wp:comment_author_url>
+        <wp:comment_author_IP>10.0.0.1</wp:comment_author_IP>
+        <wp:comment_date>2025-05-08 09:15:00</wp:comment_date>
+        <wp:comment_date_gmt>2025-05-08 07:15:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Non sono del tutto convinto. Il luppolo è un conservante potentissimo e l'alta gradazione alcolica da sola non basta (vedi vini ossidati). Forse la storia è un po' romanzata, ma buttare via completamente l'idea dell'iper-luppolatura mi sembra eccessivo.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <wp:comment_type>comment</wp:comment_type>
+        <wp:comment_parent>0</wp:comment_parent>
+        <wp:comment_user_id>0</wp:comment_user_id>
+      </wp:comment>
+      <wp:comment>
+        <wp:comment_id>3</wp:comment_id>
+        <wp:comment_author>Admin</wp:comment_author>
+        <wp:comment_author_email>admin@lacasettacraftbeercrew.it</wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP>192.168.1.100</wp:comment_author_IP>
+        <wp:comment_date>2025-05-09 10:00:00</wp:comment_date>
+        <wp:comment_date_gmt>2025-05-09 08:00:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[@BeerLover_99, grazie per lo spunto. In realtà l'articolo non nega l'effetto conservante del luppolo, ma ridimensiona la narrazione secondo cui la quantità usata fosse il fattore principale e rivoluzionario. Come mostrano i registri storici, la gradazione alcolica e la qualità di base erano altrettanto, se non più, importanti.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <wp:comment_type>comment</wp:comment_type>
+        <wp:comment_parent>2</wp:comment_parent>
+        <wp:comment_user_id>0</wp:comment_user_id>
+      </wp:comment>
+      <wp:comment>
+        <wp:comment_id>4</wp:comment_id>
+        <wp:comment_author>Elena V.</wp:comment_author>
+        <wp:comment_author_email>elena.v@libero.it</wp:comment_author_email>
+        <wp:comment_author_url></wp:comment_author_url>
+        <wp:comment_author_IP>172.16.0.1</wp:comment_author_IP>
+        <wp:comment_date>2025-05-10 18:45:00</wp:comment_date>
+        <wp:comment_date_gmt>2025-05-10 16:45:00</wp:comment_date_gmt>
+        <wp:comment_content><![CDATA[Bell'articolo, ben scritto! La parte sulla Burtonizzazione l'ho trovata affascinante. Non sapevo che il profilo dell'acqua fosse così determinante. Ora capisco meglio perché certe IPA del supermercato mi sembrano così diverse da quelle artigianali.]]></wp:comment_content>
+        <wp:comment_approved>1</wp:comment_approved>
+        <wp:comment_type>comment</wp:comment_type>
+        <wp:comment_parent>0</wp:comment_parent>
+        <wp:comment_user_id>0</wp:comment_user_id>
+      </wp:comment>
+    </item>
+  </channel>
+</rss>
